@@ -13,7 +13,7 @@
   <div class="container">
     <div class="container__navbar">
       <form class="navbar__research" method="post">
-        <input name="saisie" type="text" placeholder="Mots-Clefs..." required />
+        <input name="saisie" type="text" placeholder="Rechercher..." required />
         <input class="research__loupe" type="submit" value="" />
       </form>
     </div>
