@@ -8,6 +8,8 @@ body {
 /* Nav Bar */
 .container__navbar {
   position: fixed;
+  display: flex;
+  align-items: center;
   width: 100vw;
   height: 16vh;
   background: #F87D42;
@@ -22,8 +24,27 @@ body {
 }
 
 .navbar__research .research__loupe {
-  background: url(http://www.larevuedekenza.fr/wp-content/themes/quarter/images/sidebar/loupe.png) no-repeat 0 0;
-  width: 24px;
+  font-size: 10em;
+  display: inline-block;
+  width: 0.4em;
+  box-sizing: content-box;
+  height: 0.4em;
+  border: 0.1em solid red;
+  position: relative;
+  border-radius: 0.35em;
+}
+
+.navbar__research .research__loupe::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  right: -0.25em;
+  bottom: -0.1em;
+  border-width: 0;
+  background: red;
+  width: 0.35em;
+  height: 0.08em;
+  transform: rotate(45deg);
 }
 
 .navbar__research input {
