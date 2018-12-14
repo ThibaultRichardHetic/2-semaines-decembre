@@ -5,6 +5,10 @@ body {
   background: #FFFFFF;
 }
 
+.container {
+  position: relative;
+}
+
 /* Nav Bar */
 .container__navbar {
   position: fixed;
@@ -36,9 +40,42 @@ body {
   padding: 0 9px;
   color: #666;
 }
-.container__navbar .navbar__research .research__loupe {
-  background: url(http://www.larevuedekenza.fr/wp-content/themes/quarter/images/sidebar/loupe.png) no-repeat 0 0;
-  width: 24px;
+.container__navbar .navbar__loupe {
+  font-size: 2em;
+  display: inline-block;
+  width: .4em;
+  box-sizing: content-box;
+  height: .4em;
+  border: .1em solid black;
+  position: relative;
+  border-radius: .35em;
+  margin-left: 1vw;
+}
+.container__navbar .navbar__loupe::before {
+  font-size: 2em;
+  display: inline-block;
+  width: .4em;
+  box-sizing: content-box;
+  height: .4em;
+  border: .1em solid #000;
+  position: relative;
+  border-radius: .35em;
+  margin-left: 1vw;
+  margin-bottom: 1vh;
+}
+.container__navbar .navbar__logo {
+  width: 3vw;
+  height: 7vh;
+  border-radius: 50%;
+  margin-left: 12%;
+  border: 2px solid #fff;
+}
+.container__navbar .navbar__profil {
+  width: 3vw;
+  height: 7vh;
+  border-radius: 50%;
+  margin-left: 31%;
+  border: 2px solid #DB3951;
 }
 
 /* Side Bar */
@@ -91,13 +128,53 @@ body {
   background: #F87D42;
 }
 
-::-webkit-scrollbar {
-  width: 0px;
+/* Main */
+.main {
+  width: 79vw;
+  height: auto;
+  position: absolute;
+  left: 21vw;
+  top: 16vh;
+  display: flex;
+  justify-content: center;
+  z-index: -6;
+}
+.main .main__backgroundimg {
+  width: 100%;
+  z-index: -222;
+  height: 1%;
+}
+.main .main__spacemanimg {
+  position: absolute;
+  left: -32%;
+  top: 2%;
+  width: 220%;
+  height: 29%;
+  z-index: 222;
+}
+.main .main__title {
+  position: absolute;
+  background: #00123f;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 36px;
+  width: 42vw;
+  height: 14vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 16vh;
+}
+.main .main__title h2 {
+  font-family: "Bungee",sans-serif;
+  font-size: 2.8rem;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
 }
 
-::-webkit-scrollbar:hover {
-  width: 10px;
-  color: #F87D42;
+::-webkit-scrollbar {
+  display: none;
 }
 
 /*# sourceMappingURL=style.css.map */
