@@ -784,11 +784,25 @@ body.body--landing
           {
             top: -20%;
             left: 95%;
+            display: none; 
+          }
+          .show-1
+          {
+            top: -20%;
+            left: 95%;
+            display: block;
           }
           .hidden-2
           {
             top: 40px;
             left: 95%;
+            display: none;
+          }
+          .show-2
+          {
+            top: 40px;
+            left: 95%;
+            display: block;
           }
         } 
         .content--right
@@ -954,7 +968,6 @@ body.body--landing
     }
   }
 }
-
 
 /***
 *
