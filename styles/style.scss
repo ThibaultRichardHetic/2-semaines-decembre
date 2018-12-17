@@ -4,6 +4,7 @@ body.body--index
   margin: 0;
   height: 420vh;
   background: #FFFFFF;
+  overflow-x: hidden;
 
     .container
   {
@@ -405,11 +406,11 @@ body.body--index
       }
     }
   }
-  ::-webkit-scrollbar {
-    display: none;
-  }
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
 
 /***
 *
@@ -559,3 +560,16 @@ body.body--landing
 ** Landing page end **
 *
 ***/
+
+
+/***
+*
+** Landing page end **
+*
+***/
+/***
+*
+** Landing page end **
+*
+***/
+
