@@ -13,6 +13,9 @@
   <main>
     <section class="section--step1 section--default js-section--step1">
       <div class="step1__header header--default">
+        <div class="header__back">   
+          <p><span><</span> Retour</p>
+        </div>
         <img class="header__logo" src="src/landing/logo-provisoir.png" alt="#">
         <div class="header__button">
           <p>Continuer</p>
@@ -38,6 +41,9 @@
     </section>
     <section class="section--step2 section--default js-section--step2">
       <div class="step2__header header--default">
+        <div class="header__back">   
+          <p><span><</span> Retour</p>
+        </div>
         <img class="header__logo" src="src/landing/logo-provisoir.png" alt="#">
         <div class="header__button">
           <p>Continuer</p>
@@ -52,11 +58,17 @@
       </div>
     </section>
     <section class="section--step3 section--default js-section--step3">
-    <div class="step3__header header--default">
+      <div class="step3__header header--default">
+        <div class="header__back">   
+          <p><span><</span> Retour</p>
+        </div>
         <img class="header__logo" src="src/landing/logo-provisoir.png" alt="#">
         <div class="header__button">
           <p>Continuer</p>
         </div>
+      </div>
+      <div class="step3__content">
+
       </div>
     </section>
   </main>

@@ -548,13 +548,45 @@ body.body--landing
       .header--default
       {
         width: 80%;
+        height: 50px;
         margin: 30px auto;
+        display: flex;
+        justify-content: space-between;
+        .header__back
+        {
+          background: #838383;
+          width: 20%;
+          height: 30px;
+          border-radius: 50px;
+          p
+          {
+            font-family: Josefin Sans;
+            font-style: normal;
+            font-weight: normal;
+            line-height: normal;
+            font-size: 1rem;
+            text-align: center;
+            color: #fff;
+            -webkit-transform: translateY(10%);
+            -moz-transform: translateY(10%);
+            -ms-transform: translateY(10%);
+            -o-transform: translateY(10%);
+            transform: translateY(10%);
+            span
+            {
+              font-size: 1.5rem;
+              font-weight: bold;
+            }
+          }
+        }
+        .header__back:hover
+        {
+          cursor: pointer;
+        }
         .header__logo
         {
-          display: block;
           width: 50px;
           margin: auto;
-          float: left;
         }
         .header__button
         {
@@ -562,7 +594,6 @@ body.body--landing
           width: 20%;
           height: 30px;
           border-radius: 50px;
-          float: right;
           p
           {
             font-family: Josefin Sans;
@@ -595,7 +626,6 @@ body.body--landing
         clear: both;
         width: 80%;
         margin: auto;
-        margin-top: 120px;
         .step1__title
         {
           font-family: Josefin Sans;
@@ -648,7 +678,6 @@ body.body--landing
         clear: both;
         width: 80%;
         margin: auto;
-        margin-top: 120px;
         .step2__title
         {
           font-family: Josefin Sans;
