@@ -1,9 +1,15 @@
 const register = {}
-register.$step1 = document.querySelector('.js-section--step1')
 register.$hidden1 = document.querySelector('.js-hidden-1')
 register.$hidden2 = document.querySelector('.js-hidden-2')
 register.$info1 = document.querySelector('.js-info-1')
 register.$info2 = document.querySelector('.js-info-2')
+register.$step1 = document.querySelector('.js-section--step1')
+register.$step2 = document.querySelector('.js-section--step2')
+register.$step3 = document.querySelector('.js-section--step3')
+register.$step4 = document.querySelector('.js-section--step4')
+register.$step5 = document.querySelector('.js-section--step5')
+register.$step6 = document.querySelector('.js-section--step6')
+register.$step7 = document.querySelector('.js-section--step7')
 
 // hidden information start
 register.$info1.addEventListener('mouseenter', () =>
@@ -32,5 +38,17 @@ register.$info2.addEventListener('mouseleave', () =>
 // hidden information end
 
 // swipe register step start 
+
+function stepPosition() 
+{
+    register.$step1.style.transform = "translateX(100%)"
+    register.$step2.style.transform = "translateX(200%)"
+    register.$step3.style.transform = "translateX(300%)"
+    register.$step4.style.transform = "translateX(400%)"
+    register.$step5.style.transform = "translateX(500%)"
+    register.$step6.style.transform = "translateX(600%)"
+    register.$step7.style.transform = "translateX(700%)" 
+}
+//stepPosition()
 
 // swipe register step end

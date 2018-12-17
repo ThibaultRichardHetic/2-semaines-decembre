@@ -533,6 +533,7 @@ body.body--landing
 
   main
   {
+   // overflow: hidden;
     .section--default
     {
       background-color: #FFF; 
@@ -540,6 +541,7 @@ body.body--landing
       width: 50%;
       margin: auto;
       border-radius: 20px;
+    //  float: left;
       .header--default
       {
         width: 80%;
@@ -968,7 +970,6 @@ body.body--landing
     }
   }
 }
-
 /***
 *
 ** register page end **
