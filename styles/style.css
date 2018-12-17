@@ -1,16 +1,17 @@
-body {
+body.body--index {
   position: relative;
   margin: 0;
   height: 420vh;
   background: #FFFFFF;
+  /* Nav Bar */
+  /* Side Bar */
+  /* Main */
+  /* Footer */
 }
-
-.container {
+body.body--index .container {
   position: relative;
 }
-
-/* Nav Bar */
-.container__navbar {
+body.body--index .container__navbar {
   position: fixed;
   display: flex;
   align-items: center;
@@ -18,14 +19,14 @@ body {
   height: 16vh;
   background: #F87D42;
 }
-.container__navbar .navbar__research {
+body.body--index .container__navbar .navbar__research {
   margin-left: 28%;
   width: 17vw;
   height: 5vh;
   background: #fff;
   border: 2px #000000 solid;
 }
-.container__navbar .navbar__research input {
+body.body--index .container__navbar .navbar__research input {
   outline: 0;
   border: 0;
   margin: 0;
@@ -33,14 +34,14 @@ body {
   float: left;
   display: block;
 }
-.container__navbar .navbar__research input[type=text] {
+body.body--index .container__navbar .navbar__research input[type=text] {
   font: 300 12px 'Josefin Sans', sans-serif;
   background: none;
   width: 180px;
   padding: 0 9px;
   color: #666;
 }
-.container__navbar .navbar__loupe {
+body.body--index .container__navbar .navbar__loupe {
   font-size: 2em;
   display: inline-block;
   width: .4em;
@@ -51,7 +52,7 @@ body {
   border-radius: .35em;
   margin-left: 1vw;
 }
-.container__navbar .navbar__loupe::before {
+body.body--index .container__navbar .navbar__loupe::before {
   font-size: 2em;
   display: inline-block;
   width: .4em;
@@ -63,23 +64,21 @@ body {
   margin-left: 1vw;
   margin-bottom: 1vh;
 }
-.container__navbar .navbar__logo {
+body.body--index .container__navbar .navbar__logo {
   width: 3vw;
   height: 7vh;
   border-radius: 50%;
   margin-left: 12%;
   border: 2px solid #fff;
 }
-.container__navbar .navbar__profil img {
+body.body--index .container__navbar .navbar__profil img {
   width: 3vw;
   height: 7vh;
   position: absolute;
   top: 5vh;
   right: 4vw;
 }
-
-/* Side Bar */
-.container__sidebar {
+body.body--index .container__sidebar {
   position: fixed;
   width: 21vw;
   z-index: 2;
@@ -87,7 +86,7 @@ body {
   height: 100%;
   background: #1a1a1a;
 }
-.container__sidebar .sidebar__avatarpicture {
+body.body--index .container__sidebar .sidebar__avatarpicture {
   transform: translateY(50%);
   display: flex;
   justify-content: center;
@@ -97,18 +96,18 @@ body {
   border: 3px solid #c3f1ff;
   border-radius: 50%;
 }
-.container__sidebar .sidebar__avatarpicture .avatarpicture__pseudo {
+body.body--index .container__sidebar .sidebar__avatarpicture .avatarpicture__pseudo {
   font-family: 'Josefin Sans',sans-serif;
   color: #fff;
   margin: auto 0;
   transform: translateY(18vh);
   font-size: 1em;
 }
-.container__sidebar .sidebar__topics {
+body.body--index .container__sidebar .sidebar__topics {
   margin-top: 85%;
   font-size: 1.56rem;
 }
-.container__sidebar .sidebar__topics ul li {
+body.body--index .container__sidebar .sidebar__topics ul li {
   font-family: 'Josefin Sans',sans-serif;
   color: #fff;
   list-style: none;
@@ -119,67 +118,65 @@ body {
   display: flex;
   align-items: center;
 }
-.container__sidebar .sidebar__topics ul li a {
+body.body--index .container__sidebar .sidebar__topics ul li a {
   margin-left: 12%;
   text-decoration: none;
 }
-.container__sidebar .sidebar__topics ul li img {
+body.body--index .container__sidebar .sidebar__topics ul li img {
   width: 10vmin;
   height: 10vmin;
   right: 2vw;
   position: absolute;
 }
-.container__sidebar .sidebar__topics ul li .topics__iconmusic {
+body.body--index .container__sidebar .sidebar__topics ul li .topics__iconmusic {
   width: 6vmin;
   height: 6vmin;
   position: absolute;
   right: 2.9vw;
 }
-.container__sidebar .sidebar__topics ul li .topics__iconsport {
+body.body--index .container__sidebar .sidebar__topics ul li .topics__iconsport {
   width: 6vmin;
   height: 6vmin;
   position: absolute;
   right: 2.9vw;
 }
-.container__sidebar .sidebar__topics ul li .topics__iconcontroller {
+body.body--index .container__sidebar .sidebar__topics ul li .topics__iconcontroller {
   width: 7vmin;
   height: 5vmin;
   position: absolute;
   right: 2.6vw;
 }
-.container__sidebar .sidebar__topics ul li .topics__iconpencil {
+body.body--index .container__sidebar .sidebar__topics ul li .topics__iconpencil {
   width: 6vmin;
   height: 6vmin;
   position: absolute;
   right: 2.9vw;
 }
-.container__sidebar .sidebar__topics ul li .topics__iconcook {
+body.body--index .container__sidebar .sidebar__topics ul li .topics__iconcook {
   width: 6vmin;
   height: 6vmin;
   position: absolute;
   right: 2.9vw;
 }
-.container__sidebar .sidebar__topics ul li .topics__iconscissors {
+body.body--index .container__sidebar .sidebar__topics ul li .topics__iconscissors {
   width: 5vmin;
   height: 6vmin;
   position: absolute;
   right: 3.1vw;
 }
-.container__sidebar .sidebar__topics ul li .topics__icontongue {
+body.body--index .container__sidebar .sidebar__topics ul li .topics__icontongue {
   width: 6vmin;
   height: 6vmin;
   position: absolute;
   right: 2.9vw;
 }
-.container__sidebar .sidebar__topics ul .topics__mytopics {
+body.body--index .container__sidebar .sidebar__topics ul .topics__mytopics {
   background: #DB3951;
 }
-.container__sidebar .sidebar__topics ul .topics__myclubs {
+body.body--index .container__sidebar .sidebar__topics ul .topics__myclubs {
   background: #F87D42;
 }
-
-/* Main */
-.main {
+body.body--index .main {
   width: 79vw;
   height: auto;
   position: absolute;
@@ -189,7 +186,7 @@ body {
   justify-content: center;
   z-index: -6;
 }
-.main .main__backgroundimg {
+body.body--index .main .main__backgroundimg {
   width: 100%;
   z-index: -222;
   height: 470vh;
@@ -197,14 +194,14 @@ body {
   background-image: url(../src/background_space.png);
   background-repeat: repeat-y;
 }
-.main .main__spacemanimg {
+body.body--index .main .main__spacemanimg {
   position: absolute;
   left: -35vw;
   top: 10vh;
   width: 187vw;
   height: 67vh;
 }
-.main .main__title {
+body.body--index .main .main__title {
   position: absolute;
   background: #00123f;
   -moz-border-radius: 10px;
@@ -217,14 +214,14 @@ body {
   align-items: center;
   top: 16vh;
 }
-.main .main__title h2 {
+body.body--index .main .main__title h2 {
   font-family: "Bungee",sans-serif;
   font-size: 2.8rem;
   color: white;
   text-align: center;
   vertical-align: middle;
 }
-.main .main__posts {
+body.body--index .main .main__posts {
   display: flex;
   position: absolute;
   top: 62vh;
@@ -232,104 +229,214 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.main .main__posts div {
+body.body--index .main .main__posts div {
   margin-bottom: 8vh;
 }
-.main .main__posts .posts__post1, .main .main__posts .posts__post14 {
+body.body--index .main .main__posts .posts__post1, body.body--index .main .main__posts .posts__post14 {
   background: #FFFFFF;
   width: 200px;
   height: 200px;
 }
-.main .main__posts .posts__post2, .main .main__posts .posts__post15 {
+body.body--index .main .main__posts .posts__post2, body.body--index .main .main__posts .posts__post15 {
   background: #FFFFFF;
   width: 400px;
   height: 200px;
 }
-.main .main__posts .posts__post3 {
+body.body--index .main .main__posts .posts__post3 {
   background: #FFFFFF;
   width: 200px;
   height: 200px;
 }
-.main .main__posts .posts__post4, .main .main__posts .posts__post17, .main .main__posts .posts__post16 {
+body.body--index .main .main__posts .posts__post4, body.body--index .main .main__posts .posts__post17, body.body--index .main .main__posts .posts__post16 {
   background: #FFFFFF;
   width: 400px;
   height: 200px;
 }
-.main .main__posts .posts__post5, .main .main__posts .posts__post18 {
+body.body--index .main .main__posts .posts__post5, body.body--index .main .main__posts .posts__post18 {
   background: #FFFFFF;
   width: 200px;
   height: 200px;
 }
-.main .main__posts .posts__post6, .main .main__posts .posts__post19 {
+body.body--index .main .main__posts .posts__post6, body.body--index .main .main__posts .posts__post19 {
   background: #FFFFFF;
   width: 200px;
   height: 200px;
 }
-.main .main__posts .posts__post7, .main .main__posts .posts__post20 {
+body.body--index .main .main__posts .posts__post7, body.body--index .main .main__posts .posts__post20 {
   background: #FFFFFF;
   width: 400px;
   height: 200px;
 }
-.main .main__posts .posts__post8, .main .main__posts .posts__post21 {
+body.body--index .main .main__posts .posts__post8, body.body--index .main .main__posts .posts__post21 {
   background: #FFFFFF;
   width: 400px;
   height: 200px;
 }
-.main .main__posts .posts__post9, .main .main__posts .posts__post22 {
+body.body--index .main .main__posts .posts__post9, body.body--index .main .main__posts .posts__post22 {
   background: #FFFFFF;
   width: 200px;
   height: 200px;
 }
-.main .main__posts .posts__post10, .main .main__posts .posts__post23 {
+body.body--index .main .main__posts .posts__post10, body.body--index .main .main__posts .posts__post23 {
   background: #FFFFFF;
   width: 400px;
   height: 200px;
 }
-.main .main__posts .posts__post11, .main .main__posts .posts__post24 {
+body.body--index .main .main__posts .posts__post11, body.body--index .main .main__posts .posts__post24 {
   background: #FFFFFF;
   width: 200px;
   height: 200px;
 }
-.main .main__posts .posts__post12, .main .main__posts .posts__post25 {
+body.body--index .main .main__posts .posts__post12, body.body--index .main .main__posts .posts__post25 {
   background: #FFFFFF;
   width: 400px;
   height: 200px;
 }
-.main .main__posts .posts__post13, .main .main__posts .posts__post26 {
+body.body--index .main .main__posts .posts__post13, body.body--index .main .main__posts .posts__post26 {
   background: #FFFFFF;
   width: 200px;
   height: 200px;
 }
-.main .main__posts .posts__post14, .main .main__posts .posts__post27 {
+body.body--index .main .main__posts .posts__post14, body.body--index .main .main__posts .posts__post27 {
   background: #FFFFFF;
   width: 200px;
   height: 200px;
 }
-
-/* Footer */
-footer {
+body.body--index footer {
   position: absolute;
   bottom: -56vh;
   left: 25.5vw;
   width: 70vw;
 }
-footer ul {
+body.body--index footer ul {
   display: flex;
   justify-content: space-between;
 }
-footer ul li {
+body.body--index footer ul li {
   font-family: 'Josefin Sans',sans-serif;
   color: #fff;
   list-style: none;
   text-transform: capitalize;
   z-index: 666;
 }
-footer ul li a {
+body.body--index footer ul li a {
   text-decoration: none;
 }
-
-::-webkit-scrollbar {
+body.body--index ::-webkit-scrollbar {
   display: none;
 }
+
+/***
+*
+** Landing page begining **
+*
+***/
+body.body--landing {
+  background-image: url(../src/background_space.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  overflow: hidden;
+  /** header start**/
+  /** header end**/
+  /** main start**/
+}
+body.body--landing header {
+  padding: 20px 0px;
+}
+body.body--landing header img {
+  display: block;
+  width: 50px;
+  margin: auto;
+}
+body.body--landing header h1 {
+  font-family: Josefin Sans;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 1.3rem;
+  text-align: center;
+  color: #fff;
+}
+body.body--landing main .section--welcome .img--bubble {
+  position: absolute;
+  width: 75%;
+  left: 12.5%;
+  z-index: -1;
+}
+body.body--landing main .section--welcome .welcome__article {
+  width: 80%;
+  margin: auto;
+}
+body.body--landing main .section--welcome .welcome__article .welcome__title {
+  font-family: Bungee;
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 30px;
+}
+body.body--landing main .section--welcome .welcome__article p {
+  text-align: center;
+  font-family: Josefin Sans;
+  padding-top: 30px;
+  width: 80%;
+  margin: auto;
+  font-size: 1.3rem;
+}
+body.body--landing main .section--welcome .welcome__article p .important--light {
+  color: #F87D42;
+}
+body.body--landing main .section--welcome .welcome__article p .important--bold {
+  color: #F87D42;
+  font-weight: bold;
+}
+body.body--landing main .section--welcome .welcome__article .welcome__text--last {
+  font-size: 1.5rem;
+}
+body.body--landing main .section--welcome .welcome__article .register--ext {
+  width: 300px;
+  background: #00136C;
+  margin: auto;
+  margin-top: 30px;
+  height: 50px;
+  border-radius: 350px;
+}
+body.body--landing main .section--welcome .welcome__article .register--ext .register--int {
+  width: 292px;
+  height: 46px;
+  margin: auto;
+  border-radius: 350px;
+  border: 2px solid red;
+}
+body.body--landing main .section--welcome .welcome__article .register--ext .register--int a {
+  padding-top: 10px;
+  font-family: Bungee;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 1.6rem;
+  color: #FFFFFF;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+body.body--landing main .section--welcome .img--moon {
+  position: absolute;
+  width: 90%;
+  left: 30%;
+  top: 40%;
+}
+body.body--landing main .section--welcome .img--main {
+  position: absolute;
+  width: 35%;
+  left: 77%;
+  top: 60%;
+  transform: rotate(18.42deg);
+}
+
+/***
+*
+** Landing page end **
+*
+***/
 
 /*# sourceMappingURL=style.css.map */
