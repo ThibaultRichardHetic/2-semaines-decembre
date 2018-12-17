@@ -479,12 +479,12 @@ body.body--landing main .section--welcome .img--main {
   background-color: #000C44;
   cursor: pointer;
 }
-.body--registration main .section--step1 .step1__content {
+.body--registration main .section--default .content--default {
   clear: both;
   width: 80%;
   margin: auto;
 }
-.body--registration main .section--step1 .step1__content .step1__title {
+.body--registration main .section--default .content--default .title--default {
   font-family: Josefin Sans;
   font-style: normal;
   font-weight: bold;
@@ -519,18 +519,6 @@ body.body--landing main .section--welcome .img--main {
   font-weight: normal;
   line-height: normal;
   font-size: 1.1rem;
-}
-.body--registration main .section--step2 .step2__content {
-  clear: both;
-  width: 80%;
-  margin: auto;
-}
-.body--registration main .section--step2 .step2__content .step2__title {
-  font-family: Josefin Sans;
-  font-style: normal;
-  font-weight: bold;
-  line-height: normal;
-  font-size: 1.5rem;
 }
 .body--registration main .section--step2 .step2__content .step2__circle {
   height: 200px;
@@ -569,6 +557,73 @@ body.body--landing main .section--welcome .img--main {
 }
 .body--registration main .section--step2 .step2__content .content__button:hover {
   cursor: pointer;
+}
+.body--registration main .section--step3 {
+  width: 70%;
+}
+.body--registration main .section--step3 .step3__content .content--form {
+  display: flex;
+  justify-content: space-between;
+}
+.body--registration main .section--step3 .step3__content input {
+  background-color: #E8F5F9;
+  width: 100%;
+  border-bottom: 3px solid #80BEB6;
+  height: 6vh;
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 1.1rem;
+  color: #838383;
+  margin-bottom: 30px;
+}
+.body--registration main .section--step3 .step3__content .content--left {
+  width: 45%;
+}
+.body--registration main .section--step3 .step3__content .content--left .form--info {
+  position: relative;
+  cursor: help;
+}
+.body--registration main .section--step3 .step3__content .content--left .form--info .info {
+  position: absolute;
+  left: 90%;
+  top: 10%;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  border: 2px solid #80BEB6;
+}
+.body--registration main .section--step3 .step3__content .content--left .form--info .info p {
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #80BEB6;
+}
+.body--registration main .section--step3 .step3__content .content--right {
+  width: 45%;
+}
+.body--registration main .section--step3 .step3__content .clear {
+  clear: both;
+}
+.body--registration main .section--step4 .step4__content .step4__title {
+  margin-bottom: 40px;
+  text-align: center;
+}
+.body--registration main .section--step4 .step4__content p {
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 1.3rem;
+  text-align: center;
+  margin-bottom: 35px;
+}
+.body--registration main .section--step4 .step4__content p span {
+  color: #F87D42;
 }
 
 /***

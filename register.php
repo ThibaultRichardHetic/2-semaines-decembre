@@ -21,8 +21,8 @@
           <p>Continuer</p>
         </div>
       </div>
-      <div class="step1__content">
-        <h4 class="step1__title">Je crée mon compte</h4>
+      <div class="step1__content content--default">
+        <h4 class="step1__title title--default">Je crée mon compte</h4>
         <form methode="post" action="#">
           <input type="text" name="name" placeholder="Mon surnom" required
         minlength="4" maxlength="8" size="10">
@@ -49,8 +49,8 @@
           <p>Continuer</p>
         </div>
       </div>
-      <div class="step2__content"> 
-        <h4 class="step2__title">Je choisis mon avatar</h4>
+      <div class="step2__content content--default"> 
+        <h4 class="step2__title title--default">Je choisis mon avatar</h4>
         <div class="step2__circle"></div>
         <div class="content__button">
           <p>Personaliser</p>
@@ -67,8 +67,71 @@
           <p>Continuer</p>
         </div>
       </div>
-      <div class="step3__content">
-
+      <div class="step3__content content--default">
+        <h4 class="step3__title title--default">Informations de sécurité</h4>
+        <div class="content--form">
+          <div class="content--left">
+            <form methode="post" action="#">
+              <div class="form--info">
+                <input type="email" placeholder="Email administrateur">
+                <div class="info">
+                  <p>i</p>
+                </div>
+              </div>
+              <input type="email" placeholder="Confirmation de l’email administrateur">
+              <div class="form--info">
+                <input type="password" placeholder="Code Parent">
+                <div class="info">
+                  <p>i</p>
+                </div>
+              </div>
+              <input type="password" placeholder="Confirmation Code Parent">
+            </form>
+          </div>
+          <div class="content--right">
+            <form methode="post" action="#">
+              <input type="email" placeholder="Email de l’enfant (optionnel)">
+              <input type="email" placeholder="Confirmation de l’email de l’enfant">
+              <input type="password" placeholder="Mot de passe du compte">
+              <input type="password" placeholder="Confirmation du mot de passe">
+            </form>
+          </div>
+          <div class="clear"></div>
+        </div>    
+      </div>
+    </section>
+    <section class="section--step4 section--default js-section--step4">
+      <div class="step4__header header--default">
+        <div class="header__back">   
+          <p><span><</span> Retour</p>
+        </div>
+        <img class="header__logo" src="src/landing/logo-provisoir.png" alt="#">
+        <div class="header__button">
+          <p>Continuer</p>
+        </div>
+      </div>
+      <div class="step4__content content--default">
+        <h4 class="step4__title title--default">Un email de confirmation vous a été envoyé</h4>
+        <p>
+          Vous trouverez dans votre boîte mail un lien cliquable amenant à la prochaine étape d’inscription.
+        </p>
+        <p>
+          Si vous ne trouvez pas l’email d’activation, vérifiez d’abord votre dossier courrier indésirable puis contactez-nous par mail à <span>creahappy.france@gmail.com</span>.
+        </p>
+      </div>
+    </section>
+    <section class="section--step5 section--default js-section--step5">
+     <div class="step5__header header--default">
+        <div class="header__back">   
+          <p><span><</span> Retour</p>
+        </div>
+        <img class="header__logo" src="src/landing/logo-provisoir.png" alt="#">
+      </div>
+      <div class="step4__content content--default">
+        <h4 class="step4__title title--default">Informations de sécurité</h4>
+        <p>
+          Afin de confirmer votre identité et d’assurer la sécurité du site, il est nécessaire de télécharger une <span>pièce justificatives d'identité de l’enfant</span> et du <span>représentant légal</span>.
+        </p>
       </div>
     </section>
   </main>

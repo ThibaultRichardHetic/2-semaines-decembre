@@ -618,15 +618,12 @@ body.body--landing
           cursor: pointer;
         }
       }
-    }
-    .section--step1
-    {
-      .step1__content
+      .content--default
       {
         clear: both;
         width: 80%;
         margin: auto;
-        .step1__title
+        .title--default
         {
           font-family: Josefin Sans;
           font-style: normal;
@@ -635,6 +632,12 @@ body.body--landing
           font-size: 1.5rem;
           margin-bottom: 20px;
         }
+      }
+    }
+    .section--step1
+    {
+      .step1__content
+      {
         form
         {
           input
@@ -675,17 +678,6 @@ body.body--landing
     {
       .step2__content
       {
-        clear: both;
-        width: 80%;
-        margin: auto;
-        .step2__title
-        {
-          font-family: Josefin Sans;
-          font-style: normal;
-          font-weight: bold;
-          line-height: normal;
-          font-size: 1.5rem;
-        }
         .step2__circle
         {
           height: 200px;   
@@ -728,6 +720,93 @@ body.body--landing
         .content__button:hover
         {
           cursor: pointer;
+        }
+      }
+    }
+    .section--step3
+    {
+      width: 70%;
+      .step3__content
+      {
+        .content--form
+        {
+          display: flex;
+          justify-content: space-between;
+        }   
+        input
+        {
+          background-color: #E8F5F9;
+          width: 100%;
+          border-bottom: 3px solid #80BEB6;
+          height: 6vh;
+          font-family: Josefin Sans;
+          font-style: normal;
+          font-weight: normal;
+          line-height: normal;
+          font-size: 1.1rem;
+          color: #838383;
+          margin-bottom: 30px; 
+        } 
+        .content--left
+        {
+          width: 45%;
+          .form--info
+          {
+            position: relative;
+            cursor: help;
+            .info
+            {
+              position: absolute;
+              left: 90%;
+              top: 10%;
+              width: 20px;
+              height: 20px;
+              border-radius: 100%;
+              border: 2px solid #80BEB6;
+              p
+              {
+                font-family: Josefin Sans;
+                font-style: normal;
+                font-weight: normal;
+                line-height: normal;
+                font-size: 1.2rem;
+                text-align: center;
+                color: #80BEB6;
+              }
+            }
+          }
+        } 
+        .content--right
+        {
+          width: 45%;
+        }
+        .clear
+        {
+          clear: both;
+        }
+      }
+    }
+    .section--step4
+    {
+      .step4__content
+      {
+        .step4__title
+        {
+          margin-bottom: 40px;
+          text-align: center;
+        }
+        p{
+          font-family: Josefin Sans;
+          font-style: normal;
+          font-weight: normal;
+          line-height: normal;
+          font-size: 1.3rem;
+          text-align: center;
+          margin-bottom: 35px;
+          span
+          {
+            color: #F87D42;
+          }
         }
       }
     }
