@@ -409,26 +409,30 @@ body.body--landing main .section--welcome .img--main {
   background-repeat: no-repeat;
   background-size: 100%;
 }
-.body--registration main .section--step1 {
+.body--registration main .section--default {
   background-color: #FFF;
   border: solid 2px black;
   width: 50%;
   margin: auto;
 }
-.body--registration main .section--step1 .step1__header .header__logo {
+.body--registration main .section--default .header--default {
+  width: 80%;
+  margin: 30px auto;
+}
+.body--registration main .section--default .header--default .header__logo {
   display: block;
   width: 50px;
   margin: auto;
   float: left;
 }
-.body--registration main .section--step1 .step1__header .header__button {
+.body--registration main .section--default .header--default .header__button {
   background-color: #00136C;
   width: 20%;
-  height: 4vh;
+  height: 30px;
   border-radius: 50px;
   float: right;
 }
-.body--registration main .section--step1 .step1__header .header__button a {
+.body--registration main .section--default .header--default .header__button p {
   font-family: Josefin Sans;
   font-style: normal;
   font-weight: normal;
@@ -444,13 +448,15 @@ body.body--landing main .section--welcome .img--main {
   -o-transform: translateY(50%);
   transform: translateY(50%);
 }
-.body--registration main .section--step1 .step1__header .header__button:hover {
+.body--registration main .section--default .header--default .header__button:hover {
   background-color: #000C44;
+  cursor: pointer;
 }
 .body--registration main .section--step1 .step1__content {
   clear: both;
   width: 80%;
   margin: auto;
+  margin-top: 120px;
 }
 .body--registration main .section--step1 .step1__content .step1__title {
   font-family: Josefin Sans;
@@ -458,8 +464,9 @@ body.body--landing main .section--welcome .img--main {
   font-weight: bold;
   line-height: normal;
   font-size: 1.5rem;
+  margin-bottom: 20px;
 }
-.body--registration main .section--step1 .step1__content input {
+.body--registration main .section--step1 .step1__content form input {
   background-color: #E8F5F9;
   width: 100%;
   border-bottom: 3px solid #80BEB6;
@@ -472,7 +479,7 @@ body.body--landing main .section--welcome .img--main {
   color: #838383;
   margin-bottom: 30px;
 }
-.body--registration main .section--step1 .step1__content select {
+.body--registration main .section--step1 .step1__content form select {
   background-color: #E8F5F9;
   width: 100%;
   height: 6vh;
@@ -480,12 +487,63 @@ body.body--landing main .section--welcome .img--main {
   color: #838383;
   margin-bottom: 30px;
 }
-.body--registration main .section--step1 .step1__content select option {
+.body--registration main .section--step1 .step1__content form select option {
   font-family: Josefin Sans;
   font-style: normal;
   font-weight: normal;
   line-height: normal;
   font-size: 1.1rem;
+}
+.body--registration main .section--step2 .step2__content {
+  clear: both;
+  width: 80%;
+  margin: auto;
+  margin-top: 120px;
+}
+.body--registration main .section--step2 .step2__content .step2__title {
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 1.5rem;
+}
+.body--registration main .section--step2 .step2__content .step2__circle {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  background: #E8F5F9;
+  border: 2px solid #A7D3CF;
+  margin: auto;
+  margin-top: 50px;
+}
+.body--registration main .section--step2 .step2__content .step2__circle:hover {
+  cursor: pointer;
+}
+.body--registration main .section--step2 .step2__content .content__button {
+  background-color: #F87D42;
+  width: 30%;
+  height: 30px;
+  border-radius: 50px;
+  margin: auto;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+.body--registration main .section--step2 .step2__content .content__button p {
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 1rem;
+  text-align: center;
+  color: #FFFFFF;
+  -webkit-transform: translateY(50%);
+  -moz-transform: translateY(50%);
+  -ms-transform: translateY(50%);
+  -o-transform: translateY(50%);
+  transform: translateY(50%);
+}
+.body--registration main .section--step2 .step2__content .content__button:hover {
+  cursor: pointer;
 }
 
 /***

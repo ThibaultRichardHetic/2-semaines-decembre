@@ -539,34 +539,31 @@ body.body--landing
 
   main
   {
-    .section--step1
+    .section--default
     {
       background-color: #FFF; 
       border: solid 2px black;
       width: 50%;
       margin: auto;
-      .step1__header
+      .header--default
       {
-        //position: relative;
-        //display: block;
+        width: 80%;
+        margin: 30px auto;
         .header__logo
         {
           display: block;
           width: 50px;
           margin: auto;
           float: left;
-         
         }
         .header__button
         {
-         // position: absolute;
           background-color: #00136C;
           width: 20%;
-          height: 4vh;
+          height: 30px;
           border-radius: 50px;
           float: right;
-          // float: right;
-          a
+          p
           {
             font-family: Josefin Sans;
             font-style: normal;
@@ -587,14 +584,18 @@ body.body--landing
         .header__button:hover
         {
           background-color: #000C44;
+          cursor: pointer;
         }
-
       }
+    }
+    .section--step1
+    {
       .step1__content
       {
         clear: both;
         width: 80%;
         margin: auto;
+        margin-top: 120px;
         .step1__title
         {
           font-family: Josefin Sans;
@@ -602,39 +603,103 @@ body.body--landing
           font-weight: bold;
           line-height: normal;
           font-size: 1.5rem;
+          margin-bottom: 20px;
         }
-        input
+        form
         {
-          background-color: #E8F5F9;
-          width: 100%;
-          border-bottom: 3px solid #80BEB6;
-          height: 6vh;
-          font-family: Josefin Sans;
-          font-style: normal;
-          font-weight: normal;
-          line-height: normal;
-          font-size: 1.1rem;
-          color: #838383;
-          margin-bottom: 30px; 
-        }
-        select
-        {
-          background-color: #E8F5F9;
-          width: 100%;
-          height: 6vh;
-          border-bottom: 3px solid #80BEB6;
-          color: #838383;
-          margin-bottom: 30px;
-          option
+          input
           {
+            background-color: #E8F5F9;
+            width: 100%;
+            border-bottom: 3px solid #80BEB6;
+            height: 6vh;
             font-family: Josefin Sans;
             font-style: normal;
             font-weight: normal;
             line-height: normal;
             font-size: 1.1rem;
+            color: #838383;
+            margin-bottom: 30px; 
+          }
+          select
+          {
+            background-color: #E8F5F9;
+            width: 100%;
+            height: 6vh;
+            border-bottom: 3px solid #80BEB6;
+            color: #838383;
+            margin-bottom: 30px;
+            option
+            {
+              font-family: Josefin Sans;
+              font-style: normal;
+              font-weight: normal;
+              line-height: normal;
+              font-size: 1.1rem;
+            }
           }
         }
-
+      }
+    }
+    .section--step2
+    {
+      .step2__content
+      {
+        clear: both;
+        width: 80%;
+        margin: auto;
+        margin-top: 120px;
+        .step2__title
+        {
+          font-family: Josefin Sans;
+          font-style: normal;
+          font-weight: bold;
+          line-height: normal;
+          font-size: 1.5rem;
+        }
+        .step2__circle
+        {
+          height: 200px;   
+          width: 200px;
+          border-radius: 100%;
+          background: #E8F5F9;
+          border: 2px solid #A7D3CF;
+          margin: auto;
+          margin-top: 50px;
+        }
+        .step2__circle:hover
+        {
+          cursor: pointer;
+        }
+        .content__button
+        {
+          background-color:  #F87D42; 
+          width: 30%;
+          height: 30px;
+          border-radius: 50px;
+          margin: auto;
+          margin-bottom: 40px;
+          margin-top: 20px;
+          p
+          {
+            font-family: Josefin Sans;
+            font-style: normal;
+            font-weight: bold;
+            line-height: normal;
+            font-size: 1rem;
+            text-align: center;
+            color: #FFFFFF;
+            -webkit-transform: translateY(50%);
+            -moz-transform: translateY(50%);
+            -ms-transform: translateY(50%);
+            -o-transform: translateY(50%);
+            transform: translateY(50%);
+          }
+        }
+        .content__button:hover
+        {
+          cursor: pointer;
+        }
       }
     }
   }

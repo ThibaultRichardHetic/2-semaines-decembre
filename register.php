@@ -10,13 +10,12 @@
     <link rel="stylesheet" href="styles/style.min.css">
 </head>
 <body class="body--registration">
-
   <main>
-    <section class="section--step1">
-      <div class="step1__header">
+    <section class="section--step1 section--default js-section--step1">
+      <div class="step1__header header--default">
         <img class="header__logo" src="src/landing/logo-provisoir.png" alt="#">
         <div class="header__button">
-          <a href="#">Continuer</a>
+          <p>Continuer</p>
         </div>
       </div>
       <div class="step1__content">
@@ -24,8 +23,8 @@
         <form methode="post" action="#">
           <input type="text" name="name" placeholder="Mon surnom" required
         minlength="4" maxlength="8" size="10">
-        Ma date de naissance
-          <input placeholder="Mon age" type="date" name="birth" required>
+        <p>Ma date de naissance :</p>
+          <input placeholder="Mon age" type="date" name="birth" value="2010-01-01" required>
           <select name="level" placeholder="classe" required>
             <option value="">Ma classe</option>
             <option value="cp">CP</option>
@@ -37,17 +36,32 @@
         </form>
       </div>
     </section>
-
-    <section>
-
+    <section class="section--step2 section--default js-section--step2">
+      <div class="step2__header header--default">
+        <img class="header__logo" src="src/landing/logo-provisoir.png" alt="#">
+        <div class="header__button">
+          <p>Continuer</p>
+        </div>
+      </div>
+      <div class="step2__content"> 
+        <h4 class="step2__title">Je choisis mon avatar</h4>
+        <div class="step2__circle"></div>
+        <div class="content__button">
+          <p>Personaliser</p>
+        </div>
+      </div>
     </section>
-
+    <section class="section--step3 section--default js-section--step3">
+    <div class="step3__header header--default">
+        <img class="header__logo" src="src/landing/logo-provisoir.png" alt="#">
+        <div class="header__button">
+          <p>Continuer</p>
+        </div>
+      </div>
+    </section>
   </main>
-  
   <footer>
-
   </footer>
-
   <script src="scripts/app.js"></script>
 </body>
 </html>
