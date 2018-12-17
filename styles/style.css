@@ -490,6 +490,43 @@ body.body--landing main .section--welcome .img--main {
 }
 .body--registration main .section--step1 .step1__content {
   clear: both;
+  width: 80%;
+  margin: auto;
+}
+.body--registration main .section--step1 .step1__content .step1__title {
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 1.5rem;
+}
+.body--registration main .section--step1 .step1__content input {
+  background-color: #E8F5F9;
+  width: 100%;
+  border-bottom: 3px solid #80BEB6;
+  height: 6vh;
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 1.1rem;
+  color: #838383;
+  margin-bottom: 30px;
+}
+.body--registration main .section--step1 .step1__content select {
+  background-color: #E8F5F9;
+  width: 100%;
+  height: 6vh;
+  border-bottom: 3px solid #80BEB6;
+  color: #838383;
+  margin-bottom: 30px;
+}
+.body--registration main .section--step1 .step1__content select option {
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 1.1rem;
 }
 
 /***

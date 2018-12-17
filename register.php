@@ -20,19 +20,20 @@
         </div>
       </div>
       <div class="step1__content">
-        <h1>Je crée mon compte</h1>
+        <h4 class="step1__title">Je crée mon compte</h4>
         <form methode="post" action="#">
-        <input type="text" name="name" required
-       minlength="4" maxlength="8" size="10">
-       <input type="date" name="birth">
-       <input type="text">
-       <select name="level">
-         <option value="cp">CP</option>
-         <option value="ce1">CE1</option>
-         <option value="ce2">CE2</option>
-         <option value="cm1">CM1</option>
-         <option value="cm2">CM2</option>
-       </select>
+          <input type="text" name="name" placeholder="Mon surnom" required
+        minlength="4" maxlength="8" size="10">
+        Ma date de naissance
+          <input placeholder="Mon age" type="date" name="birth" required>
+          <select name="level" placeholder="classe" required>
+            <option value="">Ma classe</option>
+            <option value="cp">CP</option>
+            <option value="ce1">CE1</option>
+            <option value="ce2">CE2</option>
+            <option value="cm1">CM1</option>
+            <option value="cm2">CM2</option>
+          </select>
         </form>
       </div>
     </section>
