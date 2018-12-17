@@ -3,6 +3,7 @@ body.body--index {
   margin: 0;
   height: 420vh;
   background: #FFFFFF;
+  overflow-x: hidden;
   /* Nav Bar */
   /* Side Bar */
   /* Main */
@@ -322,7 +323,8 @@ body.body--index footer ul li {
 body.body--index footer ul li a {
   text-decoration: none;
 }
-body.body--index ::-webkit-scrollbar {
+
+::-webkit-scrollbar {
   display: none;
 }
 
