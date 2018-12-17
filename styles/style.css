@@ -411,9 +411,10 @@ body.body--landing main .section--welcome .img--main {
 }
 .body--registration main .section--default {
   background-color: #FFF;
-  border: solid 2px black;
+  border: solid 2px #fff;
   width: 50%;
   margin: auto;
+  border-radius: 20px;
 }
 .body--registration main .section--default .header--default {
   width: 80%;
@@ -580,6 +581,7 @@ body.body--landing main .section--welcome .img--main {
 }
 .body--registration main .section--step3 .step3__content .content--left {
   width: 45%;
+  position: relative;
 }
 .body--registration main .section--step3 .step3__content .content--left .form--info {
   position: relative;
@@ -602,6 +604,22 @@ body.body--landing main .section--welcome .img--main {
   font-size: 1.2rem;
   text-align: center;
   color: #80BEB6;
+}
+.body--registration main .section--step3 .step3__content .content--left .info--hidden {
+  position: absolute;
+  background-color: #fff;
+  width: 55%;
+  border: 1px solid #B4B4B4;
+  border-radius: 7px;
+  padding: 20px;
+}
+.body--registration main .section--step3 .step3__content .content--left .hidden-1 {
+  top: -20%;
+  left: 95%;
+}
+.body--registration main .section--step3 .step3__content .content--left .hidden-2 {
+  top: 40px;
+  left: 95%;
 }
 .body--registration main .section--step3 .step3__content .content--right {
   width: 45%;
@@ -699,10 +717,33 @@ body.body--landing main .section--welcome .img--main {
   font-style: normal;
   font-weight: normal;
   line-height: normal;
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin-bottom: 20px;
 }
 .body--registration main .section--step6 .step6__content p span {
+  color: #F87D42;
+}
+.body--registration main .section--step7 {
+  background-color: #00136C;
+  border: solid 5px #fff;
+  width: 80%;
+  margin: auto;
+  padding-top: 40px;
+}
+.body--registration main .section--step7 p {
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #fff;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.body--registration main .section--step7 p span {
+  font-weight: bold;
   color: #F87D42;
 }
 

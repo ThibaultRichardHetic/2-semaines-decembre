@@ -74,19 +74,29 @@
             <form methode="post" action="#">
               <div class="form--info">
                 <input type="email" placeholder="Email administrateur">
-                <div class="info">
+                <div class="info js-info-1">
                   <p>i</p>
                 </div>
               </div>
               <input type="email" placeholder="Confirmation de l’email administrateur">
               <div class="form--info">
                 <input type="password" placeholder="Code Parent">
-                <div class="info">
+                <div class="info js-info-2">
                   <p>i</p>
                 </div>
               </div>
               <input type="password" placeholder="Confirmation Code Parent">
             </form>
+            <div class="info--hidden hidden-1 js-hidden-1">
+              <p>
+                L’email administrateur est l’email du parent ou représentant légal de l’enfant. Il vous servira à la confirmation du compte et éventuellement à récuperer des informations oubliées.
+              </p>
+            </div>
+            <div class="info--hidden hidden-2 js-hidden-2">
+              <p>
+                 Le Code Parent est le code qui vous permet d’accéder aux paramètres du compte de l’enfant et de définir le contrôle parental
+              </p>
+            </div>
           </div>
           <div class="content--right">
             <form methode="post" action="#">
@@ -172,7 +182,23 @@
           Pour plus d’informations, merci de nous <span>contacter</span>.
         </p>
       </div>
-
+    </section>
+    <section class="section--step7 js-section--step7">
+      <p>
+        Chers parents, bienvenue.
+      </p>
+      <p>
+        Félicitations, vous venez d'inscrire votre enfants sur <span>Crehappy !</span> Il va ainsi avoir accès à son premier réseau social, mais pas n'importe lequel.
+      </p>
+      <p>
+        En effet, Crehappy est un réseau social qui se différencie des autres car il est destiné aux enfants. C’est un lieu où les ils pourront partager pas mal de choses (Photos, Recettes, Créations ...) en toute sécurité avec d'autres jeunes de leur âge.
+      </p>
+      <p>
+        Ils pourront aussi s'entrainer avec des exercices ludiques (Maths, Français, Logique ...). Mais ne vous inquiétez pas, vous aurez bien évidemment le droit de voir les contenus partagés par votre enfant.
+      </p>
+      <p>
+        Le respect étant primordial pour nous, un système de signalement sera mis en place pour éviter les débordements. Ainsi, votre enfant découvrira les réseaux sociaux dans un espace sain, sécurisé et éducatif. Nous vous remercions de votre confiance et nous ferons tout pour maintenir cette confiance au plus haut.
+      </p>
     </section>
   </main>
   <footer>

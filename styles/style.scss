@@ -536,9 +536,10 @@ body.body--landing
     .section--default
     {
       background-color: #FFF; 
-      border: solid 2px black;
+      border: solid 2px #fff;
       width: 50%;
       margin: auto;
+      border-radius: 20px;
       .header--default
       {
         width: 80%;
@@ -744,6 +745,7 @@ body.body--landing
         .content--left
         {
           width: 45%;
+          position: relative;
           .form--info
           {
             position: relative;
@@ -768,6 +770,25 @@ body.body--landing
                 color: #80BEB6;
               }
             }
+          }
+          .info--hidden
+          {
+            position: absolute;
+            background-color: #fff;
+            width: 55%;
+            border: 1px solid #B4B4B4;
+            border-radius: 7px;
+            padding: 20px;
+          }
+          .hidden-1
+          {
+            top: -20%;
+            left: 95%;
+          }
+          .hidden-2
+          {
+            top: 40px;
+            left: 95%;
           }
         } 
         .content--right
@@ -861,7 +882,6 @@ body.body--landing
           cursor: pointer;
           margin: auto;
           margin-bottom: 20px;
-
           p
           {
             color: #fff;
@@ -897,12 +917,38 @@ body.body--landing
           font-style: normal;
           font-weight: normal;
           line-height: normal;
-          font-size: 1rem;
+          font-size: 1.2rem;
           margin-bottom: 20px;
           span
           {
            color: #F87D42;
           }
+        }
+      }
+    }
+    .section--step7
+    {
+      background-color: #00136C;
+      border: solid 5px #fff;
+      width: 80%;
+      margin: auto;
+      padding-top: 40px;
+      p
+      {
+        font-family: Josefin Sans;
+        font-style: normal;
+        font-weight: normal;
+        line-height: normal;
+        text-align: center;
+        font-size: 1.5rem;
+        color: #fff;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 30px;
+        span
+        {
+          font-weight: bold;
+          color: #F87D42;
         }
       }
     }
