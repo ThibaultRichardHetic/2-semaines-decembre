@@ -130,19 +130,24 @@
       <div class="step5__content content--default">
         <h4 class="step5__title title--default">Informations de sécurité</h4>
         <p>
-          Afin de confirmer votre identité et d’assurer la sécurité du site, il est nécessaire de télécharger une <span>pièce justificatives d'identité de l’enfant</span> et du <span>représentant légal</span>.
+          Afin de confirmer votre identité et d’assurer la sécurité du site, il est nécessaire de télécharger une <span class="important--orange-bold">pièce justificatives d'identité de l’enfant</span> et du <span class="important--orange-bold">représentant légal</span>.
         </p>
         <div class="step5__file">
-          <img src="" alt="">
-          <p>
-            Glissez et déposez vos documents au format .pdf
+          <img src="" alt="">         
+          <p> 
+          <span class="important--orange">Glissez et déposez</span> vos documents au format <span class="important--orange">.pdf</span>
           </p>
           <p>
             ou
           </p>
+          <div class="file__button">
+            <p>
+              Choisir des fichiers
+            </p>
+          </div>
         </div>
         <p>
-          En inscrivant votre enfant, vous acceptez nos Conditions d'utilisation, notre Politique de confidentialité et notre Utilisation des cookies.
+          En inscrivant votre enfant, vous acceptez nos <span class="important--red">Conditions d'utilisation</span>, notre <span class="important--red">Politique de confidentialité</span> et notre <span class="important--red">Utilisation des cookies</span>.
         </p>
         <div class="content__button">
           <p>
@@ -150,6 +155,24 @@
           </p>
         </div>
       </div>
+    </section>
+    <section class="section--step6 section--default js-section--step6">
+      <div class="step6__header header--default">
+        <img class="header__logo" src="src/landing/logo-provisoir.png" alt="#">
+      </div>
+      <div class="step6__content content--default">
+        <h4 class="step5__title title--default">Demande d’inscription enregistrée !</h4>
+        <p>
+          Votre demande d’inscriptation a été enregistrée et mise en attente de validation.
+        </p>
+        <p>
+          Une notification de validation du compte vous sera envoyée par email dans les deux jours. 
+        </p>
+        <p>
+          Pour plus d’informations, merci de nous <span>contacter</span>.
+        </p>
+      </div>
+
     </section>
   </main>
   <footer>

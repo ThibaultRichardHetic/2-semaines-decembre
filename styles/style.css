@@ -638,15 +638,72 @@ body.body--landing main .section--welcome .img--main {
   color: #F87D42;
   font-weight: bold;
 }
+.body--registration main .section--step5 .step5__content p .important--red {
+  color: #e6304b;
+}
+.body--registration main .section--step5 .step5__content .step5__file {
+  border: dashed 3px #F87D42;
+  border-radius: 30px;
+  margin-bottom: 25px;
+}
+.body--registration main .section--step5 .step5__content .step5__file .file__button {
+  width: 30%;
+  height: 25px;
+  background-color: #F87D42;
+  border-radius: 25px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.body--registration main .section--step5 .step5__content .step5__file .file__button p {
+  color: #fff;
+  -webkit-transform: translateY(30%);
+  -moz-transform: translateY(30%);
+  -ms-transform: translateY(30%);
+  -o-transform: translateY(30%);
+  transform: translateY(30%);
+}
 .body--registration main .section--step5 .step5__content .content__button {
   width: 30%;
+  height: 35px;
   background: #00136C;
   box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
   border-radius: 50px;
   cursor: pointer;
+  margin: auto;
+  margin-bottom: 20px;
 }
 .body--registration main .section--step5 .step5__content .content__button p {
   color: #fff;
+  font-family: Bungee;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 1.5rem;
+  -webkit-transform: translateY(15%);
+  -moz-transform: translateY(15%);
+  -ms-transform: translateY(15%);
+  -o-transform: translateY(15%);
+  transform: translateY(15%);
+}
+.body--registration main .section--step6 {
+  width: 30%;
+}
+.body--registration main .section--step6 .step6__content .step5__title {
+  text-align: center;
+}
+.body--registration main .section--step6 .step6__content p {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+.body--registration main .section--step6 .step6__content p span {
+  color: #F87D42;
 }
 
 /***

@@ -369,12 +369,6 @@ body.body--index
 
 
 
-
-
-
-
-
-
 /***
 *
 ** Landing page begining **
@@ -828,24 +822,88 @@ body.body--landing
             color: #F87D42;
             font-weight: bold;
           }
+          .important--red
+          {
+            color: rgb(230, 48, 75);
+          }
         }
         .step5__file
         {
-          
+          border: dashed 3px #F87D42;
+          border-radius: 30px;
+          margin-bottom: 25px;
+          .file__button
+          {
+            width: 30%;
+            height: 25px;
+            background-color: #F87D42;
+            border-radius: 25px;
+            margin: auto;
+            margin-bottom: 20px;
+            p
+            {
+              color: #fff;
+              -webkit-transform: translateY(30%);
+              -moz-transform: translateY(30%);
+              -ms-transform: translateY(30%);
+              -o-transform: translateY(30%);
+              transform: translateY(30%);
+            }
+          }
         }
         .content__button
         {
           width: 30%;
+          height: 35px;
           background: #00136C;
           box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
           border-radius: 50px;
           cursor: pointer;
+          margin: auto;
+          margin-bottom: 20px;
+
           p
           {
             color: #fff;
+            font-family: Bungee;
+            font-style: normal;
+            font-weight: normal;
+            line-height: normal;
+            font-size: 1.5rem; 
+            -webkit-transform: translateY(15%);
+            -moz-transform: translateY(15%);
+            -ms-transform: translateY(15%);
+            -o-transform: translateY(15%);
+            transform: translateY(15%);
           }
         }
-
+      }
+    }
+    .section--step6
+    {
+      width: 30%;
+      .step6__content
+      {
+        .step5__title
+        {
+          text-align: center;
+        }
+        p
+        {
+          width: 80%;
+          margin: auto;
+          text-align: center;
+          font-family: Josefin Sans;
+          font-style: normal;
+          font-weight: normal;
+          line-height: normal;
+          font-size: 1rem;
+          margin-bottom: 20px;
+          span
+          {
+           color: #F87D42;
+          }
+        }
       }
     }
   }
