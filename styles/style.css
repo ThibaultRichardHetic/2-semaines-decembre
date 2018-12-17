@@ -625,6 +625,29 @@ body.body--landing main .section--welcome .img--main {
 .body--registration main .section--step4 .step4__content p span {
   color: #F87D42;
 }
+.body--registration main .section--step5 .step5__content p {
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.body--registration main .section--step5 .step5__content p span {
+  color: #F87D42;
+  font-weight: bold;
+}
+.body--registration main .section--step5 .step5__content .content__button {
+  width: 30%;
+  background: #00136C;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  cursor: pointer;
+}
+.body--registration main .section--step5 .step5__content .content__button p {
+  color: #fff;
+}
 
 /***
 *

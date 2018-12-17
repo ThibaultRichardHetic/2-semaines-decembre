@@ -127,11 +127,28 @@
         </div>
         <img class="header__logo" src="src/landing/logo-provisoir.png" alt="#">
       </div>
-      <div class="step4__content content--default">
-        <h4 class="step4__title title--default">Informations de sécurité</h4>
+      <div class="step5__content content--default">
+        <h4 class="step5__title title--default">Informations de sécurité</h4>
         <p>
           Afin de confirmer votre identité et d’assurer la sécurité du site, il est nécessaire de télécharger une <span>pièce justificatives d'identité de l’enfant</span> et du <span>représentant légal</span>.
         </p>
+        <div class="step5__file">
+          <img src="" alt="">
+          <p>
+            Glissez et déposez vos documents au format .pdf
+          </p>
+          <p>
+            ou
+          </p>
+        </div>
+        <p>
+          En inscrivant votre enfant, vous acceptez nos Conditions d'utilisation, notre Politique de confidentialité et notre Utilisation des cookies.
+        </p>
+        <div class="content__button">
+          <p>
+             Inscription
+          </p>
+        </div>
       </div>
     </section>
   </main>
