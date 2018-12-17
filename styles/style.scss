@@ -16,7 +16,7 @@ body.body--index
     display: flex;
     align-items: center;
     width: 100vw;
-    height: 16vh;
+    height: 12vh;
     background: #F87D42;
 
     .navbar__research 
@@ -39,38 +39,21 @@ body.body--index
 
       input[type=text] 
       {
-        font:300 12px 'Josefin Sans', sans-serif;
+        font:300 0.7rem 'Josefin Sans', sans-serif;
         background:none;
         width:180px;
         padding:0 9px;
         color:#666;
       }
     }
-    .navbar__loupe 
+    .navbar__magnifyingglass
     {
-      font-size: 2em;
-      display: inline-block;
-      width: .4em;
-      box-sizing: content-box;
-      height: .4em;
-      border: .1em solid black;
-      position: relative;
-      border-radius: .35em;
-      margin-left: 1vw;
-    
-
-      &::before
+      img
       {
-        font-size: 2em;
-        display: inline-block;
-        width: .4em;
-        box-sizing: content-box;
-        height: .4em;
-        border: .1em solid #000;
-        position: relative;
-        border-radius: .35em;
-        margin-left: 1vw;
-        margin-bottom: 1vh;
+      width: 2vw;
+      position: absolute;
+      top: 3.6vh;
+      left: 45.5vw;
       }
     }
     .navbar__logo
@@ -86,9 +69,9 @@ body.body--index
       img 
       {
         width: 3vw;
-        height: 7vh;
+        height: 6vh;
         position: absolute;
-        top: 5vh;
+        top: 2.5vh;
         right: 4vw;
       }
     }
@@ -99,7 +82,7 @@ body.body--index
   /* Side Bar */
   .container__sidebar {
     position: fixed;
-    width: 21vw;
+    width: 17vw;
     z-index: 2;
     overflow-y: scroll;
     height: 100%;
@@ -111,8 +94,8 @@ body.body--index
       display: flex;
       justify-content: center;
       margin: auto;
-      width: 24vmin;
-      height: 25vmin;
+      width: 20vmin;
+      height: 21vmin;
       border: 3px solid #c3f1ff;
       border-radius: 50%;
 
@@ -128,7 +111,7 @@ body.body--index
     .sidebar__topics 
       {
         margin-top: 85%;
-        font-size: 1.56rem;
+        font-size: 1.2rem;
 
         ul
         {
@@ -143,7 +126,6 @@ body.body--index
             height: 22vh;
             display: flex;
             align-items: center;
-
             a 
             {
               margin-left: 12%;
@@ -151,61 +133,32 @@ body.body--index
             }
             img
             {
-              width: 10vmin;
-              height: 10vmin;
+              width: 8vmin;
+              height: 8vmin;          
               right: 2vw;
               position: absolute;
-            }
-            .topics__iconmusic
-            {
-              width: 6vmin;
-              height: 6vmin;
-              position: absolute;
-              right: 2.9vw;
-            }    
-            .topics__iconsport
-            {
-              width: 6vmin;
-              height: 6vmin;
-              position: absolute;
-              right: 2.9vw;
-            }    
+            }   
             .topics__iconcontroller
             {
-              width: 7vmin;
-              height: 5vmin;
+              width: 5.3vmin;
+              height: 4vmin;          
               position: absolute;
               right: 2.6vw;
             }    
-            .topics__iconpencil
+            .topics__iconpencil, .topics__iconcook, .topics__icontongue, .topics__iconsport, .topics__iconmusic
             {
-              width: 6vmin;
-              height: 6vmin;
+              width: 4vmin;
+              height: 5vmin;          
               position: absolute;
               right: 2.9vw;
-            }    
-            .topics__iconcook
-            {
-              width: 6vmin;
-              height: 6vmin;
-              position: absolute;
-              right: 2.9vw;
-            }    
+            }      
             .topics__iconscissors
             {
-              width: 5vmin;
+              width: 3vmin;
               height: 6vmin;
               position: absolute;
               right: 3.1vw;
             }    
-            .topics__icontongue
-            {
-              width: 6vmin;
-              height: 6vmin;
-              position: absolute;
-              right: 2.9vw;
-            }    
-
           }
           .topics__mytopics
           {
@@ -226,11 +179,11 @@ body.body--index
 
   .main
   {
-    width: 79vw;
+    width: 83vw;
     height: auto;
     position: absolute;
-    left: 21vw;
-    top: 16vh;
+    left: 17vw;
+    top: 12vh;
     display: flex;
     justify-content: center;
     z-index: -6;
@@ -386,7 +339,7 @@ body.body--index
   {
     position: absolute;
     bottom: -56vh;
-    left: 25.5vw;
+    left: 23.5vw;
     width: 70vw;
     ul
     {
@@ -411,6 +364,16 @@ body.body--index
 ::-webkit-scrollbar {
   display: none;
 }
+
+
+
+
+
+
+
+
+
+
 
 /***
 *
