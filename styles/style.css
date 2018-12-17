@@ -336,7 +336,7 @@ body.body--index footer ul li a {
 body.body--landing {
   background-image: url(../src/background_space.png);
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: 100%;
   overflow: hidden;
   /** header start**/
   /** header end**/
@@ -442,12 +442,59 @@ body.body--landing main .section--welcome .img--main {
 ***/
 /***
 *
-** Landing page end **
+** register page begening **
 *
 ***/
+.body--registration {
+  background-image: url(../src/background_space.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.body--registration main .section--step1 {
+  background-color: #FFF;
+  border: solid 2px black;
+  width: 50%;
+  margin: auto;
+}
+.body--registration main .section--step1 .step1__header .header__logo {
+  display: block;
+  width: 50px;
+  margin: auto;
+  float: left;
+}
+.body--registration main .section--step1 .step1__header .header__button {
+  background-color: #00136C;
+  width: 20%;
+  height: 4vh;
+  border-radius: 50px;
+  float: right;
+}
+.body--registration main .section--step1 .step1__header .header__button a {
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  display: block;
+  font-size: 1rem;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  -webkit-transform: translateY(50%);
+  -moz-transform: translateY(50%);
+  -ms-transform: translateY(50%);
+  -o-transform: translateY(50%);
+  transform: translateY(50%);
+}
+.body--registration main .section--step1 .step1__header .header__button:hover {
+  background-color: #000C44;
+}
+.body--registration main .section--step1 .step1__content {
+  clear: both;
+}
+
 /***
 *
-** Landing page end **
+** register page end **
 *
 ***/
 
