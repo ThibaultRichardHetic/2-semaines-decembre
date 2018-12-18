@@ -1354,6 +1354,14 @@ body.body--index footer ul li a {
   font-weight: normal;
   line-height: normal;
 }
+.body--landing header .button--fixed a {
+  text-align: center;
+  font-family: Bungee;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  text-decoration: none;
+}
 .body--landing header .button--fixed .register__interrogation {
   font-family: Josefin Sans;
   font-style: normal;
@@ -1366,15 +1374,23 @@ body.body--index footer ul li a {
   background: #F87D42;
   width: 100%;
   border-radius: 50px;
+  transition-property: all;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
   cursor: pointer;
 }
-.body--landing header .button--fixed .button__register p {
+.body--landing header .button--fixed .button__register a {
+  color: #FFF;
   font-size: 2rem;
+  text-align: center;
 }
 .body--landing header .button--fixed .button__register:hover {
   background: #FFF;
+  transition-property: all;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
 }
-.body--landing header .button--fixed .button__register:hover p {
+.body--landing header .button--fixed .button__register:hover a {
   color: #F87D42;
 }
 .body--landing header .button--fixed .button__connexion {
@@ -1384,6 +1400,9 @@ body.body--index footer ul li a {
   width: 80%;
   margin: auto;
   cursor: pointer;
+  transition-property: all;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
 }
 .body--landing header .button--fixed .button__connexion p {
   font-size: 1.2rem;
@@ -1391,6 +1410,9 @@ body.body--index footer ul li a {
 }
 .body--landing header .button--fixed .button__connexion:hover {
   background: #F87D42;
+  transition-property: all;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
 }
 .body--landing header .button--fixed .button__connexion:hover p {
   color: #FFF;

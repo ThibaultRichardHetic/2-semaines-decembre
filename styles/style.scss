@@ -1596,6 +1596,15 @@ body.body--index
         font-weight: normal;
         line-height: normal;
       }
+      a
+      {
+        text-align: center;
+        font-family: Bungee;
+        font-style: normal;
+        font-weight: normal;
+        line-height: normal;
+        text-decoration: none;
+      }
       .register__interrogation
       {
         font-family: Josefin Sans;
@@ -1610,16 +1619,24 @@ body.body--index
         background: #F87D42;
         width: 100%;
         border-radius: 50px;
+        transition-property: all;
+        transition-duration: 0.4s;
+        transition-timing-function: ease;
         cursor: pointer;
-        p
+        a
         {
+          color: #FFF;
           font-size: 2rem;
+          text-align: center;
         }
       }
       .button__register:hover
       {
         background: #FFF;
-        p
+        transition-property: all;
+        transition-duration: 0.4s;
+        transition-timing-function: ease;
+        a
         {
           color: #F87D42;
         }
@@ -1632,6 +1649,9 @@ body.body--index
         width: 80%;
         margin: auto;
         cursor: pointer;
+        transition-property: all;
+        transition-duration: 0.4s;
+        transition-timing-function: ease;
         p
         {
           font-size: 1.2rem;
@@ -1641,6 +1661,9 @@ body.body--index
       .button__connexion:hover
       {
         background: #F87D42;
+        transition-property: all;
+        transition-duration: 0.4s;
+        transition-timing-function: ease;
         p
         {
           color: #FFF;
