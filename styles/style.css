@@ -7,7 +7,11 @@ body.body--index {
   z-index: -8000;
   /* Nav Bar */
   /* Side Bar */
-  /* Main */
+  /***
+*
+** Dicovery page start**
+*
+***/
   /* Footer */
 }
 body.body--index .container {
@@ -1313,6 +1317,518 @@ body.body--index footer ul li a {
   display: none;
 }
 
+/***
+*
+** Dicovery page end **
+*
+***/
+/***
+*
+** My Journal page begining **
+*
+***/
+.body--myjournal {
+  position: relative;
+  margin: 0;
+  height: 200vh;
+  background: #FFFFFF;
+  overflow-x: hidden;
+  z-index: -8000;
+  /* Nav Bar */
+  /* Side Bar */
+}
+.body--myjournal .container {
+  position: relative;
+}
+.body--myjournal .container__navbar {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 12vh;
+  background: #F87D42;
+}
+.body--myjournal .container__navbar .navbar__research {
+  margin-left: 28%;
+  width: 17vw;
+  height: 5vh;
+  background: #fff;
+  border: 2px #000000 solid;
+}
+.body--myjournal .container__navbar .navbar__research input {
+  outline: 0;
+  border: 0;
+  margin: 0;
+  height: 24px;
+  float: left;
+  display: block;
+}
+.body--myjournal .container__navbar .navbar__research input[type=text] {
+  font: 300 0.7rem 'Josefin Sans', sans-serif;
+  background: none;
+  width: 180px;
+  padding: 0 9px;
+  color: #666;
+}
+.body--myjournal .container__navbar .navbar__magnifyingglass img {
+  width: 2vw;
+  position: absolute;
+  top: 3.6vh;
+  left: 45.5vw;
+}
+.body--myjournal .container__navbar .navbar__logo {
+  width: 3vw;
+  height: 7vh;
+  border-radius: 50%;
+  margin-left: 12%;
+  border: 2px solid #fff;
+}
+.body--myjournal .container__navbar .navbar__profil img {
+  width: 3vw;
+  height: 6vh;
+  position: absolute;
+  top: 2.5vh;
+  right: 4vw;
+}
+.body--myjournal .container__sidebar {
+  position: fixed;
+  width: 17vw;
+  z-index: 2;
+  overflow-y: scroll;
+  height: 100%;
+  background: #1a1a1a;
+}
+.body--myjournal .container__sidebar .sidebar__avatarpicture {
+  transform: translate(9%, 50%);
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  height: 21vmin;
+}
+.body--myjournal .container__sidebar .sidebar__avatarpicture img {
+  border-radius: 50%;
+  width: 10vw;
+}
+.body--myjournal .container__sidebar .sidebar__avatarpicture .avatarpicture__pseudo {
+  font-family: 'Josefin Sans',sans-serif;
+  color: #fff;
+  margin: auto 0;
+  transform: translate(-7vw, 17vh);
+  font-size: 1em;
+}
+.body--myjournal .container__sidebar .sidebar__topics {
+  margin-top: 85%;
+  font-size: 1.2rem;
+}
+.body--myjournal .container__sidebar .sidebar__topics ul li {
+  font-family: 'Josefin Sans',sans-serif;
+  color: #fff;
+  list-style: none;
+  padding: 9vh 0;
+  margin: auto 0;
+  border-top: 2px solid #fff;
+  height: 22vh;
+  display: flex;
+  align-items: center;
+}
+.body--myjournal .container__sidebar .sidebar__topics ul li a {
+  margin-left: 12%;
+  text-decoration: none;
+}
+.body--myjournal .container__sidebar .sidebar__topics ul li img {
+  width: 8vmin;
+  height: 8vmin;
+  right: 2vw;
+  position: absolute;
+}
+.body--myjournal .container__sidebar .sidebar__topics ul li .topics__iconcontroller {
+  width: 5.3vmin;
+  height: 4vmin;
+  position: absolute;
+  right: 2.6vw;
+}
+.body--myjournal .container__sidebar .sidebar__topics ul li .topics__iconpencil, .body--myjournal .container__sidebar .sidebar__topics ul li .topics__iconcook, .body--myjournal .container__sidebar .sidebar__topics ul li .topics__icontongue, .body--myjournal .container__sidebar .sidebar__topics ul li .topics__iconsport, .body--myjournal .container__sidebar .sidebar__topics ul li .topics__iconmusic {
+  width: 4vmin;
+  height: 5vmin;
+  position: absolute;
+  right: 2.9vw;
+}
+.body--myjournal .container__sidebar .sidebar__topics ul li .topics__iconscissors {
+  width: 3vmin;
+  height: 6vmin;
+  position: absolute;
+  right: 3.1vw;
+}
+.body--myjournal .container__sidebar .sidebar__topics ul .topics__mytopics {
+  background: #DB3951;
+}
+.body--myjournal .container__sidebar .sidebar__topics ul .topics__myclubs {
+  background: #F87D42;
+}
+.body--myjournal .main {
+  width: 83vw;
+  height: auto;
+  position: absolute;
+  left: 17vw;
+  top: 12vh;
+  display: flex;
+  justify-content: center;
+  z-index: -6;
+}
+.body--myjournal .main .main__backgroundimg {
+  width: 100%;
+  z-index: -222;
+  height: 200vh;
+  background-size: 100%;
+  background-image: url(../src/background_space.png);
+  background-repeat: repeat-y;
+}
+.body--myjournal .main .main__title {
+  position: absolute;
+  background: #00123f;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 36px;
+  width: 42vw;
+  height: 14vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 16vh;
+}
+.body--myjournal .main .main__title h2 {
+  font-family: "Bungee",sans-serif;
+  font-size: 2.8rem;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+}
+.body--myjournal .main .main__journal {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top: 32%;
+  width: 100%;
+}
+.body--myjournal .main .main__journal .journal__background {
+  top: 20%;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 98vh;
+}
+.body--myjournal .main .main__journal .journal__background img {
+  width: 90%;
+}
+.body--myjournal .main .main__journal .journal__pp {
+  border: 3px #00f solid;
+  border-radius: 50%;
+  position: absolute;
+  width: 24vmin;
+  height: 24vmin;
+  left: 16%;
+  top: 11%;
+}
+.body--myjournal .main .main__journal .journal__buttonchange {
+  position: absolute;
+  left: 18.6%;
+  top: 37%;
+  background: #f87d42;
+  color: white;
+  border-radius: 12px;
+  font-family: 'Josefin Sans',sans-serif;
+  font-weight: bold;
+  z-index: 12;
+  height: 4%;
+  width: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body--myjournal .main .main__journal .journal__buttonchange:hover {
+  background-color: #D44500;
+  transition: background-color 0.5s ease 0s;
+  cursor: pointer;
+}
+.body--myjournal .main .main__journal .journal__informations {
+  position: absolute;
+  left: 16%;
+  top: 10%;
+  font-family: 'Josefin Sans',sans-serif;
+  width: 30%;
+  height: 50vh;
+}
+.body--myjournal .main .main__journal .journal__informations .informations__surname {
+  position: absolute;
+  left: 52%;
+  top: 7%;
+}
+.body--myjournal .main .main__journal .journal__informations .informations__surname input {
+  margin-top: 5%;
+}
+.body--myjournal .main .main__journal .journal__informations .informations__age {
+  display: flex;
+  position: absolute;
+  left: 52%;
+  top: 26%;
+}
+.body--myjournal .main .main__journal .journal__informations .informations__age input {
+  width: 11%;
+  margin-left: 7%;
+}
+.body--myjournal .main .main__journal .journal__informations .informations__class {
+  display: flex;
+  position: absolute;
+  left: 52%;
+  top: 46%;
+  width: 131%;
+}
+.body--myjournal .main .main__journal .journal__informations .informations__class select {
+  margin-left: 4%;
+}
+.body--myjournal .main .main__journal .journal__informations .informations__brothers {
+  position: absolute;
+  top: 66%;
+}
+.body--myjournal .main .main__journal .journal__informations .informations__brothers input {
+  margin-top: 5%;
+}
+.body--myjournal .main .main__journal .journal__mycreations {
+  position: absolute;
+  left: 18%;
+  top: 59%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-family: "Bungee",sans-serif;
+  color: white;
+}
+.body--myjournal .main .main__journal .journal__mycreations .mycreations__public {
+  width: 114px;
+  height: 80px;
+  background: #f87d42;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body--myjournal .main .main__journal .journal__mycreations .mycreations__public::before {
+  content: "";
+  position: absolute;
+  top: -25px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 57px solid transparent;
+  border-right: 57px solid transparent;
+  border-bottom: 25px solid #f87d42;
+}
+.body--myjournal .main .main__journal .journal__mycreations .mycreations__public::after {
+  content: "";
+  position: absolute;
+  bottom: -25px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 57px solid transparent;
+  border-right: 57px solid transparent;
+  border-top: 25px solid #f87d42;
+}
+.body--myjournal .main .main__journal .journal__mycreations .mycreations__public2 {
+  width: 95px;
+  height: 70px;
+  background: #db3951;
+  left: -25%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.7rem;
+}
+.body--myjournal .main .main__journal .journal__mycreations .mycreations__public2::before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 47px solid transparent;
+  border-right: 47px solid transparent;
+  border-bottom: 20px solid #db3951;
+}
+.body--myjournal .main .main__journal .journal__mycreations .mycreations__public2::after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 47px solid transparent;
+  border-right: 47px solid transparent;
+  border-top: 20px solid #db3951;
+}
+.body--myjournal .main .main__journal .journal__mycreations .mycreations__private {
+  width: 115px;
+  height: 80px;
+  background: #db3951;
+  left: -13%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.7rem;
+}
+.body--myjournal .main .main__journal .journal__mycreations .mycreations__private::before {
+  content: "";
+  position: absolute;
+  top: -25px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 57px solid transparent;
+  border-right: 57px solid transparent;
+  border-bottom: 25px solid #db3951;
+}
+.body--myjournal .main .main__journal .journal__mycreations .mycreations__private::after {
+  content: "";
+  position: absolute;
+  bottom: -25px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 57px solid transparent;
+  border-right: 57px solid transparent;
+  border-top: 25px solid #db3951;
+}
+.body--myjournal .main .main__journal .journal__mycreations .mycreations__private2 {
+  width: 95px;
+  height: 70px;
+  background: #f87d42;
+  left: -38%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.7rem;
+}
+.body--myjournal .main .main__journal .journal__mycreations .mycreations__private2::before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 47px solid transparent;
+  border-right: 47px solid transparent;
+  border-bottom: 20px solid #f87d42;
+}
+.body--myjournal .main .main__journal .journal__mycreations .mycreations__private2::after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 47px solid transparent;
+  border-right: 47px solid transparent;
+  border-top: 20px solid #f87d42;
+}
+.body--myjournal .main .main__journal .journal__mybadges {
+  position: absolute;
+  position: absolute;
+  left: 58%;
+  width: 30%;
+  top: 17%;
+}
+.body--myjournal .main .main__journal .journal__mybadges h2 {
+  font-family: "Bungee",sans-serif;
+  color: #001263;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.body--myjournal .main .main__journal .journal__mybadges .mybadges__badge1 {
+  font-family: 'Josefin Sans',sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin-top: 11%;
+}
+.body--myjournal .main .main__journal .journal__mybadges .badge1__img {
+  width: 23%;
+}
+.body--myjournal .main .main__journal .journal__mybadges .badge1__p {
+  width: 62%;
+  position: absolute;
+  left: 24%;
+  top: 34%;
+  font-size: 0.9rem;
+}
+.body--myjournal .main .main__journal .journal__mybadges .mybadges__badge2 {
+  font-family: 'Josefin Sans',sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin-top: 11%;
+}
+.body--myjournal .main .main__journal .journal__mybadges .badge2__img {
+  width: 23%;
+}
+.body--myjournal .main .main__journal .journal__mybadges h4 {
+  font-weight: bold;
+}
+.body--myjournal .main .main__journal .journal__mybadges .badge2__p {
+  width: 62%;
+  position: absolute;
+  left: 24%;
+  top: 82%;
+  font-size: 0.9rem;
+}
+.body--myjournal .main .main__journal .journal__settings {
+  position: absolute;
+  bottom: 9%;
+  right: 14%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 10%;
+  border: 1px solid #9A9A9A;
+  box-sizing: border-box;
+  height: 4%;
+}
+.body--myjournal .main .main__journal .journal__settings img {
+  width: 3vmin;
+  height: 3vmin;
+}
+.body--myjournal .main .main__journal .journal__settings .settings__p {
+  font-family: 'Josefin Sans',sans-serif;
+  font-size: 0.8rem;
+}
+.body--myjournal footer {
+  position: absolute;
+  left: 23.5vw;
+  bottom: 0;
+  width: 70vw;
+}
+.body--myjournal footer ul {
+  display: flex;
+  justify-content: space-between;
+}
+.body--myjournal footer ul li {
+  font-family: 'Josefin Sans',sans-serif;
+  color: #fff;
+  list-style: none;
+  text-transform: capitalize;
+  z-index: 666;
+}
+.body--myjournal footer ul li a {
+  text-decoration: none;
+}
+
+/***
+*
+** My Journal page begining **
+*
+***/
 /***
 *
 ** Landing page begining **
