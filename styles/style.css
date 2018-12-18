@@ -366,46 +366,46 @@ body.body--index footer ul li a {
   font-size: 3rem;
   color: #F87D42;
   text-align: center;
-  -webkit-transform: translateY(350%);
-  -moz-transform: translateY(350%);
-  -ms-transform: translateY(350%);
-  -o-transform: translateY(350%);
-  transform: translateY(350%);
+  -webkit-transform: translateY(265%);
+  -moz-transform: translateY(265%);
+  -ms-transform: translateY(265%);
+  -o-transform: translateY(265%);
+  transform: translateY(265%);
 }
 .body--landing main .section--step2 .step2__text p {
+  -webkit-transform: translateY(50%);
+  -moz-transform: translateY(50%);
+  -ms-transform: translateY(50%);
+  -o-transform: translateY(50%);
+  transform: translateY(50%);
+}
+.body--landing main .section--step3 .step3__text p {
+  -webkit-transform: translateY(115%);
+  -moz-transform: translateY(115%);
+  -ms-transform: translateY(115%);
+  -o-transform: translateY(115%);
+  transform: translateY(115%);
+}
+.body--landing main .section--step4 .step4__text p {
   -webkit-transform: translateY(100%);
   -moz-transform: translateY(100%);
   -ms-transform: translateY(100%);
   -o-transform: translateY(100%);
   transform: translateY(100%);
 }
-.body--landing main .section--step3 .step3__text p {
-  -webkit-transform: translateY(230%);
-  -moz-transform: translateY(230%);
-  -ms-transform: translateY(230%);
-  -o-transform: translateY(230%);
-  transform: translateY(230%);
-}
-.body--landing main .section--step4 .step4__text p {
-  -webkit-transform: translateY(150%);
-  -moz-transform: translateY(150%);
-  -ms-transform: translateY(150%);
-  -o-transform: translateY(150%);
-  transform: translateY(150%);
-}
 .body--landing main .section--step5 .step5__text p {
-  -webkit-transform: translateY(300%);
-  -moz-transform: translateY(300%);
-  -ms-transform: translateY(300%);
-  -o-transform: translateY(300%);
-  transform: translateY(300%);
+  -webkit-transform: translateY(155%);
+  -moz-transform: translateY(155%);
+  -ms-transform: translateY(155%);
+  -o-transform: translateY(155%);
+  transform: translateY(155%);
 }
 .body--landing main .section--step6 .step6__text p {
-  -webkit-transform: translateY(270%);
-  -moz-transform: translateY(270%);
-  -ms-transform: translateY(270%);
-  -o-transform: translateY(270%);
-  transform: translateY(270%);
+  -webkit-transform: translateY(60%);
+  -moz-transform: translateY(60%);
+  -ms-transform: translateY(600%);
+  -o-transform: translateY(60%);
+  transform: translateY(600%);
   font-size: 2rem;
 }
 

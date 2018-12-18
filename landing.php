@@ -7,7 +7,6 @@
     <title>CreHappy</title>
     <link href="https://fonts.googleapis.com/css?family=Bungee|Josefin+Sans" rel="stylesheet">
     <link rel="stylesheet" href="styles/reset.min.css">
-    <!-- <link rel="stylesheet" href="aos/aos.css"> -->
     <link rel="stylesheet" href="styles/style.min.css">
 </head>
 <body class="body--landing">
@@ -15,18 +14,18 @@
     <img src="src/landing/logo-provisoir.png" alt="">
     <h3>CréHappy</h3>
   </header>
-  <main>
-    <div class="button--fixed">
+  <main id="fullpage">
+    <!-- <div class="button--fixed">
 
-    </div>
-    <section class="section--step1 section--default">
+    </div> -->
+    <section class="section--step1 section--default section">
       <div class="step1__text text-container--default">
         <img src="src/landing/bulle03.svg" alt="">
         <h3>Bienvenue à toi !</h3>
       </div>
       <img class="men--default men--right" src="src/landing/illu_astro-accueil.png" alt="">
     </section>
-    <section class="section--step2 section--default">
+    <section class="section--step2 section--default section">
       <div class="step2__text text-container--default">
         <img src="src/landing/bulle02.svg" alt="">
         <p>
@@ -35,16 +34,16 @@
       </div>
       <img class="men--default" src="src/landing/illu_astro-accueil2.svg" alt="">
     </section>
-    <section class="section--step3 section--default">
+    <section class="section--step3 section--default section">
       <div class="step3__text text-container--default">
         <img src="src/landing/bulle03.svg" alt="">
         <p>
           Bientôt tu vas avoir <span class="important">ton journal</span> et ton fil de <span class="important">découverte</span>. Un journal <span class="important">public</span> où ce que tu met sera visible par tous, un journal <span class="important">privé</span> que tu seras seul à voir, et un fil de découverte qui te proposera des <span class="important important--bold">créas</span> qui te correspondent.
         </p>
       </div>
-      <img class="men--default  men--right" src="src/landing/illu_astro-accueil3.svg" alt="">
+      <img class="men--default men--right" src="src/landing/illu_astro-accueil3.svg" alt="">
     </section>
-    <section class="section--step4 section--default">
+    <section class="section--step4 section--default section">
       <div class="step4__text text-container--default">
         <img src="src/landing/bulle02.svg" alt="">
         <p>
@@ -53,7 +52,7 @@
       </div>
       <img class="men--default" src="src/landing/illu_astro-accueil2.svg" alt="">
     </section>
-    <section class="section--step5 section--default">
+    <section class="section--step5 section--default section">
       <div class="step5__text text-container--default">
         <img src="src/landing/bulle03.svg" alt="">
         <p>
@@ -62,7 +61,7 @@
       </div>
       <img class="men--default  men--right" src="src/landing/illu_astro-accueil4.svg" alt="">
     </section>
-    <section  class="section--step6 section--default">
+    <section class="section--step6 section--default section">
       <div class="step6__text text-container--default">
         <img src="src/landing/bulle02.svg" alt="">
         <p>
@@ -78,7 +77,7 @@
 
   </footer>
 
-  <!-- <script src="aos/aos.js"></script> -->
+  <script src="library/fullpage/fullpage.js"></script>
   <script src="scripts/app.js"></script>
 </body>
 </html>
