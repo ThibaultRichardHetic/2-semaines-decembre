@@ -1318,106 +1318,121 @@ body.body--index footer ul li a {
 ** Landing page begining **
 *
 ***/
-body.body--landing {
+.body--landing {
   background-image: url(../src/background_space.png);
   background-repeat: no-repeat;
   background-size: 100%;
-  overflow: hidden;
-  /** header start**/
-  /** header end**/
-  /** main start**/
 }
-body.body--landing header {
-  padding: 20px 0px;
-}
-body.body--landing header img {
-  display: block;
+.body--landing header img {
   width: 50px;
+  display: block;
   margin: auto;
+  margin-bottom: 20px;
+  margin-top: 30px;
 }
-body.body--landing header h1 {
+.body--landing header h3 {
+  color: #FFF;
   font-family: Josefin Sans;
+  font-style: normal;
   font-weight: bold;
   line-height: normal;
-  font-size: 1.3rem;
+  font-size: 1rem;
   text-align: center;
-  color: #fff;
 }
-body.body--landing main .section--welcome .img--bubble {
+.body--landing main .section--default {
+  position: relative;
+  width: 100%;
+  display: block;
+  height: 100vh;
+}
+.body--landing main .section--default .text-container--default {
+  width: 60%;
+  margin: auto;
+  position: relative;
+}
+.body--landing main .section--default .text-container--default img {
   position: absolute;
-  width: 75%;
-  left: 12.5%;
   z-index: -1;
 }
-body.body--landing main .section--welcome .welcome__article {
-  width: 80%;
-  margin: auto;
-}
-body.body--landing main .section--welcome .welcome__article .welcome__title {
-  font-family: Bungee;
-  text-align: center;
-  font-size: 2rem;
-  padding-top: 30px;
-}
-body.body--landing main .section--welcome .welcome__article p {
-  text-align: center;
+.body--landing main .section--default .text-container--default p {
   font-family: Josefin Sans;
-  padding-top: 30px;
-  width: 80%;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  text-align: center;
+  font-size: 1.5rem;
+  width: 70%;
   margin: auto;
-  font-size: 1.3rem;
 }
-body.body--landing main .section--welcome .welcome__article p .important--light {
+.body--landing main .section--default .text-container--default p .important {
   color: #F87D42;
 }
-body.body--landing main .section--welcome .welcome__article p .important--bold {
-  color: #F87D42;
+.body--landing main .section--default .text-container--default p .important--red {
+  color: #e6304b;
+}
+.body--landing main .section--default .text-container--default p .important--bold {
   font-weight: bold;
 }
-body.body--landing main .section--welcome .welcome__article .welcome__text--last {
-  font-size: 1.5rem;
+.body--landing main .section--default .men--default {
+  width: 35%;
 }
-body.body--landing main .section--welcome .welcome__article .register--ext {
-  width: 300px;
-  background: #00136C;
-  margin: auto;
-  margin-top: 30px;
-  height: 50px;
-  border-radius: 350px;
+.body--landing main .section--default .men--right {
+  position: absolute;
+  left: 65%;
+  bottom: -5%;
 }
-body.body--landing main .section--welcome .welcome__article .register--ext .register--int {
-  width: 292px;
-  height: 46px;
-  margin: auto;
-  border-radius: 350px;
-  border: 2px solid red;
+.body--landing main .section--step1 .step1__text img {
+  display: block;
 }
-body.body--landing main .section--welcome .welcome__article .register--ext .register--int a {
-  padding-top: 10px;
+.body--landing main .section--step1 .step1__text h3 {
   font-family: Bungee;
   font-style: normal;
   font-weight: normal;
   line-height: normal;
-  font-size: 1.6rem;
-  color: #FFFFFF;
-  text-decoration: none;
+  font-size: 3rem;
+  color: #F87D42;
   text-align: center;
-  display: block;
-  width: 100%;
-  margin: auto;
+  -webkit-transform: translateY(350%);
+  -moz-transform: translateY(350%);
+  -ms-transform: translateY(350%);
+  -o-transform: translateY(350%);
+  transform: translateY(350%);
 }
-body.body--landing main .section--welcome .img--moon {
-  position: absolute;
-  width: 90%;
-  left: 30%;
-  top: 40%;
+.body--landing main .section--step2 .step2__text p {
+  -webkit-transform: translateY(100%);
+  -moz-transform: translateY(100%);
+  -ms-transform: translateY(100%);
+  -o-transform: translateY(100%);
+  transform: translateY(100%);
 }
-body.body--landing main .section--welcome .img--main {
-  position: absolute;
-  width: 35%;
-  left: 77%;
-  top: 60%;
-  transform: rotate(18.42deg);
+.body--landing main .section--step3 .step3__text p {
+  -webkit-transform: translateY(230%);
+  -moz-transform: translateY(230%);
+  -ms-transform: translateY(230%);
+  -o-transform: translateY(230%);
+  transform: translateY(230%);
+}
+.body--landing main .section--step4 .step4__text p {
+  -webkit-transform: translateY(150%);
+  -moz-transform: translateY(150%);
+  -ms-transform: translateY(150%);
+  -o-transform: translateY(150%);
+  transform: translateY(150%);
+}
+.body--landing main .section--step5 .step5__text p {
+  -webkit-transform: translateY(300%);
+  -moz-transform: translateY(300%);
+  -ms-transform: translateY(300%);
+  -o-transform: translateY(300%);
+  transform: translateY(300%);
+}
+.body--landing main .section--step6 .step6__text p {
+  -webkit-transform: translateY(270%);
+  -moz-transform: translateY(270%);
+  -ms-transform: translateY(270%);
+  -o-transform: translateY(270%);
+  transform: translateY(270%);
+  font-size: 2rem;
 }
 
 /***
@@ -1435,26 +1450,58 @@ body.body--landing main .section--welcome .img--main {
   background-repeat: no-repeat;
   background-size: 100%;
 }
-.body--registration main .section--step1 {
+.body--registration main .section--default {
   background-color: #FFF;
-  border: solid 2px black;
+  border: solid 2px #fff;
   width: 50%;
   margin: auto;
+  border-radius: 20px;
 }
-.body--registration main .section--step1 .step1__header .header__logo {
-  display: block;
+.body--registration main .section--default .header--default {
+  width: 80%;
+  height: 50px;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.body--registration main .section--default .header--default .header__back {
+  background: #838383;
+  width: 20%;
+  height: 30px;
+  border-radius: 50px;
+}
+.body--registration main .section--default .header--default .header__back p {
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  -webkit-transform: translateY(10%);
+  -moz-transform: translateY(10%);
+  -ms-transform: translateY(10%);
+  -o-transform: translateY(10%);
+  transform: translateY(10%);
+}
+.body--registration main .section--default .header--default .header__back p span {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.body--registration main .section--default .header--default .header__back:hover {
+  cursor: pointer;
+}
+.body--registration main .section--default .header--default .header__logo {
   width: 50px;
   margin: auto;
-  float: left;
 }
-.body--registration main .section--step1 .step1__header .header__button {
+.body--registration main .section--default .header--default .header__button {
   background-color: #00136C;
   width: 20%;
-  height: 4vh;
+  height: 30px;
   border-radius: 50px;
-  float: right;
 }
-.body--registration main .section--step1 .step1__header .header__button a {
+.body--registration main .section--default .header--default .header__button p {
   font-family: Josefin Sans;
   font-style: normal;
   font-weight: normal;
@@ -1470,11 +1517,287 @@ body.body--landing main .section--welcome .img--main {
   -o-transform: translateY(50%);
   transform: translateY(50%);
 }
-.body--registration main .section--step1 .step1__header .header__button:hover {
+.body--registration main .section--default .header--default .header__button:hover {
   background-color: #000C44;
+  cursor: pointer;
 }
-.body--registration main .section--step1 .step1__content {
+.body--registration main .section--default .content--default {
   clear: both;
+  width: 80%;
+  margin: auto;
+}
+.body--registration main .section--default .content--default .title--default {
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+.body--registration main .section--step1 .step1__content form input {
+  background-color: #E8F5F9;
+  width: 100%;
+  border-bottom: 3px solid #80BEB6;
+  height: 6vh;
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 1.1rem;
+  color: #838383;
+  margin-bottom: 30px;
+}
+.body--registration main .section--step1 .step1__content form select {
+  background-color: #E8F5F9;
+  width: 100%;
+  height: 6vh;
+  border-bottom: 3px solid #80BEB6;
+  color: #838383;
+  margin-bottom: 30px;
+}
+.body--registration main .section--step1 .step1__content form select option {
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 1.1rem;
+}
+.body--registration main .section--step2 .step2__content .step2__circle {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  background: #E8F5F9;
+  border: 2px solid #A7D3CF;
+  margin: auto;
+  margin-top: 50px;
+}
+.body--registration main .section--step2 .step2__content .step2__circle:hover {
+  cursor: pointer;
+}
+.body--registration main .section--step2 .step2__content .content__button {
+  background-color: #F87D42;
+  width: 30%;
+  height: 30px;
+  border-radius: 50px;
+  margin: auto;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+.body--registration main .section--step2 .step2__content .content__button p {
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 1rem;
+  text-align: center;
+  color: #FFFFFF;
+  -webkit-transform: translateY(50%);
+  -moz-transform: translateY(50%);
+  -ms-transform: translateY(50%);
+  -o-transform: translateY(50%);
+  transform: translateY(50%);
+}
+.body--registration main .section--step2 .step2__content .content__button:hover {
+  cursor: pointer;
+}
+.body--registration main .section--step3 {
+  width: 70%;
+}
+.body--registration main .section--step3 .step3__content .content--form {
+  display: flex;
+  justify-content: space-between;
+}
+.body--registration main .section--step3 .step3__content input {
+  background-color: #E8F5F9;
+  width: 100%;
+  border-bottom: 3px solid #80BEB6;
+  height: 6vh;
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 1.1rem;
+  color: #838383;
+  margin-bottom: 30px;
+}
+.body--registration main .section--step3 .step3__content .content--left {
+  width: 45%;
+  position: relative;
+}
+.body--registration main .section--step3 .step3__content .content--left .form--info {
+  position: relative;
+  cursor: help;
+}
+.body--registration main .section--step3 .step3__content .content--left .form--info .info {
+  position: absolute;
+  left: 90%;
+  top: 10%;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  border: 2px solid #80BEB6;
+}
+.body--registration main .section--step3 .step3__content .content--left .form--info .info p {
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #80BEB6;
+}
+.body--registration main .section--step3 .step3__content .content--left .info--hidden {
+  position: absolute;
+  background-color: #fff;
+  width: 55%;
+  border: 1px solid #B4B4B4;
+  border-radius: 7px;
+  padding: 20px;
+}
+.body--registration main .section--step3 .step3__content .content--left .hidden-1 {
+  top: -20%;
+  left: 95%;
+  display: none;
+}
+.body--registration main .section--step3 .step3__content .content--left .show-1 {
+  top: -20%;
+  left: 95%;
+  display: block;
+}
+.body--registration main .section--step3 .step3__content .content--left .hidden-2 {
+  top: 40px;
+  left: 95%;
+  display: none;
+}
+.body--registration main .section--step3 .step3__content .content--left .show-2 {
+  top: 40px;
+  left: 95%;
+  display: block;
+}
+.body--registration main .section--step3 .step3__content .content--right {
+  width: 45%;
+}
+.body--registration main .section--step3 .step3__content .clear {
+  clear: both;
+}
+.body--registration main .section--step4 .step4__content .step4__title {
+  margin-bottom: 40px;
+  text-align: center;
+}
+.body--registration main .section--step4 .step4__content p {
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 1.3rem;
+  text-align: center;
+  margin-bottom: 35px;
+}
+.body--registration main .section--step4 .step4__content p span {
+  color: #F87D42;
+}
+.body--registration main .section--step5 .step5__content p {
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.body--registration main .section--step5 .step5__content p span {
+  color: #F87D42;
+  font-weight: bold;
+}
+.body--registration main .section--step5 .step5__content p .important--red {
+  color: #e6304b;
+}
+.body--registration main .section--step5 .step5__content .step5__file {
+  border: dashed 3px #F87D42;
+  border-radius: 30px;
+  margin-bottom: 25px;
+}
+.body--registration main .section--step5 .step5__content .step5__file .file__button {
+  width: 30%;
+  height: 25px;
+  background-color: #F87D42;
+  border-radius: 25px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.body--registration main .section--step5 .step5__content .step5__file .file__button p {
+  color: #fff;
+  -webkit-transform: translateY(30%);
+  -moz-transform: translateY(30%);
+  -ms-transform: translateY(30%);
+  -o-transform: translateY(30%);
+  transform: translateY(30%);
+}
+.body--registration main .section--step5 .step5__content .content__button {
+  width: 30%;
+  height: 35px;
+  background: #00136C;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  cursor: pointer;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.body--registration main .section--step5 .step5__content .content__button p {
+  color: #fff;
+  font-family: Bungee;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 1.5rem;
+  -webkit-transform: translateY(15%);
+  -moz-transform: translateY(15%);
+  -ms-transform: translateY(15%);
+  -o-transform: translateY(15%);
+  transform: translateY(15%);
+}
+.body--registration main .section--step6 {
+  width: 30%;
+}
+.body--registration main .section--step6 .step6__content .step5__title {
+  text-align: center;
+}
+.body--registration main .section--step6 .step6__content p {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+.body--registration main .section--step6 .step6__content p span {
+  color: #F87D42;
+}
+.body--registration main .section--step7 {
+  background-color: #00136C;
+  border: solid 5px #fff;
+  width: 80%;
+  margin: auto;
+  padding-top: 40px;
+}
+.body--registration main .section--step7 p {
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #fff;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.body--registration main .section--step7 p span {
+  font-weight: bold;
+  color: #F87D42;
 }
 
 /***
