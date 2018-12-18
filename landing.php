@@ -13,11 +13,24 @@
   <header>
     <img src="src/landing/logo-provisoir.png" alt="">
     <h3>CréHappy</h3>
+    <div class="button--fixed">
+      <div class="button__register">
+        <p>
+          je m’inscris
+        </p>
+      </div>
+      <p class="register__interrogation">
+        Déjà inscrit?
+      </p>
+      <div class="button__connexion">
+        <p>
+          Se connecter
+        </p>
+      </div>
+    </div>
   </header>
   <main id="fullpage">
-    <!-- <div class="button--fixed">
-
-    </div> -->
+    
     <section class="section--step1 section--default section">
       <div class="step1__text text-container--default">
         <img src="src/landing/bulle03.svg" alt="">

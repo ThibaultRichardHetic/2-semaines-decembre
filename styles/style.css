@@ -1323,6 +1323,9 @@ body.body--index footer ul li a {
   background-repeat: no-repeat;
   background-size: 100%;
 }
+.body--landing header {
+  position: relative;
+}
 .body--landing header img {
   width: 50px;
   display: block;
@@ -1338,6 +1341,45 @@ body.body--index footer ul li a {
   line-height: normal;
   font-size: 1rem;
   text-align: center;
+}
+.body--landing header .button--fixed {
+  width: 25%;
+  margin: auto;
+  transform: translateY(600%);
+}
+.body--landing header .button--fixed p {
+  text-align: center;
+  font-family: Bungee;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+}
+.body--landing header .button--fixed .register__interrogation {
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 1.2rem;
+  transform: translateY(20px);
+}
+.body--landing header .button--fixed .button__register {
+  background: #F87D42;
+  width: 100%;
+  border-radius: 50px;
+}
+.body--landing header .button--fixed .button__register p {
+  font-size: 2rem;
+}
+.body--landing header .button--fixed .button__connexion {
+  background: #FFF;
+  transform: translateY(40px);
+  border-radius: 40px;
+  width: 80%;
+  margin: auto;
+}
+.body--landing header .button--fixed .button__connexion p {
+  font-size: 1.2rem;
+  color: #F87D42;
 }
 .body--landing main .section--default {
   position: relative;
@@ -1379,7 +1421,7 @@ body.body--index footer ul li a {
 .body--landing main .section--default .men--right {
   position: absolute;
   left: 65%;
-  bottom: -5%;
+  bottom: 5%;
 }
 .body--landing main .section--step1 .step1__text img {
   display: block;
@@ -1392,25 +1434,25 @@ body.body--index footer ul li a {
   font-size: 3rem;
   color: #F87D42;
   text-align: center;
-  -webkit-transform: translateY(265%);
-  -moz-transform: translateY(265%);
-  -ms-transform: translateY(265%);
-  -o-transform: translateY(265%);
-  transform: translateY(265%);
+  -webkit-transform: translateY(270%);
+  -moz-transform: translateY(270%);
+  -ms-transform: translateY(270%);
+  -o-transform: translateY(270%);
+  transform: translateY(270%);
 }
 .body--landing main .section--step2 .step2__text p {
-  -webkit-transform: translateY(50%);
-  -moz-transform: translateY(50%);
-  -ms-transform: translateY(50%);
-  -o-transform: translateY(50%);
-  transform: translateY(50%);
+  -webkit-transform: translateY(45%);
+  -moz-transform: translateY(45%);
+  -ms-transform: translateY(45%);
+  -o-transform: translateY(45%);
+  transform: translateY(45%);
 }
 .body--landing main .section--step3 .step3__text p {
-  -webkit-transform: translateY(115%);
-  -moz-transform: translateY(115%);
-  -ms-transform: translateY(115%);
-  -o-transform: translateY(115%);
-  transform: translateY(115%);
+  -webkit-transform: translateY(100%);
+  -moz-transform: translateY(100%);
+  -ms-transform: translateY(100%);
+  -o-transform: translateY(100%);
+  transform: translateY(100%);
 }
 .body--landing main .section--step4 .step4__text p {
   -webkit-transform: translateY(100%);
@@ -1427,11 +1469,11 @@ body.body--index footer ul li a {
   transform: translateY(155%);
 }
 .body--landing main .section--step6 .step6__text p {
-  -webkit-transform: translateY(60%);
-  -moz-transform: translateY(60%);
-  -ms-transform: translateY(600%);
-  -o-transform: translateY(60%);
-  transform: translateY(600%);
+  -webkit-transform: translateY(80%);
+  -moz-transform: translateY(80%);
+  -ms-transform: translateY(80%);
+  -o-transform: translateY(80%);
+  transform: translateY(80%);
   font-size: 2rem;
 }
 
