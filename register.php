@@ -159,7 +159,7 @@
         <p>
           En inscrivant votre enfant, vous acceptez nos <span class="important--red">Conditions d'utilisation</span>, notre <span class="important--red">Politique de confidentialité</span> et notre <span class="important--red">Utilisation des cookies</span>.
         </p>
-        <div class="content__button">
+        <div class="content__button js-next-inscription">
           <p>
              Inscription
           </p>

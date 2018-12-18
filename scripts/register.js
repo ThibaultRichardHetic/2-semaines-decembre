@@ -26,8 +26,11 @@ step4.$back = step4.$section.querySelector('.js-back')
 
 const step5 = {}
 step5.$section = document.querySelector('.js-section--step5')
-step5.$next = step5.$section.querySelector('.js-next')
+step5.$next = step5.$section.querySelector('.js-next-inscription')
 step5.$back = step5.$section.querySelector('.js-back')
+
+const step6 = {}
+step6.$section = document.querySelector('.js-section--step6')
 
 
 // hidden information start
@@ -78,6 +81,19 @@ function nextStep2(_step, _stepNext)
     _step.style.transitionTimingFunction = 'ease'
 
     _stepNext.style.transform = 'translateX(20%)'
+    _stepNext.style.transitionProperty = 'all'
+    _stepNext.style.transitionDuration = '0.4s'
+    _stepNext.style.transitionTimingFunction = 'ease'
+}
+
+function nextStep3(_step, _stepNext)
+{
+    _step.style.transform = 'translateX(-200%)'
+    _step.style.transitionProperty = 'all'
+    _step.style.transitionDuration = '0.4s'
+    _step.style.transitionTimingFunction = 'ease'
+
+    _stepNext.style.transform = 'translateX(125%)'
     _stepNext.style.transitionProperty = 'all'
     _stepNext.style.transitionDuration = '0.4s'
     _stepNext.style.transitionTimingFunction = 'ease'
@@ -152,9 +168,9 @@ step4.$back.addEventListener('click', () =>
     backStep3(step4.$section, step3.$section)
 })
 
-step5.$back.addEventListener('click', () =>
+step5.$next.addEventListener('click', () =>
 {
-    backStep2(step5.$section, step4.$section)
+    nextStep3(step5.$section, step6.$section)
 })
 
 
