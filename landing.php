@@ -11,7 +11,7 @@
 </head>
 <body class="body--landing">
   <header>
-    <img src="src/landing/logo-provisoir.png" alt="">
+    <img class="logo" src="src/all/logo.png" alt="">
     <h3>CréHappy</h3>
     <div class="button--fixed">
       <div class="button__register">
@@ -27,6 +27,10 @@
           Se connecter
         </p>
       </div>
+    </div>
+    <div class="img--fixed">
+      <img src="src/landing/planet.png" alt="">
+
     </div>
   </header>
   <main id="fullpage">

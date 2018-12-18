@@ -1326,8 +1326,8 @@ body.body--index footer ul li a {
 .body--landing header {
   position: relative;
 }
-.body--landing header img {
-  width: 50px;
+.body--landing header .logo {
+  width: 60px;
   display: block;
   margin: auto;
   margin-bottom: 20px;
@@ -1366,9 +1366,16 @@ body.body--index footer ul li a {
   background: #F87D42;
   width: 100%;
   border-radius: 50px;
+  cursor: pointer;
 }
 .body--landing header .button--fixed .button__register p {
   font-size: 2rem;
+}
+.body--landing header .button--fixed .button__register:hover {
+  background: #FFF;
+}
+.body--landing header .button--fixed .button__register:hover p {
+  color: #F87D42;
 }
 .body--landing header .button--fixed .button__connexion {
   background: #FFF;
@@ -1376,10 +1383,28 @@ body.body--index footer ul li a {
   border-radius: 40px;
   width: 80%;
   margin: auto;
+  cursor: pointer;
 }
 .body--landing header .button--fixed .button__connexion p {
   font-size: 1.2rem;
   color: #F87D42;
+}
+.body--landing header .button--fixed .button__connexion:hover {
+  background: #F87D42;
+}
+.body--landing header .button--fixed .button__connexion:hover p {
+  color: #FFF;
+}
+.body--landing header .img--fixed {
+  position: absolute;
+  z-index: -2;
+  top: 320%;
+}
+.body--landing header .img--fixed img {
+  width: 100%;
+}
+.body--landing main {
+  z-index: -1;
 }
 .body--landing main .section--default {
   position: relative;

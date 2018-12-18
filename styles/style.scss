@@ -1565,9 +1565,9 @@ body.body--index
   header
   {
     position: relative;
-    img
+    .logo
     {
-      width: 50px;
+      width: 60px;
       display: block;
       margin: auto;
       margin-bottom: 20px;
@@ -1610,9 +1610,18 @@ body.body--index
         background: #F87D42;
         width: 100%;
         border-radius: 50px;
+        cursor: pointer;
         p
         {
           font-size: 2rem;
+        }
+      }
+      .button__register:hover
+      {
+        background: #FFF;
+        p
+        {
+          color: #F87D42;
         }
       }
       .button__connexion
@@ -1622,16 +1631,37 @@ body.body--index
         border-radius: 40px;
         width: 80%;
         margin: auto;
+        cursor: pointer;
         p
         {
           font-size: 1.2rem;
           color: #F87D42;
         }
       }
+      .button__connexion:hover
+      {
+        background: #F87D42;
+        p
+        {
+          color: #FFF;
+        }
+      }
+    }
+    .img--fixed
+    {
+      position: absolute;
+      z-index: -2;
+     // left: 17%;
+      top: 320%;
+      img
+      {
+        width: 100%;   
+      }
     }
   }
   main
   {
+    z-index: -1;
     .section--default
     {
       position: relative;
