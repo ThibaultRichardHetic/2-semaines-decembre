@@ -5,6 +5,7 @@ body.body--index
   height: 420vh;
   background: #FFFFFF;
   overflow-x: hidden;
+  z-index: -8000;
 
     .container
   {
@@ -75,7 +76,6 @@ body.body--index
         right: 4vw;
       }
     }
-    
   }
 
 
@@ -90,21 +90,24 @@ body.body--index
 
     .sidebar__avatarpicture 
     {
-      transform: translateY(50%);
+      transform: translate(9%, 50%);
       display: flex;
       justify-content: center;
       margin: auto;
-      width: 20vmin;
       height: 21vmin;
-      border: 3px solid #c3f1ff;
-      border-radius: 50%;
+
+      img 
+      {
+        border-radius: 50%;
+        width: 10vw;
+      }
 
       .avatarpicture__pseudo 
       {
         font-family: 'Josefin Sans',sans-serif;
         color: #fff;
         margin: auto 0;
-        transform: translateY(18vh);
+        transform: translate(-7vw, 17vh);
         font-size: 1em;
       }   
     }
@@ -248,88 +251,1269 @@ body.body--index
       .posts__post1 , .posts__post14
       {
         background: #FFFFFF;
-        width: 200px;
-        height: 200px;
+        width: 16vw;
+        height: 35vh;
       }
-      .posts__post2 , .posts__post15
+      .posts__post1
+      {
+        background: #FFFFFF;
+        width: 16vw;
+        height: 35vh;
+        position: relative;
+        .post1__elements
+        {
+          margin-top: 1vh; 
+          img
+          {
+            width: 3vw;
+            position: absolute;
+            top: 1%;
+            left: 5%;
+            border-radius: 50%;
+          }
+          .post1__elements__atsign
+          {
+            color: #38D0FF;
+            font-family: 'Josefin Sans',sans-serif;
+            position: absolute;
+            left: 26%;
+            top: 2%;
+          }
+          .post1__elements__text
+          {
+            font-family: 'Josefin Sans',sans-serif;
+            position: absolute;
+            left: 26%;
+            top: 13%;
+            font-size: 0.7rem;
+          }
+          .iframe
+          {
+            position: absolute;
+            top: 22%;
+            left: 5%;
+          }
+          .post1__elements__likes
+          {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            bottom: -19%;
+            position: absolute;
+            font-family: 'Josefin Sans',sans-serif;
+            font-size: 0.5rem;
+            p 
+            {
+              font-family: 'Josefin Sans',sans-serif;
+            }
+          }
+        }
+      }
+      .posts__post2
       {
         background: #FFFFFF;
         width: 400px;
         height: 200px;
+        position: relative;
+        img
+        {
+          width: 3vw;
+          position: absolute;
+          top: 1%;
+          left: 5%;
+          border-radius: 50%;
+        }
+        .post2__elements__atsign
+        {
+          color: #38D0FF;
+          font-family: 'Josefin Sans',sans-serif;
+          position: absolute;
+          left: 26%;
+          top: 1%;
+        }
+        .post2__elements__text
+        {
+          font-family: 'Josefin Sans',sans-serif;
+          position: absolute;
+          left: 26%;
+          top: 12%;
+          font-size: 0.7rem;
+        }
+        .iframe
+        {
+          position: absolute;
+          top: 22%;
+          left: 5%;
+        }
+        .post2__elements__likes
+        {
+          display: flex;
+          justify-content: space-around;
+          width: 100%;
+          bottom: -19%;
+          position: absolute;
+          font-family: 'Josefin Sans',sans-serif;
+          font-size: 0.5rem;
+          p 
+          {
+            font-family: 'Josefin Sans',sans-serif;
+          }
+        }
       }
-      .posts__post3 ,
+      .posts__post3
       {
         background: #FFFFFF;
         width: 200px;
         height: 200px;
+        position: relative;
+        img
+        {
+          width: 3vw;
+          position: absolute;
+          top: 1%;
+          left: 5%;
+          border-radius: 50%;
+        }
+        .post3__elements__atsign
+        {
+          color: #38D0FF;
+          font-family: 'Josefin Sans',sans-serif;
+          position: absolute;
+          left: 26%;
+          top: 1%;
+        }
+        .post3__elements__text
+        {
+          font-family: 'Josefin Sans',sans-serif;
+          position: absolute;
+          left: 26%;
+          top: 12%;
+          font-size: 0.7rem;
+        }
+        .iframe
+        {
+          position: absolute;
+          top: 22%;
+          left: 5%;
+        }
+        .post3__elements__likes
+        {
+          display: flex;
+          justify-content: space-around;
+          width: 100%;
+          bottom: -19%;
+          position: absolute;
+          font-family: 'Josefin Sans',sans-serif;
+          font-size: 0.5rem;
+          p 
+          {
+            font-family: 'Josefin Sans',sans-serif;
+          }
+        }
       }
-      .posts__post4 , .posts__post17 , .posts__post16
+      .posts__post4 
       {
         background: #FFFFFF;
         width: 400px;
         height: 200px;
+        position: relative;
+        img
+        {
+          width: 3vw;
+          position: absolute;
+          top: 1%;
+          left: 5%;
+          border-radius: 50%;
+        }
+        .post4__elements__atsign
+        {
+          color: #38D0FF;
+          font-family: 'Josefin Sans',sans-serif;
+          position: absolute;
+          left: 26%;
+          top: 1%;
+        }
+        .post4__elements__text
+        {
+          font-family: 'Josefin Sans',sans-serif;
+          position: absolute;
+          left: 26%;
+          top: 12%;
+          font-size: 0.7rem;
+        }
+        .iframe
+        {
+          position: absolute;
+          top: 22%;
+          left: 5%;
+        }
+        .post4__elements__likes
+        {
+          display: flex;
+          justify-content: space-around;
+          width: 100%;
+          bottom: -19%;
+          position: absolute;
+          font-family: 'Josefin Sans',sans-serif;
+          font-size: 0.5rem;
+          p 
+          {
+            font-family: 'Josefin Sans',sans-serif;
+          }
+        }
       }
-      .posts__post5 , .posts__post18
+      .posts__post5
       {
         background: #FFFFFF;
         width: 200px;
         height: 200px;
+        position: relative;
+        img
+        {
+          width: 3vw;
+          position: absolute;
+          top: 1%;
+          left: 5%;
+          border-radius: 50%;
+        }
+        .post5__elements__atsign
+        {
+          color: #38D0FF;
+          font-family: 'Josefin Sans',sans-serif;
+          position: absolute;
+          left: 26%;
+          top: 1%;
+        }
+        .post5__elements__text
+        {
+          font-family: 'Josefin Sans',sans-serif;
+          position: absolute;
+          left: 26%;
+          top: 12%;
+          font-size: 0.7rem;
+        }
+        .iframe
+        {
+          position: absolute;
+          top: 22%;
+          left: 5%;
+        }
+        .post5__elements__likes
+        {
+          display: flex;
+          justify-content: space-around;
+          width: 100%;
+          bottom: -19%;
+          position: absolute;
+          font-family: 'Josefin Sans',sans-serif;
+          font-size: 0.5rem;
+          p 
+          {
+            font-family: 'Josefin Sans',sans-serif;
+          }
+        }
       }
-      .posts__post6 , .posts__post19
+      .posts__post6
       {
         background: #FFFFFF;
         width: 200px;
         height: 200px;
+        position: relative;
+        img
+        {
+          width: 3vw;
+          position: absolute;
+          top: 1%;
+          left: 5%;
+          border-radius: 50%;
+        }
+        .post6__elements__atsign
+        {
+          color: #38D0FF;
+          font-family: 'Josefin Sans',sans-serif;
+          position: absolute;
+          left: 26%;
+          top: 1%;
+        }
+        .post6__elements__text
+        {
+          font-family: 'Josefin Sans',sans-serif;
+          position: absolute;
+          left: 26%;
+          top: 12%;
+          font-size: 0.7rem;
+        }
+        .iframe
+        {
+          position: absolute;
+          top: 22%;
+          left: 5%;
+        }
+        .post6__elements__likes
+        {
+          display: flex;
+          justify-content: space-around;
+          width: 100%;
+          bottom: -19%;
+          position: absolute;
+          font-family: 'Josefin Sans',sans-serif;
+          font-size: 0.5rem;
+          p 
+          {
+            font-family: 'Josefin Sans',sans-serif;
+          }
+        }
       }
-      .posts__post7 , .posts__post20
+      .posts__post7
       {
         background: #FFFFFF;
         width: 400px;
         height: 200px;
+        position: relative;
+        img
+        {
+          width: 3vw;
+          position: absolute;
+          top: 1%;
+          left: 5%;
+          border-radius: 50%;
+        }
+        .post7__elements__atsign
+        {
+          color: #38D0FF;
+          font-family: 'Josefin Sans',sans-serif;
+          position: absolute;
+          left: 26%;
+          top: 1%;
+        }
+        .post7__elements__text
+        {
+          font-family: 'Josefin Sans',sans-serif;
+          position: absolute;
+          left: 26%;
+          top: 12%;
+          font-size: 0.7rem;
+        }
+        .iframe
+        {
+          position: absolute;
+          top: 22%;
+          left: 5%;
+        }
+        .post7__elements__likes
+        {
+          display: flex;
+          justify-content: space-around;
+          width: 100%;
+          bottom: -19%;
+          position: absolute;
+          font-family: 'Josefin Sans',sans-serif;
+          font-size: 0.5rem;
+          p 
+          {
+            font-family: 'Josefin Sans',sans-serif;
+          }
+        }
       }
-      .posts__post8 , .posts__post21
+      .posts__post8
       {
         background: #FFFFFF;
         width: 400px;
         height: 200px;
+        position: relative;
+        img
+        {
+          width: 3vw;
+          position: absolute;
+          top: 1%;
+          left: 5%;
+          border-radius: 50%;
+        }
+        .post8__elements__atsign
+        {
+          color: #38D0FF;
+          font-family: 'Josefin Sans',sans-serif;
+          position: absolute;
+          left: 26%;
+          top: 1%;
+        }
+        .post8__elements__text
+        {
+          font-family: 'Josefin Sans',sans-serif;
+          position: absolute;
+          left: 26%;
+          top: 12%;
+          font-size: 0.7rem;
+        }
+        .iframe
+        {
+          position: absolute;
+          top: 22%;
+          left: 5%;
+        }
+        .post8__elements__likes
+        {
+          display: flex;
+          justify-content: space-around;
+          width: 100%;
+          bottom: -19%;
+          position: absolute;
+          font-family: 'Josefin Sans',sans-serif;
+          font-size: 0.5rem;
+          p 
+          {
+            font-family: 'Josefin Sans',sans-serif;
+          }
+        }
       }
-      .posts__post9 , .posts__post22
+      .posts__post9
       {
         background: #FFFFFF;
         width: 200px;
         height: 200px;
+        position: relative;
+        img
+        {
+          width: 3vw;
+          position: absolute;
+          top: 1%;
+          left: 5%;
+          border-radius: 50%;
+        }
+        .post9__elements__atsign
+        {
+          color: #38D0FF;
+          font-family: 'Josefin Sans',sans-serif;
+          position: absolute;
+          left: 26%;
+          top: 1%;
+        }
+        .post9__elements__text
+        {
+          font-family: 'Josefin Sans',sans-serif;
+          position: absolute;
+          left: 26%;
+          top: 12%;
+          font-size: 0.7rem;
+        }
+        .iframe
+        {
+          position: absolute;
+          top: 22%;
+          left: 5%;
+        }
+        .post9__elements__likes
+        {
+          display: flex;
+          justify-content: space-around;
+          width: 100%;
+          bottom: -19%;
+          position: absolute;
+          font-family: 'Josefin Sans',sans-serif;
+          font-size: 0.5rem;
+          p 
+          {
+            font-family: 'Josefin Sans',sans-serif;
+          }
+        }
       }
-      .posts__post10 , .posts__post23
+      .posts__post10
       {
         background: #FFFFFF;
         width: 400px;
         height: 200px;
+        position: relative;
+        img
+        {
+          width: 3vw;
+          position: absolute;
+          top: 1%;
+          left: 5%;
+          border-radius: 50%;
+        }
+        .post10__elements__atsign
+        {
+          color: #38D0FF;
+          font-family: 'Josefin Sans',sans-serif;
+          position: absolute;
+          left: 26%;
+          top: 1%;
+        }
+        .post10__elements__text
+        {
+          font-family: 'Josefin Sans',sans-serif;
+          position: absolute;
+          left: 26%;
+          top: 12%;
+          font-size: 0.7rem;
+        }
+        .iframe
+        {
+          position: absolute;
+          top: 22%;
+          left: 5%;
+        }
+        .post10__elements__likes
+        {
+          display: flex;
+          justify-content: space-around;
+          width: 100%;
+          bottom: -19%;
+          position: absolute;
+          font-family: 'Josefin Sans',sans-serif;
+          font-size: 0.5rem;
+          p 
+          {
+            font-family: 'Josefin Sans',sans-serif;
+          }
+        }
       }
-      .posts__post11 , .posts__post24
+      .posts__post11
       {
         background: #FFFFFF;
         width: 200px;
         height: 200px;
+        position: relative;
+        img
+        {
+          width: 3vw;
+          position: absolute;
+          top: 1%;
+          left: 5%;
+          border-radius: 50%;
+        }
+        .post11__elements__atsign
+        {
+          color: #38D0FF;
+          font-family: 'Josefin Sans',sans-serif;
+          position: absolute;
+          left: 26%;
+          top: 1%;
+        }
+        .post11__elements__text
+        {
+          font-family: 'Josefin Sans',sans-serif;
+          position: absolute;
+          left: 26%;
+          top: 12%;
+          font-size: 0.7rem;
+        }
+        .iframe
+        {
+          position: absolute;
+          top: 22%;
+          left: 5%;
+        }
+        .post11__elements__likes
+        {
+          display: flex;
+          justify-content: space-around;
+          width: 100%;
+          bottom: -19%;
+          position: absolute;
+          font-family: 'Josefin Sans',sans-serif;
+          font-size: 0.5rem;
+          p 
+          {
+            font-family: 'Josefin Sans',sans-serif;
+          }
+        }
       }
-      .posts__post12 , .posts__post25
+      .posts__post12
       {
         background: #FFFFFF;
         width: 400px;
         height: 200px;
+        position: relative;
+        img
+        {
+          width: 3vw;
+          position: absolute;
+          top: 1%;
+          left: 5%;
+          border-radius: 50%;
+        }
+        .post12__elements__atsign
+        {
+          color: #38D0FF;
+          font-family: 'Josefin Sans',sans-serif;
+          position: absolute;
+          left: 26%;
+          top: 1%;
+        }
+        .post12__elements__text
+        {
+          font-family: 'Josefin Sans',sans-serif;
+          position: absolute;
+          left: 26%;
+          top: 12%;
+          font-size: 0.7rem;
+        }
+        .iframe
+        {
+          position: absolute;
+          top: 22%;
+          left: 5%;
+        }
+        .post12__elements__likes
+        {
+          display: flex;
+          justify-content: space-around;
+          width: 100%;
+          bottom: -19%;
+          position: absolute;
+          font-family: 'Josefin Sans',sans-serif;
+          font-size: 0.5rem;
+          p 
+          {
+            font-family: 'Josefin Sans',sans-serif;
+          }
+        }
       }
-      .posts__post13 , .posts__post26
+      .posts__post13
       {
         background: #FFFFFF;
         width: 200px;
         height: 200px;
+        position: relative;
+        img
+        {
+          width: 3vw;
+          position: absolute;
+          top: 1%;
+          left: 5%;
+          border-radius: 50%;
+        }
+        .post13__elements__atsign
+        {
+          color: #38D0FF;
+          font-family: 'Josefin Sans',sans-serif;
+          position: absolute;
+          left: 26%;
+          top: 1%;
+        }
+        .post13__elements__text
+        {
+          font-family: 'Josefin Sans',sans-serif;
+          position: absolute;
+          left: 26%;
+          top: 12%;
+          font-size: 0.7rem;
+        }
+        .iframe
+        {
+          position: absolute;
+          top: 22%;
+          left: 5%;
+        }
+        .post13__elements__likes
+        {
+          display: flex;
+          justify-content: space-around;
+          width: 100%;
+          bottom: -19%;
+          position: absolute;
+          font-family: 'Josefin Sans',sans-serif;
+          font-size: 0.5rem;
+          p 
+          {
+            font-family: 'Josefin Sans',sans-serif;
+          }
+        }
       }
-      .posts__post14 , .posts__post27
+      .posts__post14
       {
         background: #FFFFFF;
         width: 200px;
         height: 200px;
+        position: relative;
+        img
+        {
+          width: 3vw;
+          position: absolute;
+          top: 1%;
+          left: 5%;
+          border-radius: 50%;
+        }
+        .post14__elements__atsign
+        {
+          color: #38D0FF;
+          font-family: 'Josefin Sans',sans-serif;
+          position: absolute;
+          left: 26%;
+          top: 1%;
+        }
+        .post14__elements__text
+        {
+          font-family: 'Josefin Sans',sans-serif;
+          position: absolute;
+          left: 26%;
+          top: 12%;
+          font-size: 0.7rem;
+        }
+        .iframe
+        {
+          position: absolute;
+          top: 22%;
+          left: 5%;
+        }
+        .post14__elements__likes
+        {
+          display: flex;
+          justify-content: space-around;
+          width: 100%;
+          bottom: -19%;
+          position: absolute;
+          font-family: 'Josefin Sans',sans-serif;
+          font-size: 0.5rem;
+          p 
+          {
+            font-family: 'Josefin Sans',sans-serif;
+          }
+        }
       }
+      .posts__post15
+      {
+        background: #FFFFFF;
+        width: 400px;
+        height: 200px;
+        position: relative;
 
+        .post15__elements__pp
+        {
+          width: 3vw;
+          position: absolute;
+          top: 1%;
+          left: 5%;
+          border-radius: 50%;
+        }
+        .post15__elements__atsign
+        {
+          color: #38D0FF;
+          font-family: 'Josefin Sans',sans-serif;
+          position: absolute;
+          left: 26%;
+          top: 1%;
+        }
+        .post15__elements__text
+        {
+          font-family: 'Josefin Sans',sans-serif;
+          position: absolute;
+          left: 26%;
+          top: 12%;
+          font-size: 0.7rem;
+        }
+        .post15__img
+        {
+          position: absolute;
+          width: 77%;
+          left: 11%;
+          top: 23%;
+          z-index: 0;
+          height: 62%;
+        }
+        .post15__elements__likes
+        {
+          display: flex;
+          justify-content: space-around;
+          width: 100%;
+          bottom: -19%;
+          position: absolute;
+          font-family: 'Josefin Sans',sans-serif;
+          font-size: 0.5rem;
+          p 
+          {
+            font-family: 'Josefin Sans',sans-serif;
+          }
+        }
+      }
+      .posts__post16
+      {
+        background: #FFFFFF;
+        width: 400px;
+        height: 200px;
+        position: relative;
+
+        .post16__elements__pp
+        {
+          width: 3vw;
+          position: absolute;
+          top: 1%;
+          left: 5%;
+          border-radius: 50%;
+        }
+        .post16__elements__atsign
+        {
+          color: #38D0FF;
+          font-family: 'Josefin Sans',sans-serif;
+          position: absolute;
+          left: 26%;
+          top: 1%;
+        }
+        .post16__elements__text
+        {
+          font-family: 'Josefin Sans',sans-serif;
+          position: absolute;
+          left: 26%;
+          top: 12%;
+          font-size: 0.7rem;
+        }
+        .post16__img
+        {
+          position: absolute;
+          width: 77%;
+          left: 11%;
+          top: 23%;
+          z-index: 0;
+          height: 62%;
+        }
+        .post16__elements__likes
+        {
+          display: flex;
+          justify-content: space-around;
+          width: 100%;
+          bottom: -19%;
+          position: absolute;
+          font-family: 'Josefin Sans',sans-serif;
+          font-size: 0.5rem;
+          p 
+          {
+            font-family: 'Josefin Sans',sans-serif;
+          }
+        }
+      }
+      .posts__post17
+      {
+        background: #FFFFFF;
+        width: 400px;
+        height: 200px;
+                position: relative;
+        .post17__elements__pp
+        {
+          width: 3vw;
+          position: absolute;
+          top: 1%;
+          left: 5%;
+          border-radius: 50%;
+        }
+        .post17__elements__atsign
+        {
+          color: #38D0FF;
+          font-family: 'Josefin Sans',sans-serif;
+          position: absolute;
+          left: 26%;
+          top: 1%;
+        }
+        .post17__elements__text
+        {
+          font-family: 'Josefin Sans',sans-serif;
+          position: absolute;
+          left: 26%;
+          top: 12%;
+          font-size: 0.7rem;
+        }
+        .post17__img
+        {
+          position: absolute;
+          width: 77%;
+          left: 11%;
+          top: 23%;
+          z-index: 0;
+          height: 62%;
+        }
+        .post17__elements__likes
+        {
+          display: flex;
+          justify-content: space-around;
+          width: 100%;
+          bottom: -19%;
+          position: absolute;
+          font-family: 'Josefin Sans',sans-serif;
+          font-size: 0.5rem;
+          p 
+          {
+            font-family: 'Josefin Sans',sans-serif;
+          }
+        }
+      }
+      .posts__post18
+      {
+        background: #FFFFFF;
+        width: 200px;
+        height: 200px;
+        position: relative;
+        .post18__elements__pp
+        {
+          width: 3vw;
+          position: absolute;
+          top: 1%;
+          left: 5%;
+          border-radius: 50%;
+        }
+        .post18__elements__atsign
+        {
+          color: #38D0FF;
+          font-family: 'Josefin Sans',sans-serif;
+          position: absolute;
+          left: 26%;
+          top: 1%;
+        }
+        .post18__elements__text
+        {
+          font-family: 'Josefin Sans',sans-serif;
+          position: absolute;
+          left: 26%;
+          top: 12%;
+          font-size: 0.7rem;
+        }
+        .post18__img
+        {
+          position: absolute;
+          width: 77%;
+          left: 11%;
+          top: 23%;
+          z-index: 0;
+          height: 62%;
+        }
+        .post18__elements__likes
+        {
+          display: flex;
+          justify-content: space-around;
+          width: 100%;
+          bottom: -19%;
+          position: absolute;
+          font-family: 'Josefin Sans',sans-serif;
+          font-size: 0.5rem;
+          p 
+          {
+            font-family: 'Josefin Sans',sans-serif;
+          }
+        }
+      }
+      .posts__post19
+      {
+        background: #FFFFFF;
+        width: 200px;
+        height: 200px;
+        position: relative;
+        .post19__elements__pp
+        {
+          width: 3vw;
+          position: absolute;
+          top: 1%;
+          left: 5%;
+          border-radius: 50%;
+        }
+        .post19__elements__atsign
+        {
+          color: #38D0FF;
+          font-family: 'Josefin Sans',sans-serif;
+          position: absolute;
+          left: 26%;
+          top: 1%;
+        }
+        .post19__elements__text
+        {
+          font-family: 'Josefin Sans',sans-serif;
+          position: absolute;
+          left: 26%;
+          top: 12%;
+          font-size: 0.7rem;
+        }
+        .post19__img
+        {
+          position: absolute;
+          width: 77%;
+          left: 11%;
+          top: 23%;
+          z-index: 0;
+          height: 62%;
+        }
+        .post19__elements__likes
+        {
+          display: flex;
+          justify-content: space-around;
+          width: 100%;
+          bottom: -19%;
+          position: absolute;
+          font-family: 'Josefin Sans',sans-serif;
+          font-size: 0.5rem;
+          p 
+          {
+            font-family: 'Josefin Sans',sans-serif;
+          }
+        }
+      }
+      .posts__post20
+      {
+        background: #FFFFFF;
+        width: 400px;
+        height: 200px;
+        position: relative;
+        .post20__elements__pp
+        {
+          width: 3vw;
+          position: absolute;
+          top: 1%;
+          left: 5%;
+          border-radius: 50%;
+        }
+        .post20__elements__atsign
+        {
+          color: #38D0FF;
+          font-family: 'Josefin Sans',sans-serif;
+          position: absolute;
+          left: 26%;
+          top: 1%;
+        }
+        .post20__elements__text
+        {
+          font-family: 'Josefin Sans',sans-serif;
+          position: absolute;
+          left: 26%;
+          top: 12%;
+          font-size: 0.7rem;
+        }
+        .post20__img
+        {
+          position: absolute;
+          width: 77%;
+          left: 11%;
+          top: 23%;
+          z-index: 0;
+          height: 62%;
+        }
+        .post20__elements__likes
+        {
+          display: flex;
+          justify-content: space-around;
+          width: 100%;
+          bottom: -19%;
+          position: absolute;
+          font-family: 'Josefin Sans',sans-serif;
+          font-size: 0.5rem;
+          p 
+          {
+            font-family: 'Josefin Sans',sans-serif;
+          }
+        }
+      }
+      .posts__post21
+      {
+        background: #FFFFFF;
+        width: 400px;
+        height: 200px;
+        position: relative;
+        .post21__elements__pp
+        {
+          width: 3vw;
+          position: absolute;
+          top: 1%;
+          left: 5%;
+          border-radius: 50%;
+        }
+        .post21__elements__atsign
+        {
+          color: #38D0FF;
+          font-family: 'Josefin Sans',sans-serif;
+          position: absolute;
+          left: 26%;
+          top: 1%;
+        }
+        .post21__elements__text
+        {
+          font-family: 'Josefin Sans',sans-serif;
+          position: absolute;
+          left: 26%;
+          top: 12%;
+          font-size: 0.7rem;
+        }
+        .post21__img
+        {
+          position: absolute;
+          width: 77%;
+          left: 11%;
+          top: 23%;
+          z-index: 0;
+          height: 62%;
+        }
+        .post21__elements__likes
+        {
+          display: flex;
+          justify-content: space-around;
+          width: 100%;
+          bottom: -19%;
+          position: absolute;
+          font-family: 'Josefin Sans',sans-serif;
+          font-size: 0.5rem;
+          p 
+          {
+            font-family: 'Josefin Sans',sans-serif;
+          }
+        }
+      }
+      .posts__post22
+      {
+        background: #FFFFFF;
+        width: 200px;
+        height: 200px;
+        position: relative;
+        .post22__elements__pp
+        {
+          width: 3vw;
+          position: absolute;
+          top: 1%;
+          left: 5%;
+          border-radius: 50%;
+        }
+        .post22__elements__atsign
+        {
+          color: #38D0FF;
+          font-family: 'Josefin Sans',sans-serif;
+          position: absolute;
+          left: 26%;
+          top: 1%;
+        }
+        .post22__elements__text
+        {
+          font-family: 'Josefin Sans',sans-serif;
+          position: absolute;
+          left: 26%;
+          top: 12%;
+          font-size: 0.7rem;
+        }
+        .post22__img
+        {
+          position: absolute;
+          width: 77%;
+          left: 11%;
+          top: 23%;
+          z-index: 0;
+          height: 62%;
+        }
+        .post22__elements__likes
+        {
+          display: flex;
+          justify-content: space-around;
+          width: 100%;
+          bottom: -19%;
+          position: absolute;
+          font-family: 'Josefin Sans',sans-serif;
+          font-size: 0.5rem;
+          p 
+          {
+            font-family: 'Josefin Sans',sans-serif;
+          }
+        }
+      }
+      .posts__post23
+      {
+        background: #FFFFFF;
+        width: 400px;
+        height: 200px;
+        position: relative;
+        .post23__elements__pp
+        {
+          width: 3vw;
+          position: absolute;
+          top: 1%;
+          left: 5%;
+          border-radius: 50%;
+        }
+        .post23__elements__atsign
+        {
+          color: #38D0FF;
+          font-family: 'Josefin Sans',sans-serif;
+          position: absolute;
+          left: 26%;
+          top: 1%;
+        }
+        .post23__elements__text
+        {
+          font-family: 'Josefin Sans',sans-serif;
+          position: absolute;
+          left: 26%;
+          top: 12%;
+          font-size: 0.7rem;
+        }
+        .post23__img
+        {
+          position: absolute;
+          width: 77%;
+          left: 11%;
+          top: 23%;
+          z-index: 0;
+          height: 62%;
+        }
+        .post23__elements__likes
+        {
+          display: flex;
+          justify-content: space-around;
+          width: 100%;
+          bottom: -19%;
+          position: absolute;
+          font-family: 'Josefin Sans',sans-serif;
+          font-size: 0.5rem;
+          p 
+          {
+            font-family: 'Josefin Sans',sans-serif;
+          }
+        }
+      }
+      .posts__post24
+      {
+        background: #FFFFFF;
+        width: 200px;
+        height: 200px;
+        position: relative;
+        .post24__elements__pp
+        {
+          width: 3vw;
+          position: absolute;
+          top: 1%;
+          left: 5%;
+          border-radius: 50%;
+        }
+        .post24__elements__atsign
+        {
+          color: #38D0FF;
+          font-family: 'Josefin Sans',sans-serif;
+          position: absolute;
+          left: 26%;
+          top: 1%;
+        }
+        .post24__elements__text
+        {
+          font-family: 'Josefin Sans',sans-serif;
+          position: absolute;
+          left: 26%;
+          top: 12%;
+          font-size: 0.7rem;
+        }
+        .post24__img
+        {
+          position: absolute;
+          width: 77%;
+          left: 11%;
+          top: 23%;
+          z-index: 0;
+          height: 62%;
+        }
+        .post24__elements__likes
+        {
+          display: flex;
+          justify-content: space-around;
+          width: 100%;
+          bottom: -19%;
+          position: absolute;
+          font-family: 'Josefin Sans',sans-serif;
+          font-size: 0.5rem;
+          p 
+          {
+            font-family: 'Josefin Sans',sans-serif;
+          }
+        }
+      }
     }
   }
 
