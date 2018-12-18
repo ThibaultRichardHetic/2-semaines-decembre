@@ -1550,6 +1550,7 @@ body.body--index footer ul li a {
   background-color: #FFF;
   border: solid 2px #fff;
   width: 50%;
+  top: 20%;
   margin: auto;
   border-radius: 20px;
 }
@@ -1565,6 +1566,9 @@ body.body--index footer ul li a {
   width: 20%;
   height: 30px;
   border-radius: 50px;
+  transition-property: all;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
 }
 .body--registration main .section--default .header--default .header__back p {
   font-family: Josefin Sans;
@@ -1585,7 +1589,15 @@ body.body--index footer ul li a {
   font-weight: bold;
 }
 .body--registration main .section--default .header--default .header__back:hover {
+  background-color: #fff;
+  border: solid 2px #838383;
   cursor: pointer;
+  transition-property: all;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
+}
+.body--registration main .section--default .header--default .header__back:hover p {
+  color: #838383;
 }
 .body--registration main .section--default .header--default .header__logo {
   width: 50px;
@@ -1596,6 +1608,9 @@ body.body--index footer ul li a {
   width: 20%;
   height: 30px;
   border-radius: 50px;
+  transition-property: all;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
 }
 .body--registration main .section--default .header--default .header__button p {
   font-family: Josefin Sans;
@@ -1614,8 +1629,15 @@ body.body--index footer ul li a {
   transform: translateY(50%);
 }
 .body--registration main .section--default .header--default .header__button:hover {
-  background-color: #000C44;
+  background-color: #fff;
+  border: solid 2px #00136C;
   cursor: pointer;
+  transition-property: all;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
+}
+.body--registration main .section--default .header--default .header__button:hover p {
+  color: #00136C;
 }
 .body--registration main .section--default .content--default {
   clear: both;
@@ -1632,6 +1654,9 @@ body.body--index footer ul li a {
 }
 .body--registration main .section--step1 {
   left: 25%;
+}
+.body--registration main .section--step1 .step1__header .header__back p a {
+  text-decoration: none;
 }
 .body--registration main .section--step1 .step1__content form input {
   background-color: #E8F5F9;
@@ -1813,7 +1838,7 @@ body.body--index footer ul li a {
   transition: 0.5s;
 }
 .body--registration main .section--step5 #dropFileForm #fileLabel {
-  background-color: rgba(0, 255, 0, 0.5);
+  background-color: #F87D42;
   display: block;
   padding: 16px;
   position: relative;
@@ -1841,19 +1866,19 @@ body.body--index footer ul li a {
   transition: 0.5s;
 }
 .body--registration main .section--step5 #dropFileForm.fileHover #fileLabel:before {
-  opacity: 0.25;
+  opacity: 0.65;
 }
 .body--registration main .section--step5 #dropFileForm .uploadButton {
   border: 0;
   outline: 0;
   width: 100%;
   padding: 8px;
-  background-color: limeGreen;
+  background-color: #c74f09;
   color: #fff;
   cursor: pointer;
 }
 .body--registration main .section--step5 #dropFileForm.fileHover {
-  box-shadow: 0 0 16px limeGreen;
+  box-shadow: 0 0 16px #c74f09;
 }
 .body--registration main .section--step5 .step5__file .file__img {
   display: block;
@@ -1929,11 +1954,21 @@ body.body--index footer ul li a {
   -o-transform: translateY(15%);
   transform: translateY(15%);
 }
+.body--registration main .section--step5 .step5__content .content__button:hover {
+  background: #FFF;
+  border: solid 2px #00136C;
+  transition-property: all;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
+}
+.body--registration main .section--step5 .step5__content .content__button:hover p {
+  color: #00136C;
+}
 .body--registration main .section--step6 {
   transform: translateX(350%);
   width: 30%;
 }
-.body--registration main .section--step6 .step6__content .step5__title {
+.body--registration main .section--step6 .step6__content .step6__title {
   text-align: center;
 }
 .body--registration main .section--step6 .step6__content p {
@@ -1949,6 +1984,42 @@ body.body--index footer ul li a {
 }
 .body--registration main .section--step6 .step6__content p span {
   color: #F87D42;
+}
+.body--registration main .section--step6 .step6__content .content__button {
+  width: 60%;
+  height: 35px;
+  background: #00136C;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  cursor: pointer;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.body--registration main .section--step6 .step6__content .content__button p {
+  color: #fff;
+  font-family: Bungee;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 1rem;
+  -webkit-transform: translateY(40%);
+  -moz-transform: translateY(40%);
+  -ms-transform: translateY(40%);
+  -o-transform: translateY(40%);
+  transform: translateY(40%);
+}
+.body--registration main .section--step6 .step6__content .content__button p a {
+  text-decoration: none;
+}
+.body--registration main .section--step6 .step6__content .content__button:hover {
+  background: #FFF;
+  border: solid 2px #00136C;
+  transition-property: all;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
+}
+.body--registration main .section--step6 .step6__content .content__button:hover p {
+  color: #00136C;
 }
 .body--registration main .section--step7 {
   transform: translateX(200%);

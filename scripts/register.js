@@ -172,6 +172,10 @@ step5.$next.addEventListener('click', () =>
 {
     nextStep3(step5.$section, step6.$section)
 })
+step5.$back.addEventListener('click', () =>
+{
+    backStep2(step5.$section, step4.$section)
+})
 
 
 // end slider register 
@@ -179,11 +183,11 @@ step5.$next.addEventListener('click', () =>
 
 // register draggable file start
 
-var dropFileForm = document.getElementById("dropFileForm");
-var fileLabelText = document.getElementById("fileLabelText");
-var uploadStatus = document.getElementById("uploadStatus");
-var fileInput = document.getElementById("fileInput");
-var droppedFiles;
+let dropFileForm = document.getElementById("dropFileForm");
+let fileLabelText = document.getElementById("fileLabelText");
+let uploadStatus = document.getElementById("uploadStatus");
+let fileInput = document.getElementById("fileInput");
+let droppedFiles;
 
 function overrideDefault(event) {
   event.preventDefault();
@@ -215,13 +219,13 @@ function uploadFiles(event) {
   event.preventDefault();
   changeStatus("Uploading...");
 
-  var formData = new FormData();
+  let formData = new FormData();
 
-  for (var i = 0, file; (file = droppedFiles[i]); i++) {
+  for (let i = 0, file; (file = droppedFiles[i]); i++) {
     formData.append(fileInput.name, file, file.name);
   }
 
-  var xhr = new XMLHttpRequest();
+  let xhr = new XMLHttpRequest();
   xhr.onreadystatechange = function(data) {
     //handle server response and change status of
     //upload process via changeStatus(text)

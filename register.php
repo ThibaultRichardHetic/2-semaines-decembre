@@ -14,7 +14,7 @@
     <section class="section--step1 section--default js-section--step1">
       <div class="step1__header header--default">
         <div class="header__back js-back">   
-          <p><span><</span> Retour</p>
+          <p><span><</span> <a href="landing.php">Retour</a></p>
         </div>
         <img class="header__logo" src="src/all/logo.png" alt="#">
         <div class="header__button js-next js-next">
@@ -142,27 +142,6 @@
         <p>
           Afin de confirmer votre identité et d’assurer la sécurité du site, il est nécessaire de télécharger une <span class="important--orange-bold">pièce justificatives d'identité de l’enfant</span> et du <span class="important--orange-bold">représentant légal</span>.
         </p>
-        <!-- <div class="step5__file">
-          <img class="file__img" src="src/register/file.svg" alt="">       
-          <p> 
-          <span class="important--orange">Glissez et déposez</span> vos documents au format <span class="important--orange">.pdf</span>
-          </p>
-          <p>
-            ou
-          </p>
-          <div class="file__button">
-            <form action="#" method="post">
-              <input type="file"  accept=".pdf" name="pdf-file" id="file"  onchange="loadFile(event)" style="display: none;">
-              <label for="file" style="cursor: pointer;">Choisir des fichiers</label>
-            </form>  
-
-            <p>
-              Choisir des fichiers
-            </p>
-          </div>
-        </div> -->
-
-<!-- ffvfkvnfv -->
         <div>
           <form id="dropFileForm" action="" method="post" onsubmit="uploadFiles(event)">
               <input type="file" accept=".pdf" name="files[]" id="fileInput" multiple onchange="addFiles(event)">
@@ -179,8 +158,6 @@
               </label>
             </form>
         </div>
-        <!-- ffvfkvnfv -->
-
         <p>
           En inscrivant votre enfant, vous acceptez nos <span class="important--red">Conditions d'utilisation</span>, notre <span class="important--red">Politique de confidentialité</span> et notre <span class="important--red">Utilisation des cookies</span>.
         </p>
@@ -196,7 +173,7 @@
         <img class="header__logo" src="src/all/logo.png" alt="#">
       </div>
       <div class="step6__content content--default">
-        <h4 class="step5__title title--default">Demande d’inscription enregistrée !</h4>
+        <h4 class="step6__title title--default">Demande d’inscription enregistrée !</h4>
         <p>
           Votre demande d’inscriptation a été enregistrée et mise en attente de validation.
         </p>
@@ -206,6 +183,11 @@
         <p>
           Pour plus d’informations, merci de nous <span>contacter</span>.
         </p>
+        <div class="content__button">
+          <p>
+            <a href="index.php">Accés à la démo</a>    
+          </p>
+        </div>
       </div>
     </section>
     <section class="section--step7 js-section--step7">
