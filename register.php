@@ -13,11 +13,11 @@
   <main>
     <section class="section--step1 section--default js-section--step1">
       <div class="step1__header header--default">
-        <div class="header__back">   
-          <p><span><</span> Retour</p>
+        <div class="header__back js-back">   
+          <p><span><</span> <a href="landing.php">Retour</a></p>
         </div>
-        <img class="header__logo" src="src/landing/logo-provisoir.png" alt="#">
-        <div class="header__button">
+        <img class="header__logo" src="src/all/logo.png" alt="#">
+        <div class="header__button js-next js-next">
           <p>Continuer</p>
         </div>
       </div>
@@ -41,11 +41,11 @@
     </section>
     <section class="section--step2 section--default js-section--step2">
       <div class="step2__header header--default">
-        <div class="header__back">   
+        <div class="header__back js-back">   
           <p><span><</span> Retour</p>
         </div>
-        <img class="header__logo" src="src/landing/logo-provisoir.png" alt="#">
-        <div class="header__button">
+        <img class="header__logo" src="src/all/logo.png" alt="#">
+        <div class="header__button js-next">
           <p>Continuer</p>
         </div>
       </div>
@@ -59,11 +59,11 @@
     </section>
     <section class="section--step3 section--default js-section--step3">
       <div class="step3__header header--default">
-        <div class="header__back">   
+        <div class="header__back js-back">   
           <p><span><</span> Retour</p>
         </div>
-        <img class="header__logo" src="src/landing/logo-provisoir.png" alt="#">
-        <div class="header__button">
+        <img class="header__logo" src="src/all/logo.png" alt="#">
+        <div class="header__button js-next">
           <p>Continuer</p>
         </div>
       </div>
@@ -112,11 +112,11 @@
     </section>
     <section class="section--step4 section--default js-section--step4">
       <div class="step4__header header--default">
-        <div class="header__back">   
+        <div class="header__back js-back">   
           <p><span><</span> Retour</p>
         </div>
-        <img class="header__logo" src="src/landing/logo-provisoir.png" alt="#">
-        <div class="header__button">
+        <img class="header__logo" src="src/all/logo.png" alt="#">
+        <div class="header__button js-next">
           <p>Continuer</p>
         </div>
       </div>
@@ -132,34 +132,36 @@
     </section>
     <section class="section--step5 section--default js-section--step5">
      <div class="step5__header header--default">
-        <div class="header__back">   
+        <div class="header__back js-back">   
           <p><span><</span> Retour</p>
         </div>
-        <img class="header__logo" src="src/landing/logo-provisoir.png" alt="#">
+        <img class="header__logo" src="src/all/logo.png" alt="#">
       </div>
       <div class="step5__content content--default">
         <h4 class="step5__title title--default">Informations de sécurité</h4>
         <p>
           Afin de confirmer votre identité et d’assurer la sécurité du site, il est nécessaire de télécharger une <span class="important--orange-bold">pièce justificatives d'identité de l’enfant</span> et du <span class="important--orange-bold">représentant légal</span>.
         </p>
-        <div class="step5__file">
-          <img src="" alt="">         
-          <p> 
-          <span class="important--orange">Glissez et déposez</span> vos documents au format <span class="important--orange">.pdf</span>
-          </p>
-          <p>
-            ou
-          </p>
-          <div class="file__button">
-            <p>
-              Choisir des fichiers
-            </p>
-          </div>
+        <div>
+          <form id="dropFileForm" action="" method="post" onsubmit="uploadFiles(event)">
+              <input type="file" accept=".pdf" name="files[]" id="fileInput" multiple onchange="addFiles(event)">
+
+              <label for="fileInput" id="fileLabel" ondragover="overrideDefault(event);fileHover();" ondragenter="overrideDefault(event);fileHover();" ondragleave="overrideDefault(event);fileHoverEnd();" ondrop="overrideDefault(event);fileHoverEnd();
+                    addFiles(event);">
+                <i class="fa fa-download fa-5x"></i>
+                <br>
+                <span id="fileLabelText">
+                Choisir des fichiers
+                </span>
+                <br>
+                <span id="uploadStatus"></span>
+              </label>
+            </form>
         </div>
         <p>
           En inscrivant votre enfant, vous acceptez nos <span class="important--red">Conditions d'utilisation</span>, notre <span class="important--red">Politique de confidentialité</span> et notre <span class="important--red">Utilisation des cookies</span>.
         </p>
-        <div class="content__button">
+        <div class="content__button js-next-inscription">
           <p>
              Inscription
           </p>
@@ -168,19 +170,24 @@
     </section>
     <section class="section--step6 section--default js-section--step6">
       <div class="step6__header header--default">
-        <img class="header__logo" src="src/landing/logo-provisoir.png" alt="#">
+        <img class="header__logo" src="src/all/logo.png" alt="#">
       </div>
       <div class="step6__content content--default">
-        <h4 class="step5__title title--default">Demande d’inscription enregistrée !</h4>
+        <h4 class="step6__title title--default">Demande d’inscription enregistrée !</h4>
         <p>
           Votre demande d’inscriptation a été enregistrée et mise en attente de validation.
         </p>
-        <p>
+        <p> 
           Une notification de validation du compte vous sera envoyée par email dans les deux jours. 
         </p>
         <p>
           Pour plus d’informations, merci de nous <span>contacter</span>.
         </p>
+        <div class="content__button">
+          <p>
+            <a href="index.php">Accés à la démo</a>    
+          </p>
+        </div>
       </div>
     </section>
     <section class="section--step7 js-section--step7">
@@ -203,6 +210,6 @@
   </main>
   <footer>
   </footer>
-  <script src="scripts/app.js"></script>
+  <script src="scripts/register.js"></script>
 </body>
 </html>

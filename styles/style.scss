@@ -2198,9 +2198,10 @@ body.body--index
 
   header
   {
-    img
+    position: relative;
+    .logo
     {
-      width: 50px;
+      width: 60px;
       display: block;
       margin: auto;
       margin-bottom: 20px;
@@ -2216,9 +2217,108 @@ body.body--index
       font-size: 1rem;
       text-align: center;
     }
+    .button--fixed
+    {
+      width: 25%;
+      margin: auto;
+      transform: translateY(600%);
+      p
+      {
+        text-align: center;
+        font-family: Bungee;
+        font-style: normal;
+        font-weight: normal;
+        line-height: normal;
+      }
+      a
+      {
+        text-align: center;
+        font-family: Bungee;
+        font-style: normal;
+        font-weight: normal;
+        line-height: normal;
+        text-decoration: none;
+      }
+      .register__interrogation
+      {
+        font-family: Josefin Sans;
+        font-style: normal;
+        font-weight: normal;
+        line-height: normal;
+        font-size: 1.2rem;
+        transform: translateY(20px);
+      }
+      .button__register
+      {
+        background: #F87D42;
+        width: 100%;
+        border-radius: 50px;
+        transition-property: all;
+        transition-duration: 0.4s;
+        transition-timing-function: ease;
+        cursor: pointer;
+        a
+        {
+          color: #FFF;
+          font-size: 2rem;
+          text-align: center;
+        }
+      }
+      .button__register:hover
+      {
+        background: #FFF;
+        transition-property: all;
+        transition-duration: 0.4s;
+        transition-timing-function: ease;
+        a
+        {
+          color: #F87D42;
+        }
+      }
+      .button__connexion
+      {
+        background: #FFF;
+        transform: translateY(40px);
+        border-radius: 40px;
+        width: 80%;
+        margin: auto;
+        cursor: pointer;
+        transition-property: all;
+        transition-duration: 0.4s;
+        transition-timing-function: ease;
+        p
+        {
+          font-size: 1.2rem;
+          color: #F87D42;
+        }
+      }
+      .button__connexion:hover
+      {
+        background: #F87D42;
+        transition-property: all;
+        transition-duration: 0.4s;
+        transition-timing-function: ease;
+        p
+        {
+          color: #FFF;
+        }
+      }
+    }
+    .img--fixed
+    {
+      position: absolute;
+      z-index: -2;
+     // left: 17%;
+      top: 320%;
+      img
+      {
+        width: 100%;   
+      }
+    }
   }
   main
   {
+    z-index: -1;
     .section--default
     {
       position: relative;
@@ -2267,7 +2367,7 @@ body.body--index
       {
         position: absolute;
         left: 65%;
-        bottom: -5%;
+        bottom: 5%;
       }
     }
     .section--step1
@@ -2287,11 +2387,11 @@ body.body--index
           font-size: 3rem;
           color: #F87D42;     
           text-align: center;
-          -webkit-transform: translateY(265%);
-          -moz-transform: translateY(265%);
-          -ms-transform: translateY(265%);
-          -o-transform: translateY(265%);
-          transform: translateY(265%);
+          -webkit-transform: translateY(270%);
+          -moz-transform: translateY(270%);
+          -ms-transform: translateY(270%);
+          -o-transform: translateY(270%);
+          transform: translateY(270%);
         }
       }
     }
@@ -2301,11 +2401,11 @@ body.body--index
       {
           p
           {
-            -webkit-transform: translateY(50%);
-            -moz-transform: translateY(50%);
-            -ms-transform: translateY(50%);
-            -o-transform: translateY(50%);
-            transform: translateY(50%);
+            -webkit-transform: translateY(45%);
+            -moz-transform: translateY(45%);
+            -ms-transform: translateY(45%);
+            -o-transform: translateY(45%);
+            transform: translateY(45%);
           }
       }
     }
@@ -2315,11 +2415,11 @@ body.body--index
       {
         p
         {
-          -webkit-transform: translateY(115%);
-          -moz-transform: translateY(115%);
-          -ms-transform: translateY(115%);
-          -o-transform: translateY(115%);
-          transform: translateY(115%);
+          -webkit-transform: translateY(100%);
+          -moz-transform: translateY(100%);
+          -ms-transform: translateY(100%);
+          -o-transform: translateY(100%);
+          transform: translateY(100%);
         }
       }
     }
@@ -2357,11 +2457,11 @@ body.body--index
       {
         p
         {
-          -webkit-transform: translateY(60%);
-          -moz-transform: translateY(60%);
-          -ms-transform: translateY(600%);
-          -o-transform: translateY(60%);
-          transform: translateY(600%);
+          -webkit-transform: translateY(80%);
+          -moz-transform: translateY(80%);
+          -ms-transform: translateY(80%);
+          -o-transform: translateY(80%);
+          transform: translateY(80%);
           font-size: 2rem;
         }
       }
@@ -2391,11 +2491,20 @@ body.body--index
 
   main
   {
+<<<<<<< HEAD
+=======
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+>>>>>>> 151785035e9e984388e47582648a2ec3491c18d3
     .section--default
     {
+      position: absolute;
       background-color: #FFF; 
       border: solid 2px #fff;
       width: 50%;
+      top: 20%;
       margin: auto;
       border-radius: 20px;
       .header--default
@@ -2411,6 +2520,9 @@ body.body--index
           width: 20%;
           height: 30px;
           border-radius: 50px;
+          transition-property: all;
+          transition-duration: 0.4s;
+          transition-timing-function: ease;
           p
           {
             font-family: Josefin Sans;
@@ -2434,7 +2546,16 @@ body.body--index
         }
         .header__back:hover
         {
+          background-color: #fff;
+          border: solid 2px #838383;
           cursor: pointer;
+          transition-property: all;
+          transition-duration: 0.4s;
+          transition-timing-function: ease;
+          p
+          {
+            color: #838383;
+          }
         }
         .header__logo
         {
@@ -2447,6 +2568,9 @@ body.body--index
           width: 20%;
           height: 30px;
           border-radius: 50px;
+          transition-property: all;
+          transition-duration: 0.4s;
+          transition-timing-function: ease;
           p
           {
             font-family: Josefin Sans;
@@ -2467,8 +2591,16 @@ body.body--index
         }
         .header__button:hover
         {
-          background-color: #000C44;
+          background-color: #fff;
+          border: solid 2px #00136C;
           cursor: pointer;
+          transition-property: all;
+          transition-duration: 0.4s;
+          transition-timing-function: ease;
+          p
+          {
+            color: #00136C;
+          }
         }
       }
       .content--default
@@ -2489,6 +2621,20 @@ body.body--index
     }
     .section--step1
     {
+      left: 25%;
+      .step1__header
+      {
+        .header__back
+        {
+          p
+          {
+            a
+            {
+              text-decoration: none;
+            }
+          }
+        }
+      }
       .step1__content
       {
         form
@@ -2529,6 +2675,7 @@ body.body--index
     }
     .section--step2
     {
+      transform: translateX(200%);
       .step2__content
       {
         .step2__circle
@@ -2579,6 +2726,7 @@ body.body--index
     .section--step3
     {
       width: 70%;
+      transform: translateX(200%);
       .step3__content
       {
         .content--form
@@ -2675,6 +2823,8 @@ body.body--index
     }
     .section--step4
     {
+      transform: translateX(200%);
+
       .step4__content
       {
         .step4__title
@@ -2699,6 +2849,73 @@ body.body--index
     }
     .section--step5
     {
+      transform: translateX(200%);
+      #dropFileForm {
+        margin: 16px;
+        text-align: center;
+        border-radius: 8px;
+        overflow: hidden;
+        transition: 0.5s;
+      }
+      
+      #dropFileForm #fileLabel {
+        background-color: #F87D42;
+        display: block;
+        padding: 16px;
+        position: relative;
+        cursor: pointer;
+      }    
+      #dropFileForm #fileInput {
+        display: none;
+      }      
+      #dropFileForm #fileLabel:after,
+      #dropFileForm #fileLabel:before {
+        position: absolute;
+        content: "";
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #fff;
+        z-index: -2;
+        border-radius: 8px 8px 0 0;
+      }    
+      #dropFileForm #fileLabel:before {
+        z-index: -1;
+        background: repeating-linear-gradient(
+          45deg,
+          transparent,
+          transparent 5%,
+          black 5%,
+          black 10%
+        );
+        opacity: 0;
+        transition: 0.5s;
+      }  
+      #dropFileForm.fileHover #fileLabel:before {
+        opacity: 0.65;
+      }     
+      #dropFileForm .uploadButton {
+        border: 0;
+        outline: 0;
+        width: 100%;
+        padding: 8px;
+        background-color: rgb(199, 79, 9);
+        color: #fff;
+        cursor: pointer;
+      }    
+      #dropFileForm.fileHover {
+        box-shadow: 0 0 16px rgb(199, 79, 9);
+      }    
+      .step5__file
+      {
+        .file__img
+        {
+          display: block;
+          width: 15%;
+          margin: auto;
+        }
+      }
       .step5__content
       {
         p
@@ -2733,7 +2950,11 @@ body.body--index
             border-radius: 25px;
             margin: auto;
             margin-bottom: 20px;
-            p
+            form
+            {
+              transform: translateY(13%);
+            }
+            label
             {
               color: #fff;
               -webkit-transform: translateY(30%);
@@ -2741,12 +2962,18 @@ body.body--index
               -ms-transform: translateY(30%);
               -o-transform: translateY(30%);
               transform: translateY(30%);
+              font-family: Josefin Sans;
+              font-style: normal;
+              font-weight: normal;
+              line-height: normal;
+              font-size: 1.2rem;
+              text-align: center;
             }
           }
         }
         .content__button
         {
-          width: 30%;
+          width: 40%;
           height: 35px;
           background: #00136C;
           box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
@@ -2769,14 +2996,27 @@ body.body--index
             transform: translateY(15%);
           }
         }
+        .content__button:hover
+        {
+          background: #FFF;
+          border: solid 2px #00136C;
+          transition-property: all;
+          transition-duration: 0.4s;
+          transition-timing-function: ease;
+          p
+          {
+            color: #00136C;
+          }
+        }
       }
     }
     .section--step6
     {
+      transform: translateX(350%);
       width: 30%;
       .step6__content
       {
-        .step5__title
+        .step6__title
         {
           text-align: center;
         }
@@ -2796,10 +3036,52 @@ body.body--index
            color: #F87D42;
           }
         }
+        .content__button
+        {
+          width: 60%;
+          height: 35px;
+          background: #00136C;
+          box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+          border-radius: 50px;
+          cursor: pointer;
+          margin: auto;
+          margin-bottom: 20px;
+          p
+          {
+            color: #fff;
+            font-family: Bungee;
+            font-style: normal;
+            font-weight: normal;
+            line-height: normal;
+            font-size: 1rem; 
+            -webkit-transform: translateY(40%);
+            -moz-transform: translateY(40%);
+            -ms-transform: translateY(40%);
+            -o-transform: translateY(40%);
+            transform: translateY(40%);
+            a
+            {
+              text-decoration: none;
+            }
+          }
+        }
+        .content__button:hover
+        {
+          background: #FFF;
+          border: solid 2px #00136C;
+          transition-property: all;
+          transition-duration: 0.4s;
+          transition-timing-function: ease;
+          p
+          {
+            color: #00136C;
+          }
+        }
       }
     }
     .section--step7
     {
+      transform: translateX(200%);
       background-color: #00136C;
       border: solid 5px #fff;
       width: 80%;
