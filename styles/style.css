@@ -1805,6 +1805,61 @@ body.body--index footer ul li a {
 .body--registration main .section--step5 {
   transform: translateX(200%);
 }
+.body--registration main .section--step5 #dropFileForm {
+  margin: 16px;
+  text-align: center;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+.body--registration main .section--step5 #dropFileForm #fileLabel {
+  background-color: rgba(0, 255, 0, 0.5);
+  display: block;
+  padding: 16px;
+  position: relative;
+  cursor: pointer;
+}
+.body--registration main .section--step5 #dropFileForm #fileInput {
+  display: none;
+}
+.body--registration main .section--step5 #dropFileForm #fileLabel:after,
+.body--registration main .section--step5 #dropFileForm #fileLabel:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  z-index: -2;
+  border-radius: 8px 8px 0 0;
+}
+.body--registration main .section--step5 #dropFileForm #fileLabel:before {
+  z-index: -1;
+  background: repeating-linear-gradient(45deg, transparent, transparent 5%, black 5%, black 10%);
+  opacity: 0;
+  transition: 0.5s;
+}
+.body--registration main .section--step5 #dropFileForm.fileHover #fileLabel:before {
+  opacity: 0.25;
+}
+.body--registration main .section--step5 #dropFileForm .uploadButton {
+  border: 0;
+  outline: 0;
+  width: 100%;
+  padding: 8px;
+  background-color: limeGreen;
+  color: #fff;
+  cursor: pointer;
+}
+.body--registration main .section--step5 #dropFileForm.fileHover {
+  box-shadow: 0 0 16px limeGreen;
+}
+.body--registration main .section--step5 .step5__file .file__img {
+  display: block;
+  width: 15%;
+  margin: auto;
+}
 .body--registration main .section--step5 .step5__content p {
   font-family: Josefin Sans;
   font-style: normal;
@@ -1834,13 +1889,22 @@ body.body--index footer ul li a {
   margin: auto;
   margin-bottom: 20px;
 }
-.body--registration main .section--step5 .step5__content .step5__file .file__button p {
+.body--registration main .section--step5 .step5__content .step5__file .file__button form {
+  transform: translateY(13%);
+}
+.body--registration main .section--step5 .step5__content .step5__file .file__button label {
   color: #fff;
   -webkit-transform: translateY(30%);
   -moz-transform: translateY(30%);
   -ms-transform: translateY(30%);
   -o-transform: translateY(30%);
   transform: translateY(30%);
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 1.2rem;
+  text-align: center;
 }
 .body--registration main .section--step5 .step5__content .content__button {
   width: 40%;

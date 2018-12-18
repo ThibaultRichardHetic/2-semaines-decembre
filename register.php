@@ -142,8 +142,8 @@
         <p>
           Afin de confirmer votre identité et d’assurer la sécurité du site, il est nécessaire de télécharger une <span class="important--orange-bold">pièce justificatives d'identité de l’enfant</span> et du <span class="important--orange-bold">représentant légal</span>.
         </p>
-        <div class="step5__file">
-          <img src="" alt="">         
+        <!-- <div class="step5__file">
+          <img class="file__img" src="src/register/file.svg" alt="">       
           <p> 
           <span class="important--orange">Glissez et déposez</span> vos documents au format <span class="important--orange">.pdf</span>
           </p>
@@ -151,11 +151,36 @@
             ou
           </p>
           <div class="file__button">
+            <form action="#" method="post">
+              <input type="file"  accept=".pdf" name="pdf-file" id="file"  onchange="loadFile(event)" style="display: none;">
+              <label for="file" style="cursor: pointer;">Choisir des fichiers</label>
+            </form>  
+
             <p>
               Choisir des fichiers
             </p>
           </div>
+        </div> -->
+
+<!-- ffvfkvnfv -->
+        <div>
+          <form id="dropFileForm" action="" method="post" onsubmit="uploadFiles(event)">
+              <input type="file" accept=".pdf" name="files[]" id="fileInput" multiple onchange="addFiles(event)">
+
+              <label for="fileInput" id="fileLabel" ondragover="overrideDefault(event);fileHover();" ondragenter="overrideDefault(event);fileHover();" ondragleave="overrideDefault(event);fileHoverEnd();" ondrop="overrideDefault(event);fileHoverEnd();
+                    addFiles(event);">
+                <i class="fa fa-download fa-5x"></i>
+                <br>
+                <span id="fileLabelText">
+                Choisir des fichiers
+                </span>
+                <br>
+                <span id="uploadStatus"></span>
+              </label>
+            </form>
         </div>
+        <!-- ffvfkvnfv -->
+
         <p>
           En inscrivant votre enfant, vous acceptez nos <span class="important--red">Conditions d'utilisation</span>, notre <span class="important--red">Politique de confidentialité</span> et notre <span class="important--red">Utilisation des cookies</span>.
         </p>
