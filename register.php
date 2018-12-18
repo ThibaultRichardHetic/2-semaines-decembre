@@ -16,7 +16,7 @@
         <div class="header__back">   
           <p><span><</span> Retour</p>
         </div>
-        <img class="header__logo" src="src/landing/logo-provisoir.png" alt="#">
+        <img class="header__logo" src="src/all/logo.png" alt="#">
         <div class="header__button">
           <p>Continuer</p>
         </div>
@@ -44,7 +44,7 @@
         <div class="header__back">   
           <p><span><</span> Retour</p>
         </div>
-        <img class="header__logo" src="src/landing/logo-provisoir.png" alt="#">
+        <img class="header__logo" src="src/all/logo.png" alt="#">
         <div class="header__button">
           <p>Continuer</p>
         </div>
@@ -62,7 +62,7 @@
         <div class="header__back">   
           <p><span><</span> Retour</p>
         </div>
-        <img class="header__logo" src="src/landing/logo-provisoir.png" alt="#">
+        <img class="header__logo" src="src/all/logo.png" alt="#">
         <div class="header__button">
           <p>Continuer</p>
         </div>
@@ -115,7 +115,7 @@
         <div class="header__back">   
           <p><span><</span> Retour</p>
         </div>
-        <img class="header__logo" src="src/landing/logo-provisoir.png" alt="#">
+        <img class="header__logo" src="src/all/logo.png" alt="#">
         <div class="header__button">
           <p>Continuer</p>
         </div>
@@ -135,7 +135,7 @@
         <div class="header__back">   
           <p><span><</span> Retour</p>
         </div>
-        <img class="header__logo" src="src/landing/logo-provisoir.png" alt="#">
+        <img class="header__logo" src="src/all/logo.png" alt="#">
       </div>
       <div class="step5__content content--default">
         <h4 class="step5__title title--default">Informations de sécurité</h4>
@@ -168,14 +168,14 @@
     </section>
     <section class="section--step6 section--default js-section--step6">
       <div class="step6__header header--default">
-        <img class="header__logo" src="src/landing/logo-provisoir.png" alt="#">
+        <img class="header__logo" src="src/all/logo.png" alt="#">
       </div>
       <div class="step6__content content--default">
         <h4 class="step5__title title--default">Demande d’inscription enregistrée !</h4>
         <p>
           Votre demande d’inscriptation a été enregistrée et mise en attente de validation.
         </p>
-        <p>
+        <p> 
           Une notification de validation du compte vous sera envoyée par email dans les deux jours. 
         </p>
         <p>
@@ -203,6 +203,6 @@
   </main>
   <footer>
   </footer>
-  <script src="scripts/app.js"></script>
+  <script src="scripts/register.js"></script>
 </body>
 </html>

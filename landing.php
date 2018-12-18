@@ -95,6 +95,6 @@
   </footer>
 
   <script src="library/fullpage/fullpage.js"></script>
-  <script src="scripts/app.js"></script>
+  <script src="scripts/landing.js"></script>
 </body>
 </html>
