@@ -52,3 +52,5 @@ function stepPosition()
 //stepPosition()
 
 // swipe register step end
+
+AOS.init()

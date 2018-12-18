@@ -292,106 +292,10 @@ body.body--index footer ul li a {
 ** Landing page begining **
 *
 ***/
-body.body--landing {
+.body--landing {
   background-image: url(../src/background_space.png);
   background-repeat: no-repeat;
   background-size: 100%;
-  overflow: hidden;
-  /** header start**/
-  /** header end**/
-  /** main start**/
-}
-body.body--landing header {
-  padding: 20px 0px;
-}
-body.body--landing header img {
-  display: block;
-  width: 50px;
-  margin: auto;
-}
-body.body--landing header h1 {
-  font-family: Josefin Sans;
-  font-weight: bold;
-  line-height: normal;
-  font-size: 1.3rem;
-  text-align: center;
-  color: #fff;
-}
-body.body--landing main .section--welcome .img--bubble {
-  position: absolute;
-  width: 75%;
-  left: 12.5%;
-  z-index: -1;
-}
-body.body--landing main .section--welcome .welcome__article {
-  width: 80%;
-  margin: auto;
-}
-body.body--landing main .section--welcome .welcome__article .welcome__title {
-  font-family: Bungee;
-  text-align: center;
-  font-size: 2rem;
-  padding-top: 30px;
-}
-body.body--landing main .section--welcome .welcome__article p {
-  text-align: center;
-  font-family: Josefin Sans;
-  padding-top: 30px;
-  width: 80%;
-  margin: auto;
-  font-size: 1.3rem;
-}
-body.body--landing main .section--welcome .welcome__article p .important--light {
-  color: #F87D42;
-}
-body.body--landing main .section--welcome .welcome__article p .important--bold {
-  color: #F87D42;
-  font-weight: bold;
-}
-body.body--landing main .section--welcome .welcome__article .welcome__text--last {
-  font-size: 1.5rem;
-}
-body.body--landing main .section--welcome .welcome__article .register--ext {
-  width: 300px;
-  background: #00136C;
-  margin: auto;
-  margin-top: 30px;
-  height: 50px;
-  border-radius: 350px;
-}
-body.body--landing main .section--welcome .welcome__article .register--ext .register--int {
-  width: 292px;
-  height: 46px;
-  margin: auto;
-  border-radius: 350px;
-  border: 2px solid red;
-}
-body.body--landing main .section--welcome .welcome__article .register--ext .register--int a {
-  padding-top: 10px;
-  font-family: Bungee;
-  font-style: normal;
-  font-weight: normal;
-  line-height: normal;
-  font-size: 1.6rem;
-  color: #FFFFFF;
-  text-decoration: none;
-  text-align: center;
-  display: block;
-  width: 100%;
-  margin: auto;
-}
-body.body--landing main .section--welcome .img--moon {
-  position: absolute;
-  width: 90%;
-  left: 30%;
-  top: 40%;
-}
-body.body--landing main .section--welcome .img--main {
-  position: absolute;
-  width: 35%;
-  left: 77%;
-  top: 60%;
-  transform: rotate(18.42deg);
 }
 
 /***
