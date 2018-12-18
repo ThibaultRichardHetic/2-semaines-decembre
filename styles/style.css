@@ -1539,7 +1539,13 @@ body.body--index footer ul li a {
   background-repeat: no-repeat;
   background-size: 100%;
 }
+.body--registration main {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
 .body--registration main .section--default {
+  position: absolute;
   background-color: #FFF;
   border: solid 2px #fff;
   width: 50%;
@@ -1623,6 +1629,9 @@ body.body--index footer ul li a {
   font-size: 1.5rem;
   margin-bottom: 20px;
 }
+.body--registration main .section--step1 {
+  left: 25%;
+}
 .body--registration main .section--step1 .step1__content form input {
   background-color: #E8F5F9;
   width: 100%;
@@ -1650,6 +1659,9 @@ body.body--index footer ul li a {
   font-weight: normal;
   line-height: normal;
   font-size: 1.1rem;
+}
+.body--registration main .section--step2 {
+  transform: translateX(200%);
 }
 .body--registration main .section--step2 .step2__content .step2__circle {
   height: 200px;
@@ -1691,6 +1703,7 @@ body.body--index footer ul li a {
 }
 .body--registration main .section--step3 {
   width: 70%;
+  transform: translateX(200%);
 }
 .body--registration main .section--step3 .step3__content .content--form {
   display: flex;
@@ -1769,6 +1782,9 @@ body.body--index footer ul li a {
 .body--registration main .section--step3 .step3__content .clear {
   clear: both;
 }
+.body--registration main .section--step4 {
+  transform: translateX(200%);
+}
 .body--registration main .section--step4 .step4__content .step4__title {
   margin-bottom: 40px;
   text-align: center;
@@ -1784,6 +1800,9 @@ body.body--index footer ul li a {
 }
 .body--registration main .section--step4 .step4__content p span {
   color: #F87D42;
+}
+.body--registration main .section--step5 {
+  transform: translateX(200%);
 }
 .body--registration main .section--step5 .step5__content p {
   font-family: Josefin Sans;
@@ -1846,6 +1865,7 @@ body.body--index footer ul li a {
   transform: translateY(15%);
 }
 .body--registration main .section--step6 {
+  transform: translateX(350%);
   width: 30%;
 }
 .body--registration main .section--step6 .step6__content .step5__title {
@@ -1866,6 +1886,7 @@ body.body--index footer ul li a {
   color: #F87D42;
 }
 .body--registration main .section--step7 {
+  transform: translateX(200%);
   background-color: #00136C;
   border: solid 5px #fff;
   width: 80%;
