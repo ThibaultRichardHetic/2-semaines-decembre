@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="robot" content="noindex">
+    <meta name="robot" content="nofollow">
+    <meta name="description" content="Une plateforme ultra-sécurisée où chaque enfant peut poster des contenus qu’il a créés dans la positivité et le respect.">
     <title>CreHappy</title>
     <link rel="icon" type="image/png" href="src/all/logo.png"/>
     <link href="https://fonts.googleapis.com/css?family=Bungee|Josefin+Sans" rel="stylesheet">

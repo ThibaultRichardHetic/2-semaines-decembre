@@ -1728,7 +1728,6 @@ body.body--commentary
         {
           form 
           {
-            background: #ACACB466;
             bottom: 6%;
             position: absolute;
             width: 90%;
@@ -1739,6 +1738,15 @@ body.body--commentary
             {
               font-family: 'Josefin Sans',sans-serif;
               width: 100%;
+              background: #ACACB466;
+            }
+            .text--comm
+            {
+              height: 30px;
+            }
+            .submit
+            {
+              width: 15%;
             }
           }
         }

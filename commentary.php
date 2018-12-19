@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Une plateforme ultra-sécurisée où chaque enfant peut poster des contenus qu’il a créés dans la positivité et le respect.">
+    <meta name="robot" content="noindex">
+    <meta name="robot" content="nofollow">
     <title>CreHappy</title>
     <link rel="icon" type="image/png" href="src/all/logo.png"/>
     <link href="https://fonts.googleapis.com/css?family=Bungee|Josefin+Sans" rel="stylesheet">
     <link rel="stylesheet" href="styles/reset.min.css">
     <link rel="stylesheet" href="styles/style.min.css">
-    favic
 </head>
 <body class="body--commentary">
 
@@ -33,9 +35,88 @@
             <div class="post1__elements__likes"><p>350 J'aimes</p><p>5 Commentaires</p></div>
           </div>
           <div class="post1__form">
-            <FORM>
-              <input wrap="virtual" name="nom" rows=4 cols=28% placeholder="Ton commentaire..."/>
-            </FORM>
+
+<?php
+  $commentaire = $_POST['commentaire'];
+  $original = $commentaire;
+  $checkurl = "http://api1.webpurify.com/services/rest/?method=webpurify.live.replace&api_key=24ffa08383a6673e58d9635579dd55ef&lang=fr&text=".urlencode($commentaire);
+  $response = simplexml_load_file($checkurl,'SimpleXMLElement', LIBXML_NOCDATA);
+  $modifie = $response->text;
+?>
+
+            <form action="#" method="post">
+              <input class="text--comm" name="commentaire" placeholder="Ton commentaire..." autocomplete="off"/>
+              <input class="submit" type="submit">
+            </form>
+
+    
+<?php
+echo 'texte modifié :  ';
+echo $modifie;
+echo '</br>';
+echo 'texte original :  ';
+echo $original;
+echo '</br>';
+echo '</br>';
+// if($modifie = $original){
+//   echo 'on peut l envoyer';
+// } ?>
+
+<?php
+class Diff {
+  public static function diffArray($old, $new){
+      $matrix = array();
+      $maxlen = 0;
+      foreach($old as $oindex => $ovalue){
+          $nkeys = array_keys($new, $ovalue);
+          foreach($nkeys as $nindex){
+              $matrix[$oindex][$nindex] = isset($matrix[$oindex - 1][$nindex - 1]) ? $matrix[$oindex - 1][$nindex - 1] + 1 : 1;
+              if($matrix[$oindex][$nindex] > $maxlen){
+                  $maxlen = $matrix[$oindex][$nindex];
+                  $omax = $oindex + 1 - $maxlen;
+                  $nmax = $nindex + 1 - $maxlen;
+              }
+          }
+      }
+      if($maxlen == 0) return array(array('d'=>$old, 'i'=>$new));
+      return array_merge(
+          self::diffArray(array_slice($old, 0, $omax), array_slice($new, 0, $nmax)),
+          array_slice($new, $nmax, $maxlen),
+          self::diffArray(array_slice($old, $omax + $maxlen), array_slice($new, $nmax + $maxlen)));
+  }
+  public static function htmlDiff($old, $new){
+      $ret = '';
+      $diff = self::diffArray(explode(' ', $old), explode(' ', $new));
+      foreach($diff as $k){
+          if(is_array($k)){
+              $ret .= (!empty($k['d'])?'<del>'.implode(' ',$k['d']).'</del> ':'').(!empty($k['i'])?'<ins>'.implode(' ',$k['i']).'</ins> ':'');
+          }else{
+              $ret .= $k . ' ';
+          }
+      }
+      return $ret;
+  }
+}
+$ladif = Diff::htmlDiff($original, $modifie);
+ if($response)
+  {
+    if($original == $modifie)
+    {
+      echo $original;
+    }
+    else if($original != $modifie)
+    {
+     // echo 'la c est non';
+      echo "<script>alert('tu as utilisé des mots non apropriés')</script>";
+      echo "<script>alert('tu as utilisé des mots non apropriés')</script>";
+      //redirect('admin/ahm/panel');
+    }
+  }
+//echo Diff::htmlDiff($original, $modifie);
+//print_r($response);
+?>
+
+
           </div>
         </div>
       </div>

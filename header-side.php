@@ -78,5 +78,4 @@
             </div>
         </div>
     </div>
-    <script src="scripts/transfer.js"></script>
     <script src="scripts/header.js"></script>

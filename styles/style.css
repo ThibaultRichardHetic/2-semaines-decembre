@@ -1462,7 +1462,6 @@ body.body--commentary .main .main__posts .posts__post1 .post1__elements .post1__
   font-size: 1.2rem;
 }
 body.body--commentary .main .main__posts .posts__post1 .post1__form form {
-  background: #ACACB466;
   bottom: 6%;
   position: absolute;
   width: 90%;
@@ -1473,6 +1472,13 @@ body.body--commentary .main .main__posts .posts__post1 .post1__form form {
 body.body--commentary .main .main__posts .posts__post1 .post1__form form input {
   font-family: 'Josefin Sans',sans-serif;
   width: 100%;
+  background: #ACACB466;
+}
+body.body--commentary .main .main__posts .posts__post1 .post1__form form .text--comm {
+  height: 30px;
+}
+body.body--commentary .main .main__posts .posts__post1 .post1__form form .submit {
+  width: 15%;
 }
 body.body--commentary footer {
   position: absolute;
