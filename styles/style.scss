@@ -3430,6 +3430,51 @@ body.body--index
       }
     }
   }
+  #listitem {
+    list-style: none;
+    padding: 0;
+}
+#listitem li {
+    border: 1px solid #eee;
+    margin: 5px 0;
+    padding: 8px 15px;
+}
+#listitem li.active{
+    color:red;
+}
+input#addlist {
+    width: 268px;
+    border: 1px solid #eee;
+    padding: 12px 15px;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 15px;
+    color: #535b70;
+}
+#clone-btn,
+#remove-btn {
+    padding: 12px 20px;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+    transition: 400ms;
+    -webkit-transition: 400ms;
+    cursor: pointer;
+}
+#clone-btn {
+    background: #20b368;
+}
+#remove-btn {
+    background: rgb(197, 18, 18);
+}
+#clone-btn:hover {
+    background: #138046;
+}
+#remove-btn:hover {
+    background: rgb(143, 15, 15);
+}
 }
  
 

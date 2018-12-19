@@ -2825,6 +2825,51 @@ body.body--index footer ul li a {
 .body--clubcrea main .section--step1 .step1__content form .button--creation:hover p {
   color: #6B6B6B;
 }
+.body--clubcrea #listitem {
+  list-style: none;
+  padding: 0;
+}
+.body--clubcrea #listitem li {
+  border: 1px solid #eee;
+  margin: 5px 0;
+  padding: 8px 15px;
+}
+.body--clubcrea #listitem li.active {
+  color: red;
+}
+.body--clubcrea input#addlist {
+  width: 268px;
+  border: 1px solid #eee;
+  padding: 12px 15px;
+  font-size: 16px;
+  display: block;
+  margin-bottom: 15px;
+  color: #535b70;
+}
+.body--clubcrea #clone-btn,
+.body--clubcrea #remove-btn {
+  padding: 12px 20px;
+  border: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1px;
+  transition: 400ms;
+  -webkit-transition: 400ms;
+  cursor: pointer;
+}
+.body--clubcrea #clone-btn {
+  background: #20b368;
+}
+.body--clubcrea #remove-btn {
+  background: #c51212;
+}
+.body--clubcrea #clone-btn:hover {
+  background: #138046;
+}
+.body--clubcrea #remove-btn:hover {
+  background: #8f0f0f;
+}
 
 /***
 *

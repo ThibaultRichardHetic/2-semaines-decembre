@@ -46,7 +46,7 @@
         <section class="section--step1">
             <h3>Nouveau club</h3>
             <div class="step1__content">
-                <form action="" methode="post">
+                <form action="#" methode="post">
                     <div class="part--up">
                         <p>
                             Ce club s'appelle :
@@ -59,10 +59,16 @@
                         </p>
                         <img src="src/Navbar/Glass.png" alt="">
                         <input type="text" placeholder="Surnom de mon ami(e)">
-                        <div class="add--user">
+                        <div class="add--user js-add--user">
                             <p>
                                 ami +
                             </p>
+                        </div>
+                        <div>
+                            <ul id="listitem"></ul>
+                            <input type="text" id="addlist" placeholder="Add New item" onfocus="clearValue(this)">
+                            <button id="clone-btn">+ Add New Item</button>
+                            <button id="remove-btn">Delete Item</button>
                         </div>
                     </div>
                     <div class="button--creation">
@@ -75,3 +81,5 @@
     <script src="scripts/clubcrea.js"></script>
 </body>
 </html>
+
+
