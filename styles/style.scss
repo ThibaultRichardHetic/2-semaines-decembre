@@ -3299,10 +3299,10 @@ body.body--index
     .section--step1
     {
       width: 60%;
-      height: 300px;
+      //height: 300px;
       background-color: #fff;
       margin: auto;
-      transform: translateX(15%) translateY(60%);
+      transform: translateX(15%) translateY(300px);
       border-radius: 10px;
       h3
       {
@@ -3322,6 +3322,7 @@ body.body--index
           width: 80%;
           margin: auto;
           margin-top: 30px;
+          z-index: 3;
           p
           {
             font-family: Josefin Sans;
@@ -3351,6 +3352,52 @@ body.body--index
           .part--down
           {
             margin-top: 20px;
+            #listitem {
+              list-style: none;
+              padding: 0;
+                
+            }
+            #listitem li {
+                border: 1px solid #eee;
+                margin: 5px 0;
+                padding: 8px 15px;
+            }
+            #listitem li.active{
+                color:red;
+            }
+            input#addlist {
+                width: 268px;
+                border: 1px solid #eee;
+                padding: 12px 15px;
+                font-size: 16px;
+                display: block;
+                margin-bottom: 15px;
+                color: #535b70;
+            }
+            #clone-btn,
+            #remove-btn {
+                padding: 12px 20px;
+                border: none;
+                color: #fff;
+                text-transform: uppercase;
+                font-size: 12px;
+                letter-spacing: 1px;
+                transition: 400ms;
+                -webkit-transition: 400ms;
+                cursor: pointer;
+            }
+            #clone-btn {
+                background: #F87D42;
+            }
+            #remove-btn {
+                background: rgb(197, 18, 18);
+            }
+            #clone-btn:hover {
+                background: rgb(226, 84, 19);
+            }
+            #remove-btn:hover {
+                background: rgb(143, 15, 15);
+            }
             img
             {
               width: 20px;
@@ -3430,51 +3477,7 @@ body.body--index
       }
     }
   }
-  #listitem {
-    list-style: none;
-    padding: 0;
-}
-#listitem li {
-    border: 1px solid #eee;
-    margin: 5px 0;
-    padding: 8px 15px;
-}
-#listitem li.active{
-    color:red;
-}
-input#addlist {
-    width: 268px;
-    border: 1px solid #eee;
-    padding: 12px 15px;
-    font-size: 16px;
-    display: block;
-    margin-bottom: 15px;
-    color: #535b70;
-}
-#clone-btn,
-#remove-btn {
-    padding: 12px 20px;
-    border: none;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 12px;
-    letter-spacing: 1px;
-    transition: 400ms;
-    -webkit-transition: 400ms;
-    cursor: pointer;
-}
-#clone-btn {
-    background: #20b368;
-}
-#remove-btn {
-    background: rgb(197, 18, 18);
-}
-#clone-btn:hover {
-    background: #138046;
-}
-#remove-btn:hover {
-    background: rgb(143, 15, 15);
-}
+
 }
  
 

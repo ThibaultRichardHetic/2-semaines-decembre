@@ -65,10 +65,10 @@
                             </p>
                         </div> -->
                         <div>
-                            <ul id="listitem"></ul>
-                            <input type="text" id="addlist" placeholder="Add New item" onfocus="clearValue(this)">
-                            <button id="clone-btn">+ Add New Item</button>
-                            <button id="remove-btn">Delete Item</button>
+                            <ul id="listitem"><li>moi</li></ul>
+                            <input type="text" id="addlist" placeholder="surnom de ton ami" onfocus="clearValue(this)">
+                            <button id="clone-btn">+ ajoute un ami</button>
+                            <button id="remove-btn">retire un ami</button>
                         </div>
                     </div>
                     <div class="button--creation">

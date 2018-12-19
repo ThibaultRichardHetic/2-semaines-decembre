@@ -1,46 +1,77 @@
 let headTitle = document.querySelector('#title')
-let cloneBtn = document.getElementById('clone-btn')
-let removeBtn = document.getElementById('remove-btn')
-let getItem = document.getElementById('listitem')
+let cloneBtn = document.querySelector('#clone-btn')
+let removeBtn = document.querySelector('#remove-btn')
+let getItem = document.querySelector('#listitem')
+let selectLi = document.querySelector('#listitem li')
 
 // Add new item action
-cloneBtn.addEventListener('click',addlistitem);
+cloneBtn.addEventListener('click',addlistitem)
 function addlistitem(){
-    let addList = document.getElementById("addlist");
+    let i = 0
+    let addList = document.getElementById("addlist")
     if (addList.value) {
-        let getItems = document.createElement("li");
-        let newContent = document.createTextNode(addList.value); 
-        getItems.appendChild(newContent);
-        getItem.appendChild(getItems);
+        i += 1
+        let getItems = document.createElement("li")
+       // getItems.className = "li" + i
+        let newContent = document.createTextNode(addList.value)
+        getItems.appendChild(newContent)
+        getItem.appendChild(getItems)
     } else {
-        alert("Please Insert New list Item");
+        alert("Vous n'avez pas rentrer le nom d'un ami")
     }
 }
 
-// Change title text
+// selectLi.addEventListener('click', (event) =>
+// {
+//    event.currentTarget.classList.add('active')
+//    console.log('click')
+// })
+
+// getItem.addEventListener('click', (e) =>
+// {
+        
+//             //headTitle.innerHTML = e.currentTarget.innerHTML
+//             console.log(e.currentTarget.parentNode)
+//             for( i=0; i < e.currentTarget.parentNode.children.length; i++ ) 
+//             {
+//                 e.currentTarget.parentNode.children[i].classList.remove('active')
+//             }
+//             e.currentTarget.classList.add('active')
+        
+// })
+
+//removeBtn.add
+
+//Change title text
+
 getItem.addEventListener('click',triggeritem);
 function triggeritem (e) {
-    if(e.target.nodeName=='LI') {
-        headTitle.innerHTML = e.target.innerHTML;
-        console.log(e.target.parentNode);
-        for( i=0; i < e.target.parentNode.children.length; i++ ) {
+    if(e.target.nodeName=='LI') 
+    {
+        // headTitle.innerHTML = e.target.innerHTML;
+        // console.log(e.target.parentNode);
+        for( i=0; i < e.target.parentNode.children.length; i++ ) 
+        {
             e.target.parentNode.children[i].classList.remove('active');
         }
-        e.target.classList.add('active');
+        e.target.classList.add('active')
     }
 }
 
 // Reset Value from input field
 function clearValue(target){
-    if (target.value != "") {
+    if (target.value != "") 
+    {
         target.value= "";
     }
 }
+
 // Remove Action
-removeBtn.addEventListener('click',removeItem);
+removeBtn.addEventListener('click',removeItem)
 function removeItem(e){
-        let removeLast = getItem.lastChild;
-        getItem.removeChild(removeLast); 
+       // let removeLast = getItem.lastChild
+       getItem.removeChild(document.querySelector('.active'))
+       
 }
 
 
