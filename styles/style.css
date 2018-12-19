@@ -2620,12 +2620,9 @@ body.body--index footer ul li a {
   top: 3.6vh;
   left: 45.5vw;
 }
-.body--clubcrea .container__navbar .navbar__logo {
-  width: 3vw;
-  height: 7vh;
-  border-radius: 50%;
-  margin-left: 12%;
-  border: 2px solid #fff;
+.body--clubcrea .container__navbar .nav__logo {
+  width: 50px;
+  margin: auto;
 }
 .body--clubcrea .container__navbar .navbar__profil img {
   width: 3vw;

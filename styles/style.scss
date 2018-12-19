@@ -3137,7 +3137,6 @@ body.body--index
     width: 100vw;
     height: 12vh;
     background: #F87D42;
-
     .navbar__research 
     {
       margin-left: 28%;
@@ -3175,13 +3174,18 @@ body.body--index
       left: 45.5vw;
       }
     }
-    .navbar__logo
+    // .navbar__logo
+    // {
+    //   width: 3vw;
+    //   height: 7vh;
+    //   border-radius: 50%;
+    //   margin-left: 12%;
+    //   border: 2px solid #fff;
+    // }
+    .nav__logo
     {
-      width: 3vw;
-      height: 7vh;
-      border-radius: 50%;
-      margin-left: 12%;
-      border: 2px solid #fff;
+      width: 50px;
+      margin: auto;
     }
     .navbar__profil
     {
@@ -3489,7 +3493,6 @@ body.body--index
       }
     }
   }
-
 }
  
 
