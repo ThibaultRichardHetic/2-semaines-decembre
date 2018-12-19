@@ -180,6 +180,11 @@ body
         {
           background: #DB3951;
         }
+        .topics__mynewclub
+        {
+          color: #fff;
+          background-color: rgb(18, 150, 238);
+        }
       }
     }  
   }
@@ -2063,11 +2068,42 @@ body.body--index
       font-size: 1rem;
       text-align: center;
     }
+    .scroll-indicator 
+      {	
+        color: #F87D42;
+        position: absolute;
+        left: 50%;
+        bottom: -250%;
+        // width: 80px;
+        // margin: auto;
+        text-align: center;
+        font-family: Josefin Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 100px;
+        transform: rotate(180deg);    
+        -webkit-animation: bounce 1s infinite; 
+        animation: bounce 1s infinite;
+      }
+      
+      @-webkit-keyframes bounce {
+         0% { top: 15%; }
+         50%   { top: 20%; }
+         100% { top: 15%; }
+      }
+      
+      @keyframes bounce {
+         0% { bottom: -250%; }
+         50%   { bottom: -270%; }
+         100% { bottom: -250%; }
+      }
+  
     .button--fixed
     {
       width: 25%;
       margin: auto;
       transform: translateY(600%);
+      
       p
       {
         text-align: center;

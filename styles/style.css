@@ -143,6 +143,10 @@ body .container__sidebar .sidebar__topics ul .topics__myclubs {
 body .container__sidebar .sidebar__topics ul .topics__myclubs:hover {
   background: #DB3951;
 }
+body .container__sidebar .sidebar__topics ul .topics__mynewclub {
+  color: #fff;
+  background-color: #1296ee;
+}
 
 /**
 *
@@ -1757,6 +1761,42 @@ body.body--index footer ul li a {
   line-height: normal;
   font-size: 1rem;
   text-align: center;
+}
+.body--landing header .scroll-indicator {
+  color: #F87D42;
+  position: absolute;
+  left: 50%;
+  bottom: -250%;
+  text-align: center;
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 100px;
+  transform: rotate(180deg);
+  -webkit-animation: bounce 1s infinite;
+  animation: bounce 1s infinite;
+}
+@-webkit-keyframes bounce {
+  0% {
+    top: 15%;
+  }
+  50% {
+    top: 20%;
+  }
+  100% {
+    top: 15%;
+  }
+}
+@keyframes bounce {
+  0% {
+    bottom: -250%;
+  }
+  50% {
+    bottom: -270%;
+  }
+  100% {
+    bottom: -250%;
+  }
 }
 .body--landing header .button--fixed {
   width: 25%;

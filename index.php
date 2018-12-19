@@ -13,7 +13,9 @@
   <header>
     <img class="logo" src="src/all/logo.png" alt="">
     <h3>CréHappy</h3>
+    <div class="scroll-indicator fa fa-chevron-down">^</div>
     <div class="button--fixed">
+
       <div class="button__register">
         <p>
           <a href="register.php">je m’inscris</a>

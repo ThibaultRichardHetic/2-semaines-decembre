@@ -16,15 +16,16 @@
     ?>
 
     <?php
-    if(isset($_POST['create-club'])) {
-        echo $_POST['title_club'];
-    } 
+    // if(isset($_POST['create-club'])) {
+    //     echo $_POST['title_club'];
+    // } 
     ?>
+    
     <main>
         <section class="section--step1">
             <h3>Nouveau club</h3>
             <div class="step1__content">
-                <form action="" methode="post">
+                <form action="" methode="post" onSubmit="verification(); return false;">
                     <div class="part--up">
                         <p>
                             Ce club s'appelle :
@@ -42,13 +43,13 @@
                             <button id="remove-btn">retire un ami</button>
                         </div>
                     </div>
-                    <input type="submit" name="create_club" value="Créer" class="button--creation js-creation-button">
+                    <!-- <input type="submit" name="create_club" value="Créer" class="button--creation js-creation-button"> -->
+                    <div class="button--creation js-creation-button"><p>creer</p></div>
                     </div>
                 </form>
             </div>
         </section>
     </main>
-    <script src="scripts/transfer.js"></script>
     <script src="scripts/clubcrea.js"></script>
 </body>
 </html>

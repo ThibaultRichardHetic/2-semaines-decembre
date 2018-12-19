@@ -29,8 +29,8 @@ function recupData()
 function creaClub()
 {
     let newLi = document.createElement('li')
-    // newLi.createElement('a')
-    // newLi.innerHtml = $clubName.value
+    newLi.createElement('a')
+    newLi.innerHtml = $clubName.value
     newLi.innerHTML = "<a>" + $clubName.value + "</a>"
     newLi.style.color = "#fff"
     newLi.className = "topics__mynewclub"
