@@ -270,6 +270,9 @@ body.body--index .main .main__posts .posts__post1 .post1__elements .post1__eleme
   font-family: 'Josefin Sans',sans-serif;
   font-size: 0.5rem;
 }
+body.body--index .main .main__posts .posts__post1 .post1__elements .post1__elements__likes a {
+  text-decoration: none;
+}
 body.body--index .main .main__posts .posts__post1 .post1__elements .post1__elements__likes p {
   font-family: 'Josefin Sans',sans-serif;
 }
@@ -1315,16 +1318,6 @@ body.body--index .main .main__posts .posts__post24 .post24__elements__likes {
 body.body--index .main .main__posts .posts__post24 .post24__elements__likes p {
   font-family: 'Josefin Sans',sans-serif;
 }
-body.body--index .main .background-full-screen {
-  display: none;
-  position: fixed;
-  padding-top: 5%;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: black;
-}
 body.body--index footer {
   position: absolute;
   bottom: -56vh;
@@ -1353,6 +1346,162 @@ body.body--index footer ul li a {
 /***
 *
 ** Dicovery page end **
+*
+***/
+/***
+*
+** Commentary page begining **
+*
+***/
+body.body--commentary {
+  position: relative;
+  margin: 0;
+  height: 155vh;
+  background: #FFFFFF;
+  overflow-x: hidden;
+  z-index: -8000;
+  /* Footer */
+}
+body.body--commentary .main {
+  width: 83vw;
+  height: auto;
+  position: absolute;
+  left: 17vw;
+  top: 12vh;
+  display: flex;
+  justify-content: center;
+  z-index: -6;
+}
+body.body--commentary .main .main__backgroundimg {
+  width: 100%;
+  z-index: -222;
+  height: 200vh;
+  background-size: 100%;
+  background-image: url(../src/background_space.png);
+  background-repeat: repeat-y;
+}
+body.body--commentary .main .main__spacemanimg {
+  position: absolute;
+  left: -35vw;
+  top: 10vh;
+  width: 187vw;
+  height: 67vh;
+}
+body.body--commentary .main .main__title {
+  position: absolute;
+  background: #00123f;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 36px;
+  width: 42vw;
+  height: 14vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 16vh;
+}
+body.body--commentary .main .main__title h2 {
+  font-family: "Bungee",sans-serif;
+  font-size: 2.8rem;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+}
+body.body--commentary .main .main__posts {
+  display: flex;
+  position: absolute;
+  top: 62vh;
+  width: 70vw;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+body.body--commentary .main .main__posts div {
+  margin-bottom: 8vh;
+  display: flex;
+  justify-content: center;
+}
+body.body--commentary .main .main__posts .posts__post1 {
+  background: #fff;
+  width: 100vw;
+  height: 103vh;
+  position: relative;
+}
+body.body--commentary .main .main__posts .posts__post1 .post1__elements img {
+  width: 6vw;
+  position: absolute;
+  top: 3%;
+  left: 5%;
+  border-radius: 50%;
+}
+body.body--commentary .main .main__posts .posts__post1 .post1__elements .post1__elements__atsign {
+  color: #38d0ff;
+  font-family: 'Josefin Sans',sans-serif;
+  position: absolute;
+  left: 16%;
+  top: 6%;
+}
+body.body--commentary .main .main__posts .posts__post1 .post1__elements .post1__elements__text {
+  font-family: 'Josefin Sans',sans-serif;
+  position: absolute;
+  left: 16%;
+  top: 13%;
+  font-size: 1.6rem;
+}
+body.body--commentary .main .main__posts .posts__post1 .post1__elements .iframe {
+  position: absolute;
+  top: 22%;
+  left: 5%;
+}
+body.body--commentary .main .main__posts .posts__post1 .post1__elements .post1__elements__likes {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  bottom: 12%;
+  position: absolute;
+  font-family: 'Josefin Sans',sans-serif;
+  font-size: 1.2rem;
+}
+body.body--commentary .main .main__posts .posts__post1 .post1__form form {
+  background: #ACACB466;
+  bottom: 6%;
+  position: absolute;
+  width: 90%;
+  border-radius: 10px;
+  height: 6%;
+  padding: 6px;
+}
+body.body--commentary .main .main__posts .posts__post1 .post1__form form input {
+  font-family: 'Josefin Sans',sans-serif;
+  width: 100%;
+}
+body.body--commentary footer {
+  position: absolute;
+  bottom: -47vh;
+  left: 23.5vw;
+  width: 70vw;
+}
+body.body--commentary footer ul {
+  display: flex;
+  justify-content: space-between;
+}
+body.body--commentary footer ul li {
+  font-family: 'Josefin Sans',sans-serif;
+  color: #fff;
+  list-style: none;
+  text-transform: capitalize;
+  z-index: 666;
+}
+body.body--commentary footer ul li a {
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/***
+*
+** Commentary page end **
 *
 ***/
 /***
