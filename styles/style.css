@@ -2569,7 +2569,7 @@ body.body--index footer ul li a {
 ***/
 /***
 *
-** register page end **
+** clubcrea page end **
 *
 ***/
 .body--clubcrea {
@@ -2585,6 +2585,7 @@ body.body--index footer ul li a {
   position: relative;
 }
 .body--clubcrea .container__navbar {
+  z-index: 2;
   position: fixed;
   display: flex;
   align-items: center;
@@ -2620,7 +2621,12 @@ body.body--index footer ul li a {
   top: 3.6vh;
   left: 45.5vw;
 }
-.body--clubcrea .container__navbar .nav__logo {
+.body--clubcrea .container__navbar .a__logo {
+  display: block;
+  width: 50px;
+  margin: auto;
+}
+.body--clubcrea .container__navbar .a__logo .nav__logo {
   width: 50px;
   margin: auto;
 }
@@ -2718,7 +2724,7 @@ body.body--index footer ul li a {
   width: 60%;
   background-color: #fff;
   margin: auto;
-  transform: translateX(15%) translateY(300px);
+  transform: translateX(15%) translateY(200px);
   border-radius: 10px;
 }
 .body--clubcrea main .section--step1 h3 {
@@ -2873,7 +2879,7 @@ body.body--index footer ul li a {
 
 /***
 *
-** register page end **
+** clubcrea page end **
 *
 ***/
 

@@ -27,15 +27,48 @@
       </div>
       <div class="sidebar__topics">
           <ul>
-            <li class="topics__mytopics"><a href="#">Mes Thèmes</a></li>
-            <li class="topics__videos"><a href="#">Musique</a><img src="src/Sidebar/Hexagon_White.png"><img src="src/Sidebar/Music.png" class="topics__iconmusic"></li>
-            <li class="topics__sport"><a href="#">Sport</a><img src="src/Sidebar/Hexagon_White.png"><img src="src/Sidebar/Sport.png" class="topics__iconsport"></li>
-            <li class="topics__videosgames"><a href="#">Jeux</a><img src="src/Sidebar/Hexagon_White.png"><img src="src/Sidebar/Controller.png" class="topics__iconcontroller"></li>
-            <li class="topics__art"><a href="#">Art</a><img src="src/Sidebar/Hexagon_White.png"><img src="src/Sidebar/Pencil.png" class="topics__iconpencil"></li>
-            <li class="topics__music"><a href="#">Cuisine</a><img src="src/Sidebar/Hexagon_White.png"><img src="src/Sidebar/Cook.png" class="topics__iconcook"></li>
-            <li class="topics__tutoriels"><a href="#">Tutoriels</a><img src="src/Sidebar/Hexagon_White.png"><img src="src/Sidebar/Scissors.png" class="topics__iconscissors"></li>
-            <li class="topics__humor"><a href="#">Humour</a><img src="src/Sidebar/Hexagon_White.png"><img src="src/Sidebar/Tongue.png" class="topics__icontongue"></li>
-            <li class="topics__myclubs"><a href="#">Mes Clubs</a><img class="js-add-club" src="src/Sidebar/Cross.png"></li>
+            <li class="topics__mytopics">
+              <a href="#">Mes Thèmes</a>
+            </li>
+            <li class="topics__videos">
+              <a href="#">Musique</a>
+              <img src="src/Sidebar/Hexagon_White.png">
+              <img src="src/Sidebar/Music.png" class="topics__iconmusic">
+            </li>
+            <li class="topics__sport">
+              <a href="#">Sport</a>
+              <img src="src/Sidebar/Hexagon_White.png">
+              <img src="src/Sidebar/Sport.png" class="topics__iconsport">
+            </li>
+            <li class="topics__videosgames">
+              <a href="#">Jeux</a>
+              <img src="src/Sidebar/Hexagon_White.png">
+              <img src="src/Sidebar/Controller.png" class="topics__iconcontroller">
+            </li>
+            <li class="topics__art">
+              <a href="#">Art</a>
+              <img src="src/Sidebar/Hexagon_White.png">
+              <img src="src/Sidebar/Pencil.png" class="topics__iconpencil">
+            </li>
+            <li class="topics__music">
+              <a href="#">Cuisine</a>
+              <img src="src/Sidebar/Hexagon_White.png">
+              <img src="src/Sidebar/Cook.png" class="topics__iconcook">
+            </li>
+            <li class="topics__tutoriels">
+              <a href="#">Tutoriels</a>
+              <img src="src/Sidebar/Hexagon_White.png">
+              <img src="src/Sidebar/Scissors.png" class="topics__iconscissors">
+            </li>
+            <li class="topics__humor">
+              <a href="#">Humour</a>
+              <img src="src/Sidebar/Hexagon_White.png">
+              <img src="src/Sidebar/Tongue.png" class="topics__icontongue">
+            </li>
+            <li class="topics__myclubs">
+              <a href="#">Mes Clubs</a>
+              <img class="js-add-club" src="src/Sidebar/Cross.png">
+            </li>
           </ul>
       </div>
     </div>
@@ -266,7 +299,11 @@
       <li class="footer__language"><a href="#">Langue</a></li>
     </ul>
   </footer>
-  <!-- test un peu de php -->
+  <script src="scripts/discover.js"></script>
+</body>
+</html>
+
+<!-- test un peu de php -->
 
     <?php 
 
@@ -281,6 +318,3 @@ echo $result['comment_post'];
 
 ?>
 <!-- test un peu de php -->
-  <script src="scripts/discover.js"></script>
-</body>
-</html>
