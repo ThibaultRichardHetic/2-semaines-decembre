@@ -17,11 +17,12 @@
       </form>
       <div class="navbar__magnifyingglass"><a href="#"><img src="src/Navbar/Glass.png"></a></div>
       <div class="navbar__logo"></div>
-      <div class="navbar__profil"><a href="#"><img src="src/Navbar/User.png"></a></div>
+      <div class="navbar__profil"><a href="myjournal.php"><img src="src/Navbar/User.png"></a></div>
     </div>
     <div class="container__sidebar">
       <div class="sidebar__avatarpicture">
-        <img src="src/Main/Posts/PP/images.png" alt="">
+        <a href="myjournal.php"><img class="js-avatarpicture" src="src/Discovery/Main/Posts/PP/images.png" alt=""></a>
+        
         <div class="avatarpicture__pseudo"><p>Pseudo</p></div>
       </div>
       <div class="sidebar__topics">
@@ -254,6 +255,24 @@
       </div>
     </div>
   </div>
+
+<!-- test un peu de php -->
+
+    <?php 
+
+    $bdd = new PDO("mysql:host=localhost;dbname=creahappy;charset=utf8", "root", "");
+
+    $requete_selective = $bdd->query("SELECT id, pseudo");
+    $requete = $bdd->query("SELECT * FROM pseudo");
+
+    $result = $requete->fetch();
+
+    echo $result['comment_post'];
+    
+    ?>
+<!-- test un peu de php -->
+
+
   <footer>
     <ul>
       <li class="footer__aboutus"><a href="#">à propos de nous</a></li>
@@ -265,6 +284,6 @@
       <li class="footer__language"><a href="#">Langue</a></li>
     </ul>
   </footer>
-  <script src="scripts/app.js"></script>
+  <script src="scripts/register.js"></script>
 </body>
 </html>
