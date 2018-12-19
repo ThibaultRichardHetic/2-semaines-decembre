@@ -57,11 +57,11 @@
                         <p>
                             Les membres de mon club :
                         </p>
-                        <img src="" alt="">
+                        <img src="src/Navbar/Glass.png" alt="">
                         <input type="text" placeholder="Surnom de mon ami(e)">
-                        <div class="add-user">
+                        <div class="add--user">
                             <p>
-                                ajouter un nom
+                                ami +
                             </p>
                         </div>
                     </div>
@@ -72,6 +72,6 @@
             </div>
         </section>
     </main>
-    <script src="scripts/register.js"></script>
+    <script src="scripts/clubcrea.js"></script>
 </body>
 </html>

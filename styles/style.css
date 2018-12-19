@@ -2760,10 +2760,70 @@ body.body--index footer ul li a {
 .body--clubcrea main .section--step1 .step1__content form .part--down {
   margin-top: 20px;
 }
+.body--clubcrea main .section--step1 .step1__content form .part--down img {
+  width: 20px;
+}
 .body--clubcrea main .section--step1 .step1__content form .part--down input {
   margin-top: 20px;
+  margin-left: 20px;
   height: 20px;
   width: 40%;
+}
+.body--clubcrea main .section--step1 .step1__content form .part--down .add--user {
+  background-color: #F87D42;
+  width: 15%;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 10px;
+  transition-property: all;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
+}
+.body--clubcrea main .section--step1 .step1__content form .part--down .add--user p {
+  color: #FFF;
+  text-align: center;
+}
+.body--clubcrea main .section--step1 .step1__content form .part--down .add--user:hover {
+  background-color: #fff;
+  width: 15%;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 10px;
+  border: solid 1px #F87D42;
+  cursor: pointer;
+  transition-property: all;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
+}
+.body--clubcrea main .section--step1 .step1__content form .part--down .add--user:hover p {
+  color: #F87D42;
+  text-align: center;
+}
+.body--clubcrea main .section--step1 .step1__content form .button--creation {
+  width: 10%;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 10px;
+  background-color: #6B6B6B;
+  padding: 3px;
+  transition-property: all;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
+}
+.body--clubcrea main .section--step1 .step1__content form .button--creation p {
+  text-align: center;
+  color: #fff;
+}
+.body--clubcrea main .section--step1 .step1__content form .button--creation:hover {
+  background-color: #fff;
+  border: solid 1px #6B6B6B;
+  cursor: pointer;
+  transition-property: all;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
+}
+.body--clubcrea main .section--step1 .step1__content form .button--creation:hover p {
+  color: #6B6B6B;
 }
 
 /***

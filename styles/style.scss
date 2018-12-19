@@ -3351,10 +3351,79 @@ body.body--index
           .part--down
           {
             margin-top: 20px;
+            img
+            {
+              width: 20px;
+            }
             input{
               margin-top: 20px;
+              margin-left: 20px;
               height: 20px;
               width: 40%;
+            }
+            .add--user
+            {
+              background-color: #F87D42;
+              width: 15%;
+              border-radius: 10px;
+              margin: auto;
+              margin-top: 10px;
+              transition-property: all;
+              transition-duration: 0.4s;
+              transition-timing-function: ease;
+              p
+              {
+                color: #FFF;
+                text-align: center;
+              }
+            }
+            .add--user:hover
+            {
+              background-color: #fff;
+              width: 15%;
+              border-radius: 10px;
+              margin: auto;
+              margin-top: 10px;
+              border: solid 1px #F87D42;
+              cursor: pointer;
+              transition-property: all;
+              transition-duration: 0.4s;
+              transition-timing-function: ease;
+              p
+              {
+                color: #F87D42;
+                text-align: center;
+              }
+            }
+          }
+          .button--creation
+          {
+            width: 10%;
+            margin: auto; 
+            margin-top: 30px;
+            border-radius: 10px;
+            background-color: #6B6B6B;
+            padding: 3px;
+            transition-property: all;
+            transition-duration: 0.4s;
+            transition-timing-function: ease;
+            p
+            {
+              text-align: center;
+              color: #fff;
+            }
+          }
+          .button--creation:hover
+          {
+            background-color: #fff;
+            border: solid 1px #6B6B6B;
+            cursor: pointer;
+            transition-property: all;
+            transition-duration: 0.4s;
+            transition-timing-function: ease;
+            p
+            {
+              color: #6B6B6B;
             }
           }
         }
