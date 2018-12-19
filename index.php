@@ -35,7 +35,7 @@
             <li class="topics__music"><a href="#">Cuisine</a><img src="src/Sidebar/Hexagon_White.png"><img src="src/Sidebar/Cook.png" class="topics__iconcook"></li>
             <li class="topics__tutoriels"><a href="#">Tutoriels</a><img src="src/Sidebar/Hexagon_White.png"><img src="src/Sidebar/Scissors.png" class="topics__iconscissors"></li>
             <li class="topics__humor"><a href="#">Humour</a><img src="src/Sidebar/Hexagon_White.png"><img src="src/Sidebar/Tongue.png" class="topics__icontongue"></li>
-            <li class="topics__myclubs"><a href="#">Mes Clubs</a><img src="src/Sidebar/Cross.png"></li>
+            <li class="topics__myclubs"><a href="#">Mes Clubs</a><img class="js-add-club" src="src/Sidebar/Cross.png"></li>
           </ul>
       </div>
     </div>
@@ -185,7 +185,7 @@
             <img src="src/Discovery/Main/Posts/PP/images.png" class="post17__elements__pp">
             <div class="post17__elements__atsign"><p>@facs_loulou</p></div>
             <div class="post17__elements__text"><p>Pancakes!!!!!</p></div>
-            <img class="post17__img" src="src/Main/Posts/Pictures/100638146.jpg" alt="">
+            <img class="post17__img" src="src/Discovery/Main/Posts/Pictures/100638146.jpg" alt="">
             <div class="post17__elements__likes"><p>350 J'aimes</p><p>5 Commentaires</p></div>
           </div>
         </div>
@@ -194,7 +194,7 @@
             <img src="src/Discovery/Main/Posts/PP/images.png" class="post18__elements__pp">
             <div class="post18__elements__atsign"><p>@facs_loulou</p></div>
             <div class="post18__elements__text"><p>Je fait du piano en public</p></div>
-            <img class="post18__img" src="src/Main/Posts/Pictures/girlplayspiano.jpg" alt="">
+            <img class="post18__img" src="src/Discovery/Main/Posts/Pictures/girlplayspiano.jpg" alt="">
             <div class="post18__elements__likes"><p>350 J'aimes</p><p>5 Commentaires</p></div>
           </div>
         </div>
@@ -203,7 +203,7 @@
             <img src="src/Discovery/Main/Posts/PP/images.png" class="post19__elements__pp">
             <div class="post19__elements__atsign"><p>@facs_loulou</p></div>
             <div class="post19__elements__text"><p>Tuto cuisine avec ma maman</p></div>
-            <img class="post19__img" src="src/Main/Posts/Pictures/maxresdefault(2).jpg" alt="">
+            <img class="post19__img" src="src/Discovery/Main/Posts/Pictures/maxresdefault.jpg" alt="">
             <div class="post19__elements__likes"><p>350 J'aimes</p><p>5 Commentaires</p></div>
           </div>
         </div>
@@ -212,7 +212,7 @@
             <img src="src/Discovery/Main/Posts/PP/images.png" class="post20__elements__pp">
             <div class="post20__elements__atsign"><p>@facs_loulou</p></div>
             <div class="post20__elements__text"><p>Tuto cuisine avec ma maman</p></div>
-            <img class="post20__img" src="src/Main/Posts/Pictures/3150223974_1_2_CTRda82B.jpg" alt="">
+            <img class="post20__img" src="src/Discovery/Main/Posts/Pictures/3150223974_1_2_CTRda82B.jpg" alt="">
             <div class="post20__elements__likes"><p>350 J'aimes</p><p>5 Commentaires</p></div>
           </div>
         </div>
@@ -221,7 +221,7 @@
             <img src="src/Discovery/Main/Posts/PP/images.png" class="post21__elements__pp">
             <div class="post21__elements__atsign"><p>@facs_loulou</p></div>
             <div class="post21__elements__text"><p>C'est l'automne :'(</p></div>
-            <img class="post21__img" src="src/Main/Posts/Pictures/120.jpg" alt="">
+            <img class="post21__img" src="src/Discovery/Main/Posts/Pictures/120.jpg" alt="">
             <div class="post21__elements__likes"><p>350 J'aimes</p><p>5 Commentaires</p></div>
           </div>
         </div>
@@ -230,7 +230,7 @@
             <img src="src/Discovery/Main/Posts/PP/images.png" class="post22__elements__pp">
             <div class="post22__elements__atsign"><p>@facs_loulou</p></div>
             <div class="post22__elements__text"><p>C'est Bientôt noël!!!!!!!</p></div>
-            <img class="post22__img" src="src/Main/Posts/Pictures/Children.jpg" alt="">
+            <img class="post22__img" src="src/Discovery/Main/Posts/Pictures/Children.jpg" alt="">
             <div class="post22__elements__likes"><p>350 J'aimes</p><p>5 Commentaires</p></div>
           </div>
         </div>
@@ -239,7 +239,7 @@
             <img src="src/Discovery/Main/Posts/PP/images.png" class="post23__elements__pp">
             <div class="post23__elements__atsign"><p>@facs_loulou</p></div>
             <div class="post23__elements__text"><p>mes copains de la ce2</p></div>
-            <img class="post23__img" src="src/Main/Posts/Pictures/service-enfants.jpeg" alt="">
+            <img class="post23__img" src="src/Discovery/Main/Posts/Pictures/service-enfants.jpeg" alt="">
             <div class="post23__elements__likes"><p>350 J'aimes</p><p>5 Commentaires</p></div>
           </div>
         </div>
@@ -248,7 +248,7 @@
             <img src="src/Discovery/Main/Posts/PP/images.png" class="post24__elements__pp">
             <div class="post24__elements__atsign"><p>@facs_loulou</p></div>
             <div class="post24__elements__text"><p>Ma Maman</p></div>
-            <img class="post24__img" src="src/Main/Posts/Pictures/images.jpg" alt="">
+            <img class="post24__img" src="src/Discovery/Main/Posts/Pictures/images.jpg" alt="">
             <div class="post24__elements__likes"><p>350 J'aimes</p><p>5 Commentaires</p></div>
           </div>
         </div>
@@ -266,11 +266,17 @@
       <li class="footer__language"><a href="#">Langue</a></li>
     </ul>
   </footer>
+<<<<<<< HEAD
 
   
 <!-- test un peu de php -->
 
 <?php 
+=======
+  <!-- test un peu de php -->
+
+    <?php 
+>>>>>>> 11bb1e5f316db091fd23d6b81aa672ba535776c6
 
 $bdd = new PDO("mysql:host=localhost;dbname=creahappy;charset=utf8", "root", "");
 
@@ -283,8 +289,12 @@ echo $result['comment_post'];
 
 ?>
 <!-- test un peu de php -->
+<<<<<<< HEAD
 
 
   <script src="scripts/register.js"></script>
+=======
+  <script src="scripts/discover.js"></script>
+>>>>>>> 11bb1e5f316db091fd23d6b81aa672ba535776c6
 </body>
 </html>

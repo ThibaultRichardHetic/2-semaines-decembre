@@ -183,23 +183,23 @@ step5.$back.addEventListener('click', () =>
 
 // register draggable file start
 
-let dropFileForm = document.getElementById("dropFileForm");
-let fileLabelText = document.getElementById("fileLabelText");
-let uploadStatus = document.getElementById("uploadStatus");
-let fileInput = document.getElementById("fileInput");
-let droppedFiles;
+let dropFileForm = document.getElementById("dropFileForm")
+let fileLabelText = document.getElementById("fileLabelText")
+let uploadStatus = document.getElementById("uploadStatus")
+let fileInput = document.getElementById("fileInput")
+let droppedFiles
 
 function overrideDefault(event) {
-  event.preventDefault();
-  event.stopPropagation();
+  event.preventDefault()
+  event.stopPropagation()
 }
 
 function fileHover() {
-  dropFileForm.classList.add("fileHover");
+  dropFileForm.classList.add("fileHover")
 }
 
 function fileHoverEnd() {
-  dropFileForm.classList.remove("fileHover");
+  dropFileForm.classList.remove("fileHover")
 }
 
 function addFiles(event) {
