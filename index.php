@@ -12,12 +12,22 @@
 <body class="body--index">
   <div class="container">
     <div class="container__navbar">
-      <form class="navbar__research" method="post">
-        <input name="saisie" type="text" placeholder="Recherche" required />
-      </form>
-      <div class="navbar__magnifyingglass"><a href="#"><img src="src/Navbar/Glass.png"></a></div>
+      <div class="navbar__reasearch">
+        <form class="reasearch__form" method="post">
+          <input name="saisie" type="text" placeholder="Recherche" required />
+        </form>
+        <div class="navbar__magnifyingglass">
+          <a href="#">
+            <img src="src/Navbar/Glass.png">
+          </a>
+        </div>
+      </div>
       <div class="navbar__logo"></div>
-      <div class="navbar__profil"><a href="myjournal.php"><img src="src/Navbar/User.png"></a></div>
+      <div class="navbar__profil">
+        <a href="myjournal.php">
+          <img src="src/Navbar/User.png">
+        </a>
+      </div>
     </div>
     <div class="container__sidebar">
       <div class="sidebar__avatarpicture">
@@ -253,6 +263,10 @@
           </div>
         </div>
       </div>
+      <div class="background-full-screen">
+        <span class="close">&times;</span>
+        <img class="img-full-screen">
+      </div>
     </div>
   </div>
   <footer>
@@ -266,17 +280,11 @@
       <li class="footer__language"><a href="#">Langue</a></li>
     </ul>
   </footer>
-<<<<<<< HEAD
 
-  
-<!-- test un peu de php -->
-
-<?php 
-=======
+  <script src="scripts/discover.js"></script>
   <!-- test un peu de php -->
 
     <?php 
->>>>>>> 11bb1e5f316db091fd23d6b81aa672ba535776c6
 
 $bdd = new PDO("mysql:host=localhost;dbname=creahappy;charset=utf8", "root", "");
 
@@ -289,12 +297,6 @@ echo $result['comment_post'];
 
 ?>
 <!-- test un peu de php -->
-<<<<<<< HEAD
 
-
-  <script src="scripts/register.js"></script>
-=======
-  <script src="scripts/discover.js"></script>
->>>>>>> 11bb1e5f316db091fd23d6b81aa672ba535776c6
 </body>
 </html>
