@@ -57,13 +57,13 @@
                         <p>
                             Les membres de mon club :
                         </p>
-                        <img src="src/Navbar/Glass.png" alt="">
+                        <!-- <img src="src/Navbar/Glass.png" alt="">
                         <input type="text" placeholder="Surnom de mon ami(e)">
                         <div class="add--user js-add--user">
                             <p>
                                 ami +
                             </p>
-                        </div>
+                        </div> -->
                         <div>
                             <ul id="listitem"></ul>
                             <input type="text" id="addlist" placeholder="Add New item" onfocus="clearValue(this)">

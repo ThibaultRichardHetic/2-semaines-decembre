@@ -1,30 +1,15 @@
-$moreFriend = document.querySelector('.js-add--user')
-
-$moreFriend.addEventListener('click', () =>
-{
-
-})
-
-function addFriend()
-{
-
-}
-
-
-
-
-var headTitle = document.querySelector('#title');
-var cloneBtn = document.getElementById('clone-btn');
-var removeBtn = document.getElementById('remove-btn');
-var getItem = document.getElementById('listitem');
+let headTitle = document.querySelector('#title')
+let cloneBtn = document.getElementById('clone-btn')
+let removeBtn = document.getElementById('remove-btn')
+let getItem = document.getElementById('listitem')
 
 // Add new item action
 cloneBtn.addEventListener('click',addlistitem);
 function addlistitem(){
-    var addList = document.getElementById("addlist");
+    let addList = document.getElementById("addlist");
     if (addList.value) {
-        var getItems = document.createElement("li");
-        var newContent = document.createTextNode(addList.value); 
+        let getItems = document.createElement("li");
+        let newContent = document.createTextNode(addList.value); 
         getItems.appendChild(newContent);
         getItem.appendChild(getItems);
     } else {
@@ -54,7 +39,7 @@ function clearValue(target){
 // Remove Action
 removeBtn.addEventListener('click',removeItem);
 function removeItem(e){
-        var removeLast = getItem.lastChild;
+        let removeLast = getItem.lastChild;
         getItem.removeChild(removeLast); 
 }
 
