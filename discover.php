@@ -28,7 +28,12 @@
             <div class="post1__elements__atsign"><p>@facs_loulou</p></div>
             <div class="post1__elements__text"><p>Tuto cuisine avec ma maman</p></div>
             <iframe class="iframe" width="90%" height="55%" src="https://www.youtube.com/embed/PKqLCA_DMuo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <div class="post1__elements__likes"><p>350 J'aimes</p><p>5 Commentaires</p></div>
+            <div class="post1__elements__likes">
+              <p>350 J'aimes</p>
+              <a href="commentary.php">
+                <p>5 Commentaires</p>
+              </a>
+            </div>
           </div>
         </div>
         <div class="posts__post2">
@@ -228,10 +233,6 @@
             <div class="post24__elements__likes"><p>350 J'aimes</p><p>5 Commentaires</p></div>
           </div>
         </div>
-      </div>
-      <div class="background-full-screen">
-        <span class="close">&times;</span>
-        <img class="img-full-screen">
       </div>
     </div>
   </div>
