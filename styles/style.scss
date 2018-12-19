@@ -1,18 +1,18 @@
-body.body--index 
-{
-  position: relative;
-  margin: 0;
-  height: 420vh;
-  background: #FFFFFF;
-  overflow-x: hidden;
-  z-index: -8000;
+/**
+*
+for all pages start
+*
+**/
 
+body
+{
   .container
   {
     position: relative;
   }
   /* Nav Bar */
-  .container__navbar {
+  .container__navbar 
+  {
     position: fixed;
     display: flex;
     align-items: center;
@@ -34,7 +34,6 @@ body.body--index
         height: 5vh;
         background: #fff;
         border: 2px #000 solid;
-
         input 
         {
           outline:0;
@@ -44,7 +43,6 @@ body.body--index
           float:left;
           display:block;
         }
-
         input[type=text] 
         {
           font:300 0.7rem 'Josefin Sans', sans-serif;
@@ -84,18 +82,15 @@ body.body--index
       }
     }
   }
-  
-
-
   /* Side Bar */
-  .container__sidebar {
+  .container__sidebar 
+  {
     position: fixed;
     width: 17vw;
     z-index: 2;
     overflow-y: scroll;
     height: 100%;
     background: #1a1a1a;
-
     .sidebar__avatarpicture 
     {
       transform: translate(9%, 50%);
@@ -103,13 +98,11 @@ body.body--index
       justify-content: center;
       margin: auto;
       height: 21vmin;
-
       img 
       {
         border-radius: 50%;
         width: 10vw;
       }
-
       .avatarpicture__pseudo 
       {
         font-family: 'Josefin Sans',sans-serif;
@@ -120,82 +113,89 @@ body.body--index
       }   
     }
     .sidebar__topics 
+    {
+      margin-top: 85%;
+      font-size: 1.2rem;
+      ul
       {
-        margin-top: 85%;
-        font-size: 1.2rem;
-
-        ul
+        li 
         {
-          li 
+          font-family: 'Josefin Sans',sans-serif;
+          color: #fff;
+          list-style: none;
+          padding: 9vh 0;
+          margin: auto 0;
+          border-top: 2px solid #fff;
+          height: 22vh;
+          display: flex;
+          align-items: center;
+          a 
           {
-            font-family: 'Josefin Sans',sans-serif;
-            color: #fff;
-            list-style: none;
-            padding: 9vh 0;
-            margin: auto 0;
-            border-top: 2px solid #fff;
-            height: 22vh;
-            display: flex;
-            align-items: center;
-            a 
-            {
-              margin-left: 12%;
-              text-decoration: none;
-            }
-            img
-            {
-              width: 8vmin;
-              height: 8vmin;          
-              right: 2vw;
-              position: absolute;
-            }   
-            .topics__iconcontroller
-            {
-              width: 5.3vmin;
-              height: 4vmin;          
-              position: absolute;
-              right: 2.6vw;
-            }    
-            .topics__iconpencil, .topics__iconcook, .topics__icontongue, .topics__iconsport, .topics__iconmusic
-            {
-              width: 4vmin;
-              height: 5vmin;          
-              position: absolute;
-              right: 2.9vw;
-            }      
-            .topics__iconscissors
-            {
-              width: 3vmin;
-              height: 6vmin;
-              position: absolute;
-              right: 3.1vw;
-            }    
+            margin-left: 12%;
+            text-decoration: none;
           }
-          .topics__mytopics
+          img
           {
-            background: #DB3951;
-          }
+            width: 8vmin;
+            height: 8vmin;          
+            right: 2vw;
+            position: absolute;
+          }   
+          .topics__iconcontroller
+          {
+            width: 5.3vmin;
+            height: 4vmin;          
+            position: absolute;
+            right: 2.6vw;
+          }    
+          .topics__iconpencil, .topics__iconcook, .topics__icontongue, .topics__iconsport, .topics__iconmusic
+          {
+            width: 4vmin;
+            height: 5vmin;          
+            position: absolute;
+            right: 2.9vw;
+          }      
+          .topics__iconscissors
+          {
+            width: 3vmin;
+            height: 6vmin;
+            position: absolute;
+            right: 3.1vw;
+          }    
+        }
+        .topics__mytopics
+        {
+          background: #DB3951;
+        }
 
-          .topics__myclubs
-          {
-            background: #F87D42;
-          }
+        .topics__myclubs
+        {
+          background: #F87D42;
         }
       }
+    }  
   }
+}
 
-
-
-  /***
+/**
 *
+for all pages end
+*
+**/
+
+
+
+body.body--index 
+{
+  position: relative;
+  margin: 0;
+  height: 420vh;
+  background: #FFFFFF;
+  overflow-x: hidden;
+  z-index: -8000;
+/***
 ** Dicovery page start**
-*
 ***/
-
-
-
-
-
   .main
   {
     width: 83vw;
@@ -1604,181 +1604,7 @@ body.body--index
   background: #FFFFFF;
   overflow-x: hidden;
   z-index: -8000;
-  .container
-  {
-    position: relative;
-  }
-  /* Nav Bar */
-  .container__navbar {
-    position: fixed;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 83vw;
-    right: 0;
-    height: 12vh;
-    background: #f87d42;
-    .navbar__reasearch
-    {
-      display: flex;
-      position: absolute;
-      width: 22vw;
-      justify-content: space-around;
-      left: 1%;
-      .reasearch__form 
-      {
-        width: 17vw;
-        height: 5vh;
-        background: #fff;
-        border: 2px #000 solid;
-
-        input 
-        {
-          outline:0;
-          border:0;
-          margin:0;
-          height:24px;
-          float:left;
-          display:block;
-        }
-
-        input[type=text] 
-        {
-          font:300 0.7rem 'Josefin Sans', sans-serif;
-          background:none;
-          width:180px;
-          padding:0 9px;
-          color:#666;
-        }
-      }
-      .navbar__magnifyingglass
-      {
-        img
-        {
-        width: 2vw;
-        }
-      }
-    }
-    .navbar__logo
-    {
-      a
-      {
-        img
-        {
-          width: 60px;
-        }
-      }
-    }
-    .navbar__profil
-    {
-      img 
-      {
-        width: 3vw;
-        height: 6vh;
-        position: absolute;
-        top: 2.5vh;
-        right: 4vw;
-      }
-    }
-  }
-
-
-  /* Side Bar */
-  .container__sidebar {
-    position: fixed;
-    width: 17vw;
-    z-index: 2;
-    overflow-y: scroll;
-    height: 100%;
-    background: #1a1a1a;
-
-    .sidebar__avatarpicture 
-    {
-      transform: translate(9%, 50%);
-      display: flex;
-      justify-content: center;
-      margin: auto;
-      height: 21vmin;
-
-      img 
-      {
-        border-radius: 50%;
-        width: 10vw;
-      }
-
-      .avatarpicture__pseudo 
-      {
-        font-family: 'Josefin Sans',sans-serif;
-        color: #fff;
-        margin: auto 0;
-        transform: translate(-7vw, 17vh);
-        font-size: 1em;
-      }   
-    }
-    .sidebar__topics 
-      {
-        margin-top: 85%;
-        font-size: 1.2rem;
-
-        ul
-        {
-          li 
-          {
-            font-family: 'Josefin Sans',sans-serif;
-            color: #fff;
-            list-style: none;
-            padding: 9vh 0;
-            margin: auto 0;
-            border-top: 2px solid #fff;
-            height: 22vh;
-            display: flex;
-            align-items: center;
-            a 
-            {
-              margin-left: 12%;
-              text-decoration: none;
-            }
-            img
-            {
-              width: 8vmin;
-              height: 8vmin;          
-              right: 2vw;
-              position: absolute;
-            }   
-            .topics__iconcontroller
-            {
-              width: 5.3vmin;
-              height: 4vmin;          
-              position: absolute;
-              right: 2.6vw;
-            }    
-            .topics__iconpencil, .topics__iconcook, .topics__icontongue, .topics__iconsport, .topics__iconmusic
-            {
-              width: 4vmin;
-              height: 5vmin;          
-              position: absolute;
-              right: 2.9vw;
-            }      
-            .topics__iconscissors
-            {
-              width: 3vmin;
-              height: 6vmin;
-              position: absolute;
-              right: 3.1vw;
-            }    
-          }
-          .topics__mytopics
-          {
-            background: #DB3951;
-          }
-
-          .topics__myclubs
-          {
-            background: #F87D42;
-          }
-        }
-      }
-  }
+  
   .main
   {
     width: 83vw;
@@ -3139,181 +2965,7 @@ body.body--index
   width: 100%;
   .container
   {
-    position: relative;
-  }
-  /* Nav Bar */
-  .container__navbar {
-    position: fixed;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 83vw;
-    right: 0;
-    height: 12vh;
-    background: #f87d42;
     z-index: 2;
-    .navbar__reasearch
-    {
-      display: flex;
-      position: absolute;
-      width: 22vw;
-      justify-content: space-around;
-      left: 1%;
-      .reasearch__form 
-      {
-        width: 17vw;
-        height: 5vh;
-        background: #fff;
-        border: 2px #000 solid;
-
-        input 
-        {
-          outline:0;
-          border:0;
-          margin:0;
-          height:24px;
-          float:left;
-          display:block;
-        }
-
-        input[type=text] 
-        {
-          font:300 0.7rem 'Josefin Sans', sans-serif;
-          background:none;
-          width:180px;
-          padding:0 9px;
-          color:#666;
-        }
-      }
-      .navbar__magnifyingglass
-      {
-        img
-        {
-        width: 2vw;
-        }
-      }
-    }
-    .navbar__logo
-    {
-      a
-      {
-        img
-        {
-          width: 60px;
-        }
-      }
-    }
-    .navbar__profil
-    {
-      img 
-      {
-        width: 3vw;
-        height: 6vh;
-        position: absolute;
-        top: 2.5vh;
-        right: 4vw;
-      }
-    }
-  }
-  /* Side Bar */
-  .container__sidebar {
-    position: fixed;
-    width: 17vw;
-    z-index: 2;
-    overflow-y: scroll;
-    height: 100%;
-    background: #1a1a1a;
-
-    .sidebar__avatarpicture 
-    {
-      transform: translate(9%, 50%);
-      display: flex;
-      justify-content: center;
-      margin: auto;
-      height: 21vmin;
-
-      img 
-      {
-        border-radius: 50%;
-        width: 10vw;
-      }
-
-      .avatarpicture__pseudo 
-      {
-        font-family: 'Josefin Sans',sans-serif;
-        color: #fff;
-        margin: auto 0;
-        transform: translate(-7vw, 17vh);
-        font-size: 1em;
-      }   
-    }
-    .sidebar__topics 
-    {
-      margin-top: 85%;
-      font-size: 1.2rem;
-
-      ul
-      {
-        li 
-        {
-          font-family: 'Josefin Sans',sans-serif;
-          color: #fff;
-          list-style: none;
-          padding: 9vh 0;
-          margin: auto 0;
-          border-top: 2px solid #fff;
-          height: 22vh;
-          display: flex;
-          align-items: center;
-          a 
-          {
-            margin-left: 12%;
-            text-decoration: none;
-          }
-          img
-          {
-            width: 8vmin;
-            height: 8vmin;          
-            right: 2vw;
-            position: absolute;
-          }   
-          .topics__iconcontroller
-          {
-            width: 5.3vmin;
-            height: 4vmin;          
-            position: absolute;
-            right: 2.6vw;
-          }    
-          .topics__iconpencil, .topics__iconcook, .topics__icontongue, .topics__iconsport, .topics__iconmusic
-          {
-            width: 4vmin;
-            height: 5vmin;          
-            position: absolute;
-            right: 2.9vw;
-          }      
-          .topics__iconscissors
-          {
-            width: 3vmin;
-            height: 6vmin;
-            position: absolute;
-            right: 3.1vw;
-          }    
-        }
-        .topics__mytopics
-        {
-          background: #DB3951;
-        }
-
-        .topics__myclubs
-        {
-          background: #F87D42;
-        }
-        .topics__mynewclub
-        {
-          background: #35D0BA;
-        }
-      }
-    }
   }
   main
   {

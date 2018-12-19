@@ -1,23 +1,16 @@
-body.body--index {
-  position: relative;
-  margin: 0;
-  height: 420vh;
-  background: #FFFFFF;
-  overflow-x: hidden;
-  z-index: -8000;
+/**
+*
+for all pages start
+*
+**/
+body {
   /* Nav Bar */
   /* Side Bar */
-  /***
-*
-** Dicovery page start**
-*
-***/
-  /* Footer */
 }
-body.body--index .container {
+body .container {
   position: relative;
 }
-body.body--index .container__navbar {
+body .container__navbar {
   position: fixed;
   display: flex;
   align-items: center;
@@ -27,20 +20,20 @@ body.body--index .container__navbar {
   height: 12vh;
   background: #f87d42;
 }
-body.body--index .container__navbar .navbar__reasearch {
+body .container__navbar .navbar__reasearch {
   display: flex;
   position: absolute;
   width: 22vw;
   justify-content: space-around;
   left: 1%;
 }
-body.body--index .container__navbar .navbar__reasearch .reasearch__form {
+body .container__navbar .navbar__reasearch .reasearch__form {
   width: 17vw;
   height: 5vh;
   background: #fff;
   border: 2px #000 solid;
 }
-body.body--index .container__navbar .navbar__reasearch .reasearch__form input {
+body .container__navbar .navbar__reasearch .reasearch__form input {
   outline: 0;
   border: 0;
   margin: 0;
@@ -48,27 +41,27 @@ body.body--index .container__navbar .navbar__reasearch .reasearch__form input {
   float: left;
   display: block;
 }
-body.body--index .container__navbar .navbar__reasearch .reasearch__form input[type=text] {
+body .container__navbar .navbar__reasearch .reasearch__form input[type=text] {
   font: 300 0.7rem 'Josefin Sans', sans-serif;
   background: none;
   width: 180px;
   padding: 0 9px;
   color: #666;
 }
-body.body--index .container__navbar .navbar__reasearch .navbar__magnifyingglass img {
+body .container__navbar .navbar__reasearch .navbar__magnifyingglass img {
   width: 2vw;
 }
-body.body--index .container__navbar .navbar__logo a img {
+body .container__navbar .navbar__logo a img {
   width: 60px;
 }
-body.body--index .container__navbar .navbar__profil img {
+body .container__navbar .navbar__profil img {
   width: 3vw;
   height: 6vh;
   position: absolute;
   top: 2.5vh;
   right: 4vw;
 }
-body.body--index .container__sidebar {
+body .container__sidebar {
   position: fixed;
   width: 17vw;
   z-index: 2;
@@ -76,29 +69,29 @@ body.body--index .container__sidebar {
   height: 100%;
   background: #1a1a1a;
 }
-body.body--index .container__sidebar .sidebar__avatarpicture {
+body .container__sidebar .sidebar__avatarpicture {
   transform: translate(9%, 50%);
   display: flex;
   justify-content: center;
   margin: auto;
   height: 21vmin;
 }
-body.body--index .container__sidebar .sidebar__avatarpicture img {
+body .container__sidebar .sidebar__avatarpicture img {
   border-radius: 50%;
   width: 10vw;
 }
-body.body--index .container__sidebar .sidebar__avatarpicture .avatarpicture__pseudo {
+body .container__sidebar .sidebar__avatarpicture .avatarpicture__pseudo {
   font-family: 'Josefin Sans',sans-serif;
   color: #fff;
   margin: auto 0;
   transform: translate(-7vw, 17vh);
   font-size: 1em;
 }
-body.body--index .container__sidebar .sidebar__topics {
+body .container__sidebar .sidebar__topics {
   margin-top: 85%;
   font-size: 1.2rem;
 }
-body.body--index .container__sidebar .sidebar__topics ul li {
+body .container__sidebar .sidebar__topics ul li {
   font-family: 'Josefin Sans',sans-serif;
   color: #fff;
   list-style: none;
@@ -109,39 +102,57 @@ body.body--index .container__sidebar .sidebar__topics ul li {
   display: flex;
   align-items: center;
 }
-body.body--index .container__sidebar .sidebar__topics ul li a {
+body .container__sidebar .sidebar__topics ul li a {
   margin-left: 12%;
   text-decoration: none;
 }
-body.body--index .container__sidebar .sidebar__topics ul li img {
+body .container__sidebar .sidebar__topics ul li img {
   width: 8vmin;
   height: 8vmin;
   right: 2vw;
   position: absolute;
 }
-body.body--index .container__sidebar .sidebar__topics ul li .topics__iconcontroller {
+body .container__sidebar .sidebar__topics ul li .topics__iconcontroller {
   width: 5.3vmin;
   height: 4vmin;
   position: absolute;
   right: 2.6vw;
 }
-body.body--index .container__sidebar .sidebar__topics ul li .topics__iconpencil, body.body--index .container__sidebar .sidebar__topics ul li .topics__iconcook, body.body--index .container__sidebar .sidebar__topics ul li .topics__icontongue, body.body--index .container__sidebar .sidebar__topics ul li .topics__iconsport, body.body--index .container__sidebar .sidebar__topics ul li .topics__iconmusic {
+body .container__sidebar .sidebar__topics ul li .topics__iconpencil, body .container__sidebar .sidebar__topics ul li .topics__iconcook, body .container__sidebar .sidebar__topics ul li .topics__icontongue, body .container__sidebar .sidebar__topics ul li .topics__iconsport, body .container__sidebar .sidebar__topics ul li .topics__iconmusic {
   width: 4vmin;
   height: 5vmin;
   position: absolute;
   right: 2.9vw;
 }
-body.body--index .container__sidebar .sidebar__topics ul li .topics__iconscissors {
+body .container__sidebar .sidebar__topics ul li .topics__iconscissors {
   width: 3vmin;
   height: 6vmin;
   position: absolute;
   right: 3.1vw;
 }
-body.body--index .container__sidebar .sidebar__topics ul .topics__mytopics {
+body .container__sidebar .sidebar__topics ul .topics__mytopics {
   background: #DB3951;
 }
-body.body--index .container__sidebar .sidebar__topics ul .topics__myclubs {
+body .container__sidebar .sidebar__topics ul .topics__myclubs {
   background: #F87D42;
+}
+
+/**
+*
+for all pages end
+*
+**/
+body.body--index {
+  position: relative;
+  margin: 0;
+  height: 420vh;
+  background: #FFFFFF;
+  overflow-x: hidden;
+  z-index: -8000;
+  /***
+  ** Dicovery page start**
+  ***/
+  /* Footer */
 }
 body.body--index .main {
   width: 83vw;
@@ -1345,137 +1356,6 @@ body.body--index footer ul li a {
   background: #FFFFFF;
   overflow-x: hidden;
   z-index: -8000;
-  /* Nav Bar */
-  /* Side Bar */
-}
-.body--myjournal .container {
-  position: relative;
-}
-.body--myjournal .container__navbar {
-  position: fixed;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 83vw;
-  right: 0;
-  height: 12vh;
-  background: #f87d42;
-}
-.body--myjournal .container__navbar .navbar__reasearch {
-  display: flex;
-  position: absolute;
-  width: 22vw;
-  justify-content: space-around;
-  left: 1%;
-}
-.body--myjournal .container__navbar .navbar__reasearch .reasearch__form {
-  width: 17vw;
-  height: 5vh;
-  background: #fff;
-  border: 2px #000 solid;
-}
-.body--myjournal .container__navbar .navbar__reasearch .reasearch__form input {
-  outline: 0;
-  border: 0;
-  margin: 0;
-  height: 24px;
-  float: left;
-  display: block;
-}
-.body--myjournal .container__navbar .navbar__reasearch .reasearch__form input[type=text] {
-  font: 300 0.7rem 'Josefin Sans', sans-serif;
-  background: none;
-  width: 180px;
-  padding: 0 9px;
-  color: #666;
-}
-.body--myjournal .container__navbar .navbar__reasearch .navbar__magnifyingglass img {
-  width: 2vw;
-}
-.body--myjournal .container__navbar .navbar__logo a img {
-  width: 60px;
-}
-.body--myjournal .container__navbar .navbar__profil img {
-  width: 3vw;
-  height: 6vh;
-  position: absolute;
-  top: 2.5vh;
-  right: 4vw;
-}
-.body--myjournal .container__sidebar {
-  position: fixed;
-  width: 17vw;
-  z-index: 2;
-  overflow-y: scroll;
-  height: 100%;
-  background: #1a1a1a;
-}
-.body--myjournal .container__sidebar .sidebar__avatarpicture {
-  transform: translate(9%, 50%);
-  display: flex;
-  justify-content: center;
-  margin: auto;
-  height: 21vmin;
-}
-.body--myjournal .container__sidebar .sidebar__avatarpicture img {
-  border-radius: 50%;
-  width: 10vw;
-}
-.body--myjournal .container__sidebar .sidebar__avatarpicture .avatarpicture__pseudo {
-  font-family: 'Josefin Sans',sans-serif;
-  color: #fff;
-  margin: auto 0;
-  transform: translate(-7vw, 17vh);
-  font-size: 1em;
-}
-.body--myjournal .container__sidebar .sidebar__topics {
-  margin-top: 85%;
-  font-size: 1.2rem;
-}
-.body--myjournal .container__sidebar .sidebar__topics ul li {
-  font-family: 'Josefin Sans',sans-serif;
-  color: #fff;
-  list-style: none;
-  padding: 9vh 0;
-  margin: auto 0;
-  border-top: 2px solid #fff;
-  height: 22vh;
-  display: flex;
-  align-items: center;
-}
-.body--myjournal .container__sidebar .sidebar__topics ul li a {
-  margin-left: 12%;
-  text-decoration: none;
-}
-.body--myjournal .container__sidebar .sidebar__topics ul li img {
-  width: 8vmin;
-  height: 8vmin;
-  right: 2vw;
-  position: absolute;
-}
-.body--myjournal .container__sidebar .sidebar__topics ul li .topics__iconcontroller {
-  width: 5.3vmin;
-  height: 4vmin;
-  position: absolute;
-  right: 2.6vw;
-}
-.body--myjournal .container__sidebar .sidebar__topics ul li .topics__iconpencil, .body--myjournal .container__sidebar .sidebar__topics ul li .topics__iconcook, .body--myjournal .container__sidebar .sidebar__topics ul li .topics__icontongue, .body--myjournal .container__sidebar .sidebar__topics ul li .topics__iconsport, .body--myjournal .container__sidebar .sidebar__topics ul li .topics__iconmusic {
-  width: 4vmin;
-  height: 5vmin;
-  position: absolute;
-  right: 2.9vw;
-}
-.body--myjournal .container__sidebar .sidebar__topics ul li .topics__iconscissors {
-  width: 3vmin;
-  height: 6vmin;
-  position: absolute;
-  right: 3.1vw;
-}
-.body--myjournal .container__sidebar .sidebar__topics ul .topics__mytopics {
-  background: #DB3951;
-}
-.body--myjournal .container__sidebar .sidebar__topics ul .topics__myclubs {
-  background: #F87D42;
 }
 .body--myjournal .main {
   width: 83vw;
@@ -2591,141 +2471,9 @@ body.body--index footer ul li a {
   background-repeat: no-repeat;
   background-size: 100%;
   width: 100%;
-  /* Nav Bar */
-  /* Side Bar */
 }
 .body--clubcrea .container {
-  position: relative;
-}
-.body--clubcrea .container__navbar {
-  position: fixed;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 83vw;
-  right: 0;
-  height: 12vh;
-  background: #f87d42;
   z-index: 2;
-}
-.body--clubcrea .container__navbar .navbar__reasearch {
-  display: flex;
-  position: absolute;
-  width: 22vw;
-  justify-content: space-around;
-  left: 1%;
-}
-.body--clubcrea .container__navbar .navbar__reasearch .reasearch__form {
-  width: 17vw;
-  height: 5vh;
-  background: #fff;
-  border: 2px #000 solid;
-}
-.body--clubcrea .container__navbar .navbar__reasearch .reasearch__form input {
-  outline: 0;
-  border: 0;
-  margin: 0;
-  height: 24px;
-  float: left;
-  display: block;
-}
-.body--clubcrea .container__navbar .navbar__reasearch .reasearch__form input[type=text] {
-  font: 300 0.7rem 'Josefin Sans', sans-serif;
-  background: none;
-  width: 180px;
-  padding: 0 9px;
-  color: #666;
-}
-.body--clubcrea .container__navbar .navbar__reasearch .navbar__magnifyingglass img {
-  width: 2vw;
-}
-.body--clubcrea .container__navbar .navbar__logo a img {
-  width: 60px;
-}
-.body--clubcrea .container__navbar .navbar__profil img {
-  width: 3vw;
-  height: 6vh;
-  position: absolute;
-  top: 2.5vh;
-  right: 4vw;
-}
-.body--clubcrea .container__sidebar {
-  position: fixed;
-  width: 17vw;
-  z-index: 2;
-  overflow-y: scroll;
-  height: 100%;
-  background: #1a1a1a;
-}
-.body--clubcrea .container__sidebar .sidebar__avatarpicture {
-  transform: translate(9%, 50%);
-  display: flex;
-  justify-content: center;
-  margin: auto;
-  height: 21vmin;
-}
-.body--clubcrea .container__sidebar .sidebar__avatarpicture img {
-  border-radius: 50%;
-  width: 10vw;
-}
-.body--clubcrea .container__sidebar .sidebar__avatarpicture .avatarpicture__pseudo {
-  font-family: 'Josefin Sans',sans-serif;
-  color: #fff;
-  margin: auto 0;
-  transform: translate(-7vw, 17vh);
-  font-size: 1em;
-}
-.body--clubcrea .container__sidebar .sidebar__topics {
-  margin-top: 85%;
-  font-size: 1.2rem;
-}
-.body--clubcrea .container__sidebar .sidebar__topics ul li {
-  font-family: 'Josefin Sans',sans-serif;
-  color: #fff;
-  list-style: none;
-  padding: 9vh 0;
-  margin: auto 0;
-  border-top: 2px solid #fff;
-  height: 22vh;
-  display: flex;
-  align-items: center;
-}
-.body--clubcrea .container__sidebar .sidebar__topics ul li a {
-  margin-left: 12%;
-  text-decoration: none;
-}
-.body--clubcrea .container__sidebar .sidebar__topics ul li img {
-  width: 8vmin;
-  height: 8vmin;
-  right: 2vw;
-  position: absolute;
-}
-.body--clubcrea .container__sidebar .sidebar__topics ul li .topics__iconcontroller {
-  width: 5.3vmin;
-  height: 4vmin;
-  position: absolute;
-  right: 2.6vw;
-}
-.body--clubcrea .container__sidebar .sidebar__topics ul li .topics__iconpencil, .body--clubcrea .container__sidebar .sidebar__topics ul li .topics__iconcook, .body--clubcrea .container__sidebar .sidebar__topics ul li .topics__icontongue, .body--clubcrea .container__sidebar .sidebar__topics ul li .topics__iconsport, .body--clubcrea .container__sidebar .sidebar__topics ul li .topics__iconmusic {
-  width: 4vmin;
-  height: 5vmin;
-  position: absolute;
-  right: 2.9vw;
-}
-.body--clubcrea .container__sidebar .sidebar__topics ul li .topics__iconscissors {
-  width: 3vmin;
-  height: 6vmin;
-  position: absolute;
-  right: 3.1vw;
-}
-.body--clubcrea .container__sidebar .sidebar__topics ul .topics__mytopics {
-  background: #DB3951;
-}
-.body--clubcrea .container__sidebar .sidebar__topics ul .topics__myclubs {
-  background: #F87D42;
-}
-.body--clubcrea .container__sidebar .sidebar__topics ul .topics__mynewclub {
-  background: #35D0BA;
 }
 .body--clubcrea main {
   width: 100%;
