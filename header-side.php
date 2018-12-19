@@ -70,12 +70,11 @@
                         <img src="src/Sidebar/Hexagon_White.png">
                         <img src="src/Sidebar/Tongue.png" class="topics__icontongue">
                     </li>
-                    <li class="topics__myclubs">
-                        <a href="#">Mes Clubs</a>
+                    <li class="topics__myclubs js-add-club">
+                        <a href="#">Créer Clubs</a>
                         <img src="src/Sidebar/Cross.png">
                     </li>
                 </ul>
             </div>
         </div>
     </div>
-    <script src="scripts/allpages.js"></script>

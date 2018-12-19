@@ -163,14 +163,22 @@ body
             right: 3.1vw;
           }    
         }
+        li:hover
+        {
+          cursor: pointer;
+          background-color: #F87D42;
+        }
         .topics__mytopics
         {
           background: #DB3951;
         }
-
         .topics__myclubs
         {
           background: #F87D42;
+        }
+        .topics__myclubs:hover
+        {
+          background: #DB3951;
         }
       }
     }  

@@ -130,11 +130,18 @@ body .container__sidebar .sidebar__topics ul li .topics__iconscissors {
   position: absolute;
   right: 3.1vw;
 }
+body .container__sidebar .sidebar__topics ul li:hover {
+  cursor: pointer;
+  background-color: #F87D42;
+}
 body .container__sidebar .sidebar__topics ul .topics__mytopics {
   background: #DB3951;
 }
 body .container__sidebar .sidebar__topics ul .topics__myclubs {
   background: #F87D42;
+}
+body .container__sidebar .sidebar__topics ul .topics__myclubs:hover {
+  background: #DB3951;
 }
 
 /**
