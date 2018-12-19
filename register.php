@@ -185,7 +185,7 @@
         </p>
         <div class="content__button">
           <p>
-            <a href="index.php">Accés à la démo</a>    
+            <a href="discover.php">Accés à la démo</a>    
           </p>
         </div>
       </div>

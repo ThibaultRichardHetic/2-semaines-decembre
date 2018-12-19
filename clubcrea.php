@@ -15,16 +15,21 @@
     include 'header-side.php';
     ?>
 
+    <?php
+    if(isset($_POST['create-club'])) {
+        echo $_POST['title_club'];
+    } 
+    ?>
     <main>
         <section class="section--step1">
             <h3>Nouveau club</h3>
             <div class="step1__content">
-                <form action="#" methode="post">
+                <form action="" methode="post">
                     <div class="part--up">
                         <p>
                             Ce club s'appelle :
                         </p>
-                        <input class="js-club-name" type="text" placeholder="Nom du club">
+                        <input class="club--name js-club-name" type="text" name="title_club" placeholder="Nom du club">
                     </div>
                     <div class="part--down">
                         <p>
@@ -32,18 +37,18 @@
                         </p>
                         <div>
                             <ul id="listitem"></ul>
-                            <input type="text" id="addlist" placeholder="surnom de ton ami" onfocus="clearValue(this)">
+                            <input type="text" name="name_friends" id="addlist" placeholder="surnom de ton ami" onfocus="clearValue(this)">
                             <button id="clone-btn">+ ajoute un ami</button>
                             <button id="remove-btn">retire un ami</button>
                         </div>
                     </div>
-                    <div class="button--creation js-creation-button">
-                        <p>Créer</p>
+                    <input type="submit" name="create_club" value="Créer" class="button--creation js-creation-button">
                     </div>
                 </form>
             </div>
         </section>
     </main>
+    <script src="scripts/transfer.js"></script>
     <script src="scripts/clubcrea.js"></script>
 </body>
 </html>

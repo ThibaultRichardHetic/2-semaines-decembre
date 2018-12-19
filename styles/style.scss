@@ -3018,7 +3018,40 @@ body.body--index
           input
           {
             border: solid #000 1px;
+            border-radius: 3px;
           }
+          input::-webkit-input-placeholder 
+            { 
+              font-family: Josefin Sans;
+              font-style: normal;
+              font-weight: normal;
+              line-height: normal;
+              font-size: 1rem;
+            }
+            input::-moz-placeholder 
+            { 
+              font-family: Josefin Sans;
+              font-style: normal;
+              font-weight: normal;
+              line-height: normal;
+              font-size: 1rem;
+            }
+            input:-ms-input-placeholder 
+            { 
+              font-family: Josefin Sans;
+              font-style: normal;
+              font-weight: normal;
+              line-height: normal;
+              font-size: 1rem;
+            }
+            input:-moz-placeholder 
+            { 
+              font-family: Josefin Sans;
+              font-style: normal;
+              font-weight: normal;
+              line-height: normal;
+              font-size: 1rem;
+            }
           .part--up
           {      
             height: 40px;
@@ -3030,8 +3063,8 @@ body.body--index
             {
               margin-left: 30px;
               height: 20px;
-              width: 30%;
-            }
+              width: 30%;             
+            }     
           }
           .part--down
           {
@@ -3065,6 +3098,7 @@ body.body--index
             #remove-btn 
             {
                 padding: 12px 20px;
+                padding-bottom: 20px;
                 border: none;
                 color: #fff;
                 text-transform: uppercase;
@@ -3076,19 +3110,29 @@ body.body--index
             }
             #clone-btn 
             {
-                background: #F87D42;
+              font-family: Josefin Sans;
+              font-style: normal;
+              font-weight: normal;
+              line-height: normal;
+              font-size: 0.8rem;
+              background: #F87D42;
             }
             #remove-btn 
             {
-                background: rgb(197, 18, 18);
+              font-family: Josefin Sans;
+              font-style: normal;
+              font-weight: normal;
+              line-height: normal;
+              font-size: 0.8rem;
+              background: rgb(197, 18, 18);
             }
             #clone-btn:hover 
             {
-                background: rgb(226, 84, 19);
+              background: rgb(226, 84, 19);
             }
             #remove-btn:hover 
             {
-                background: rgb(143, 15, 15);
+              background: rgb(143, 15, 15);
             }
             img
             {
@@ -3137,20 +3181,24 @@ body.body--index
           }
           .button--creation
           {
-            width: 10%;
+            width: 15%;
+            height: 25px;
             margin: auto; 
             margin-top: 30px;
+            margin-bottom: 30px;
             border-radius: 10px;
             background-color: #6B6B6B;
             padding: 3px;
             transition-property: all;
             transition-duration: 0.4s;
             transition-timing-function: ease;
-            p
-            {
-              text-align: center;
-              color: #fff;
-            }
+            text-align: center;
+            color: #fff;      
+            font-family: Josefin Sans;
+            font-style: normal;
+            font-weight: normal;
+            line-height: normal;
+            font-size: 1.2rem;      
           }
           .button--creation:hover
           {
@@ -3160,10 +3208,8 @@ body.body--index
             transition-property: all;
             transition-duration: 0.4s;
             transition-timing-function: ease;
-            p
-            {
-              color: #6B6B6B;
-            }
+            color: #6B6B6B;
+            
           }
         }
       }

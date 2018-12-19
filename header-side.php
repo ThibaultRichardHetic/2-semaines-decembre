@@ -11,7 +11,7 @@
                 </div>
             </div>
             <div class="navbar__logo">
-                <a href="index.php">
+                <a href="discover.php">
                 <img src="src/all/logo.png" alt="">
                 </a>  
             </div>
@@ -78,3 +78,5 @@
             </div>
         </div>
     </div>
+    <script src="scripts/transfer.js"></script>
+    <script src="scripts/header.js"></script>

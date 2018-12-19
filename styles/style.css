@@ -2518,6 +2518,35 @@ body.body--index footer ul li a {
 }
 .body--clubcrea main .section--step1 .step1__content form input {
   border: solid #000 1px;
+  border-radius: 3px;
+}
+.body--clubcrea main .section--step1 .step1__content form input::-webkit-input-placeholder {
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 1rem;
+}
+.body--clubcrea main .section--step1 .step1__content form input::-moz-placeholder {
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 1rem;
+}
+.body--clubcrea main .section--step1 .step1__content form input:-ms-input-placeholder {
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 1rem;
+}
+.body--clubcrea main .section--step1 .step1__content form input:-moz-placeholder {
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 1rem;
 }
 .body--clubcrea main .section--step1 .step1__content form .part--up {
   height: 40px;
@@ -2557,6 +2586,7 @@ body.body--index footer ul li a {
 .body--clubcrea main .section--step1 .step1__content form .part--down #clone-btn,
 .body--clubcrea main .section--step1 .step1__content form .part--down #remove-btn {
   padding: 12px 20px;
+  padding-bottom: 20px;
   border: none;
   color: #fff;
   text-transform: uppercase;
@@ -2567,9 +2597,19 @@ body.body--index footer ul li a {
   cursor: pointer;
 }
 .body--clubcrea main .section--step1 .step1__content form .part--down #clone-btn {
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 0.8rem;
   background: #F87D42;
 }
 .body--clubcrea main .section--step1 .step1__content form .part--down #remove-btn {
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 0.8rem;
   background: #c51212;
 }
 .body--clubcrea main .section--step1 .step1__content form .part--down #clone-btn:hover {
@@ -2618,19 +2658,24 @@ body.body--index footer ul li a {
   text-align: center;
 }
 .body--clubcrea main .section--step1 .step1__content form .button--creation {
-  width: 10%;
+  width: 15%;
+  height: 25px;
   margin: auto;
   margin-top: 30px;
+  margin-bottom: 30px;
   border-radius: 10px;
   background-color: #6B6B6B;
   padding: 3px;
   transition-property: all;
   transition-duration: 0.4s;
   transition-timing-function: ease;
-}
-.body--clubcrea main .section--step1 .step1__content form .button--creation p {
   text-align: center;
   color: #fff;
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 1.2rem;
 }
 .body--clubcrea main .section--step1 .step1__content form .button--creation:hover {
   background-color: #fff;
@@ -2639,8 +2684,6 @@ body.body--index footer ul li a {
   transition-property: all;
   transition-duration: 0.4s;
   transition-timing-function: ease;
-}
-.body--clubcrea main .section--step1 .step1__content form .button--creation:hover p {
   color: #6B6B6B;
 }
 
