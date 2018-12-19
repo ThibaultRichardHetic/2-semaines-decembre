@@ -1681,13 +1681,17 @@ body.body--index
       }
       .journal__pp 
       {
-        border: 3px #00f solid;
         border-radius: 50%;
         position: absolute;
         width: 24vmin;
         height: 24vmin;
         left: 16%;
         top: 11%;
+        overflow: hidden;
+        img
+        {
+
+        }
       }
       .journal__buttonchange
       {
@@ -1724,7 +1728,7 @@ body.body--index
         .informations__surname
         {
           position: absolute;
-          left: 52%;
+          left: 57%;
           top: 7%;
           input 
           {
@@ -1735,7 +1739,7 @@ body.body--index
         {
           display: flex;
           position: absolute;
-          left: 52%;
+          left: 57%;
           top: 26%;
           input 
           {
@@ -1747,7 +1751,7 @@ body.body--index
         {
           display: flex;
           position: absolute;
-          left: 52%;
+          left: 57%;
           top: 46%;
           width: 131%;
           select 
@@ -1980,7 +1984,7 @@ body.body--index
       .journal__settings
       {
         position: absolute;
-        bottom: 9%;
+        bottom: 14%;
         right: 14%;
         display: flex;
         align-items: center;
@@ -1998,6 +2002,7 @@ body.body--index
         {
           font-family: 'Josefin Sans',sans-serif;
           font-size: 0.8rem;
+          //color: #9A9A9A;
         }
       }
     }
@@ -2566,6 +2571,12 @@ body.body--index
           border: 2px solid #A7D3CF;
           margin: auto;
           margin-top: 50px;
+          position: relative;
+          overflow: hidden;
+          img
+          {
+
+          }
         }
         .step2__circle:hover
         {
@@ -2786,6 +2797,13 @@ body.body--index
       #dropFileForm.fileHover {
         box-shadow: 0 0 16px rgb(199, 79, 9);
       }    
+      #fileLabelText
+      {
+        p
+        {
+          margin: 0%;
+        }
+      }
       .step5__file
       {
         .file__img
@@ -3221,7 +3239,7 @@ body.body--index
             height: 25px;
             margin: auto; 
             margin-top: 30px;
-            margin-bottom: 30px;
+            margin-bottom: 50px;
             border-radius: 10px;
             background-color: #6B6B6B;
             padding: 3px;

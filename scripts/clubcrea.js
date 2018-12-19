@@ -109,8 +109,10 @@ function creaClub()
     //newLi.style.color = "#fff"
     newLi.className = "topics__mynewclub"
     $sideBarre.appendChild(newLi)
-    console.log('c est sencé marcher')
-    alert("normalement c'est bon")
+    newLi = localStorage.getItem('newLi')
+    localStorage.setItem('test', 'test2')
+    // console.log('c est sencé marcher')
+    // alert("normalement c'est bon")
 }
 
 

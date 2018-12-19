@@ -51,9 +51,11 @@
       </div>
       <div class="step2__content content--default"> 
         <h4 class="step2__title title--default">Je choisis mon avatar</h4>
-        <div class="step2__circle"></div>
+        <div class="step2__circle">
+          <img src="src/Discovery/Main/Posts/PP/images.png" alt="avatar de l'utilisateur">
+        </div>
         <div class="content__button">
-          <p>Personaliser</p>
+          <p>Personnaliser</p>
         </div>
       </div>
     </section>
@@ -149,9 +151,12 @@
               <label for="fileInput" id="fileLabel" ondragover="overrideDefault(event);fileHover();" ondragenter="overrideDefault(event);fileHover();" ondragleave="overrideDefault(event);fileHoverEnd();" ondrop="overrideDefault(event);fileHoverEnd();
                     addFiles(event);">
                 <i class="fa fa-download fa-5x"></i>
-                <br>
+                <!-- <br> -->
                 <span id="fileLabelText">
-                Choisir des fichiers
+                  <p>Choisir des fichiers </p>
+                  <p>ou</p>
+                  <p>drag and drop</p>
+                
                 </span>
                 <br>
                 <span id="uploadStatus"></span>

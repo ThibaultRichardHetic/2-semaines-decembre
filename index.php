@@ -46,7 +46,7 @@
       <div class="step2__text text-container--default cursor-parallax lazy" data-cursor-depth="0.020">
         <img src="src/landing/bulle02.svg" alt="">
         <p>
-           Ici tu t'inscris sur un espace de <span class="important--red">partage</span>, <span class="important--red">liberté</span>, <span class="important--red">positivité</span>, <span class="important--red">sécurité</span> et surtout : <span class="important--red important--bold">créativité</span>. C'est aussi ici que tu pourra retrouver tes amis et jeunes de ton âge.
+           Ici tu t'inscris sur un espace de <span class="important--red">partage</span>, <span class="important--red">liberté</span>, <span class="important--red">positivité</span>, <span class="important--red">sécurité</span> et surtout : <span class="important--red important--bold">créativité</span>. C'est aussi ici que tu pourras retrouver tes amis et jeunes de ton âge.
         </p>
       </div>
       <img class="men--default cursor-parallax lazy" src="src/landing/illu_astro-accueil2.svg" data-cursor-depth="0.040" alt="">
@@ -56,7 +56,7 @@
         <img src="src/landing/bulle03.svg" 
           alt="">
         <p>
-          Bientôt tu vas avoir <span class="important">ton journal</span> et ton fil de <span class="important">découverte</span>. Un journal <span class="important">public</span> où ce que tu met sera visible par tous, un journal <span class="important">privé</span> que tu seras seul à voir, et un fil de découverte qui te proposera des <span class="important important--bold">créas</span> qui te correspondent.
+          Bientôt tu vas avoir <span class="important">ton journal</span> et ton fil de <span class="important">découverte</span>. Un journal <span class="important">public</span> où ce que tu mets sera visible par tous, un journal <span class="important">privé</span> que tu seras seul à voir, et un fil de découverte qui te proposera des <span class="important important--bold">créas</span> qui te correspondent.
         </p>
       </div>
       <img class="men--default men--right cursor-parallax lazy" data-cursor-depth="0.040" src="src/landing/illu_astro-accueil3.svg" alt="">
@@ -74,7 +74,7 @@
       <div class="step5__text text-container--default cursor-parallax lazy" data-cursor-depth="0.020">
         <img src="src/landing/bulle03.svg" alt="">
         <p>
-          Fais quand même attention! Il y a peu de règles mais une super importante : le <span class="important important--bold">respect</span> des autres. Donc pas de commentaire méchant, pas de gros mots ou d’insultes !        
+          Fais quand même attention ! Il y a peu de règles mais une super importante : le <span class="important important--bold">respect</span> des autres. Donc pas de commentaire méchant, pas de gros mots ou d’insultes !        
         </p>
       </div>
       <img class="men--default men--right cursor-parallax lazy" data-cursor-depth="0.040" src="src/landing/illu_astro-accueil4.svg" alt="">

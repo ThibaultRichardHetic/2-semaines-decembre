@@ -1424,13 +1424,13 @@ body.body--index footer ul li a {
   width: 90%;
 }
 .body--myjournal .main .main__journal .journal__pp {
-  border: 3px #00f solid;
   border-radius: 50%;
   position: absolute;
   width: 24vmin;
   height: 24vmin;
   left: 16%;
   top: 11%;
+  overflow: hidden;
 }
 .body--myjournal .main .main__journal .journal__buttonchange {
   position: absolute;
@@ -1463,7 +1463,7 @@ body.body--index footer ul li a {
 }
 .body--myjournal .main .main__journal .journal__informations .informations__surname {
   position: absolute;
-  left: 52%;
+  left: 57%;
   top: 7%;
 }
 .body--myjournal .main .main__journal .journal__informations .informations__surname input {
@@ -1472,7 +1472,7 @@ body.body--index footer ul li a {
 .body--myjournal .main .main__journal .journal__informations .informations__age {
   display: flex;
   position: absolute;
-  left: 52%;
+  left: 57%;
   top: 26%;
 }
 .body--myjournal .main .main__journal .journal__informations .informations__age input {
@@ -1482,7 +1482,7 @@ body.body--index footer ul li a {
 .body--myjournal .main .main__journal .journal__informations .informations__class {
   display: flex;
   position: absolute;
-  left: 52%;
+  left: 57%;
   top: 46%;
   width: 131%;
 }
@@ -1688,7 +1688,7 @@ body.body--index footer ul li a {
 }
 .body--myjournal .main .main__journal .journal__settings {
   position: absolute;
-  bottom: 9%;
+  bottom: 14%;
   right: 14%;
   display: flex;
   align-items: center;
@@ -2153,6 +2153,8 @@ body.body--index footer ul li a {
   border: 2px solid #A7D3CF;
   margin: auto;
   margin-top: 50px;
+  position: relative;
+  overflow: hidden;
 }
 .body--registration main .section--step2 .step2__content .step2__circle:hover {
   cursor: pointer;
@@ -2335,6 +2337,9 @@ body.body--index footer ul li a {
 }
 .body--registration main .section--step5 #dropFileForm.fileHover {
   box-shadow: 0 0 16px #c74f09;
+}
+.body--registration main .section--step5 #fileLabelText p {
+  margin: 0%;
 }
 .body--registration main .section--step5 .step5__file .file__img {
   display: block;
@@ -2702,7 +2707,7 @@ body.body--index footer ul li a {
   height: 25px;
   margin: auto;
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   border-radius: 10px;
   background-color: #6B6B6B;
   padding: 3px;

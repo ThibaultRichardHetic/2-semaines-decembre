@@ -21,8 +21,12 @@
         <h2>Mon Journal</h2>
       </div>
       <div class="main__journal">
-        <div class="journal__background"><img src="src/Myjournal/journal.svg" alt=""></div>
-        <div class="journal__pp"></div>
+        <div class="journal__background">
+          <img src="src/Myjournal/journal.svg" alt="livre dessiné en flat design">
+        </div>
+        <div class="journal__pp">
+          <img src="src/Discovery/Main/Posts/PP/images.png" alt="image de profile utilisateur">
+        </div>
         <div class="journal__buttonchange"><p>Changer</p></div>
         <div class="journal__informations">
           <div class="informations__surname"><p>Mon surnom:</p><input type="text" value="................"name="firstname"></div>
@@ -50,14 +54,12 @@
         <div class="journal__mybadges">
           <h2>Mes Badges</h2>
           <div class="mybadges__badge1">
-            <img class="badge1__img" src="src/Myjournal/trophée_créas_argent.svg" alt="">
-            <h4>Quastione igitur !</h4>
-            <p class="badge1__p">Suscipit consectetur ipsum totam voluptatum quod laudantium fugiat pariatur.</p>
+            <img class="badge1__img" src="src/Myjournal/argent.svg" alt="">
+            <p class="badge1__p">Trophée obtenu en ayant gagné 10 parties</p>
           </div>
           <div class="mybadges__badge2">
-            <img class="badge2__img" src="src/Myjournal/trophée_jeux_diamant.svg" alt="">
-            <h4>Quastione igitur !</h4>
-            <p class="badge2__p">Suscipit consectetur ipsum totam voluptatum quod laudantium fugiat pariatur.</p>
+            <img class="badge2__img" src="src/Myjournal/ruby.svg" alt="">
+            <p class="badge2__p">Trophée obtenu en ayant gagné 30 parties</p>
           </div>
         </div>
         <div class="journal__settings">

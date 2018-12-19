@@ -44,7 +44,9 @@
                         </div>
                     </div>
                     <!-- <input type="submit" name="create_club" value="Créer" class="button--creation js-creation-button"> -->
-                    <div class="button--creation js-creation-button"><p>creer</p></div>
+                    <div class="button--creation js-creation-button">
+                        <p>creer</p>
+                    </div>
                     </div>
                 </form>
             </div>
