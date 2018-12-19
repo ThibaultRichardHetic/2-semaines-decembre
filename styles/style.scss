@@ -16,54 +16,61 @@ body.body--index
     position: fixed;
     display: flex;
     align-items: center;
-    width: 100vw;
+    justify-content: center;
+    width: 83vw;
+    right: 0;
     height: 12vh;
-    background: #F87D42;
-
-    .navbar__research 
+    background: #f87d42;
+    .navbar__reasearch
     {
-      margin-left: 28%;
-      width: 17vw;
-      height: 5vh;
-      background: #fff;
-      border: 2px #000000 solid;
-
-      input 
-      {
-        outline:0;
-        border:0;
-        margin:0;
-        height:24px;
-        float:left;
-        display:block;
-      }
-
-      input[type=text] 
-      {
-        font:300 0.7rem 'Josefin Sans', sans-serif;
-        background:none;
-        width:180px;
-        padding:0 9px;
-        color:#666;
-      }
-    }
-    .navbar__magnifyingglass
-    {
-      img
-      {
-      width: 2vw;
+      display: flex;
       position: absolute;
-      top: 3.6vh;
-      left: 45.5vw;
+      width: 22vw;
+      justify-content: space-around;
+      left: 1%;
+      .reasearch__form 
+      {
+        width: 17vw;
+        height: 5vh;
+        background: #fff;
+        border: 2px #000 solid;
+
+        input 
+        {
+          outline:0;
+          border:0;
+          margin:0;
+          height:24px;
+          float:left;
+          display:block;
+        }
+
+        input[type=text] 
+        {
+          font:300 0.7rem 'Josefin Sans', sans-serif;
+          background:none;
+          width:180px;
+          padding:0 9px;
+          color:#666;
+        }
+      }
+      .navbar__magnifyingglass
+      {
+        img
+        {
+        width: 2vw;
+        }
       }
     }
     .navbar__logo
     {
-      width: 3vw;
-      height: 7vh;
-      border-radius: 50%;
-      margin-left: 12%;
-      border: 2px solid #fff;
+      a
+      {
+        img
+        {
+          width: 60px;
+        }
+      }
     }
     .navbar__profil
     {
@@ -77,6 +84,7 @@ body.body--index
       }
     }
   }
+  
 
 
   /* Side Bar */
@@ -1523,6 +1531,17 @@ body.body--index
         }
       }
     }
+    .background-full-screen
+    {
+      display: none;
+      position: fixed;
+      padding-top: 5%;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: black;
+    }
   }
 
   /* Footer */
@@ -1594,55 +1613,61 @@ body.body--index
     position: fixed;
     display: flex;
     align-items: center;
-    width: 100vw;
+    justify-content: center;
+    width: 83vw;
+    right: 0;
     height: 12vh;
-    background: #F87D42;
-
-    .navbar__research 
+    background: #f87d42;
+    .navbar__reasearch
     {
-      margin-left: 28%;
-      width: 17vw;
-      height: 5vh;
-      background: #fff;
-      border: 2px #000000 solid;
-
-      input 
-      {
-        outline:0;
-        border:0;
-        margin:0;
-        height:24px;
-        float:left;
-        display:block;
-      }
-
-      input[type=text] 
-      {
-        font:300 0.7rem 'Josefin Sans', sans-serif;
-        background:none;
-        width:180px;
-        padding:0 9px;
-        color:#666;
-      }
-    }
-    .navbar__magnifyingglass
-    {
-      img
-      {
-      width: 2vw;
+      display: flex;
       position: absolute;
-      top: 3.6vh;
-      left: 45.5vw;
+      width: 22vw;
+      justify-content: space-around;
+      left: 1%;
+      .reasearch__form 
+      {
+        width: 17vw;
+        height: 5vh;
+        background: #fff;
+        border: 2px #000 solid;
+
+        input 
+        {
+          outline:0;
+          border:0;
+          margin:0;
+          height:24px;
+          float:left;
+          display:block;
+        }
+
+        input[type=text] 
+        {
+          font:300 0.7rem 'Josefin Sans', sans-serif;
+          background:none;
+          width:180px;
+          padding:0 9px;
+          color:#666;
+        }
+      }
+      .navbar__magnifyingglass
+      {
+        img
+        {
+        width: 2vw;
+        }
       }
     }
     .navbar__logo
     {
-      width: 3vw;
-      height: 7vh;
-      border-radius: 50%;
-      margin-left: 12%;
-      border: 2px solid #fff;
-      background-image: url(../src/all/logo.png);
+      a
+      {
+        img
+        {
+          width: 60px;
+        }
+      }
     }
     .navbar__profil
     {
@@ -2163,22 +2188,11 @@ body.body--index
     }
   }
 }
-
-
-
-
 /***
 *
-** My Journal page begining **
+** My Journal page end **
 *
 ***/
-
-
-
-
-
-
-
 
 /***
 *
@@ -3129,59 +3143,64 @@ body.body--index
   }
   /* Nav Bar */
   .container__navbar {
-    z-index: 2;
     position: fixed;
     display: flex;
     align-items: center;
-    width: 100%;
+    justify-content: center;
+    width: 83vw;
+    right: 0;
     height: 12vh;
-    background: #F87D42;
-    .navbar__research 
+    background: #f87d42;
+    z-index: 2;
+    .navbar__reasearch
     {
-      margin-left: 28%;
-      width: 17vw;
-      height: 5vh;
-      background: #fff;
-      border: 2px #000000 solid;
-
-      input 
-      {
-        outline:0;
-        border:0;
-        margin:0;
-        height:24px;
-        float:left;
-        display:block;
-      }
-
-      input[type=text] 
-      {
-        font:300 0.7rem 'Josefin Sans', sans-serif;
-        background:none;
-        width:180px;
-        padding:0 9px;
-        color:#666;
-      }
-    }
-    .navbar__magnifyingglass
-    {
-      img
-      {
-      width: 2vw;
+      display: flex;
       position: absolute;
-      top: 3.6vh;
-      left: 45.5vw;
+      width: 22vw;
+      justify-content: space-around;
+      left: 1%;
+      .reasearch__form 
+      {
+        width: 17vw;
+        height: 5vh;
+        background: #fff;
+        border: 2px #000 solid;
+
+        input 
+        {
+          outline:0;
+          border:0;
+          margin:0;
+          height:24px;
+          float:left;
+          display:block;
+        }
+
+        input[type=text] 
+        {
+          font:300 0.7rem 'Josefin Sans', sans-serif;
+          background:none;
+          width:180px;
+          padding:0 9px;
+          color:#666;
+        }
+      }
+      .navbar__magnifyingglass
+      {
+        img
+        {
+        width: 2vw;
+        }
       }
     }
-    .a__logo
+    .navbar__logo
     {
-      display: block;    
-      width: 50px;
-      margin: auto;
-      .nav__logo
+      a
       {
-        width: 50px;
-        margin: auto;
+        img
+        {
+          width: 60px;
+        }
       }
     }
     .navbar__profil

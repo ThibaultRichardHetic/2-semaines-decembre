@@ -12,17 +12,21 @@
 <body class="body--index">
   <div class="container">
     <div class="container__navbar">
-      <form class="navbar__research" method="post">
-        <input name="saisie" type="text" placeholder="Recherche" required/>
-      </form>
-      <div class="navbar__magnifyingglass">
-        <a href="#">
-          <img src="src/Navbar/Glass.png">
-        </a>
+      <div class="navbar__reasearch">
+        <form class="reasearch__form" method="post">
+          <input name="saisie" type="text" placeholder="Recherche" required />
+        </form>
+        <div class="navbar__magnifyingglass">
+          <a href="#">
+            <img src="src/Navbar/Glass.png">
+          </a>
+        </div>
       </div>
-      <a href="index.php" class="a__logo">
-        <img src="src/all/logo.png" class="nav__logo" alt="">
-      </a>
+      <div class="navbar__logo">
+        <a href="index.php">
+          <img src="src/all/logo.png" alt="">
+        </a>  
+      </div>
       <div class="navbar__profil">
         <a href="myjournal.php">
           <img src="src/Navbar/User.png">
@@ -31,8 +35,9 @@
     </div>
     <div class="container__sidebar">
       <div class="sidebar__avatarpicture">
-        <a href="myjournal.php"><img class="js-avatarpicture" src="src/Discovery/Main/Posts/PP/images.png" alt=""></a>
-        
+        <a href="myjournal.php">
+          <img class="js-avatarpicture" src="src/Discovery/Main/Posts/PP/images.png" alt="avatar représentant un utilisateur">
+        </a>     
         <div class="avatarpicture__pseudo"><p>Pseudo</p></div>
       </div>
       <div class="sidebar__topics">
@@ -94,7 +99,7 @@
             <img src="src/Discovery/Main/Posts/PP/images.png" class="post1__elements__pp">
             <div class="post1__elements__atsign"><p>@facs_loulou</p></div>
             <div class="post1__elements__text"><p>Tuto cuisine avec ma maman</p></div>
-            <iframe class="iframe" width="90%" height="63%" src="https://www.youtube.com/embed/PKqLCA_DMuo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="iframe" width="90%" height="55%" src="https://www.youtube.com/embed/PKqLCA_DMuo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <div class="post1__elements__likes"><p>350 J'aimes</p><p>5 Commentaires</p></div>
           </div>
         </div>
@@ -103,7 +108,7 @@
             <img src="src/Discovery/Main/Posts/PP/images.png" class="post2__elements__pp">
             <div class="post2__elements__atsign"><p>@facs_loulou</p></div>
             <div class="post2__elements__text"><p>je joue Toxicity de System of a Down à la batterie !</p></div>
-            <iframe class="iframe"width="90%" height="63%" src="https://www.youtube.com/embed/N49b97l4fdI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            
+            <iframe class="iframe"width="90%" height="55%" src="https://www.youtube.com/embed/N49b97l4fdI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            
             <div class="post2__elements__likes"><p>350 J'aimes</p><p>5 Commentaires</p></div>
           </div>
         </div>
@@ -112,7 +117,7 @@
             <img src="src/Discovery/Main/Posts/PP/images.png" class="post3__elements__pp">
             <div class="post3__elements__atsign"><p>@facs_loulou</p></div>
             <div class="post3__elements__text"><p>Mon frère m’a appris à jongler </p></div>
-            <iframe class="iframe"width="90%" height="63%" src="https://www.youtube.com/embed/vkKwrCbZW-8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            <div class="post3__elements__likes"><p>350 J'aimes</p><p>5 Commentaires</p></div>
+            <iframe class="iframe"width="90%" height="55%" src="https://www.youtube.com/embed/vkKwrCbZW-8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            <div class="post3__elements__likes"><p>350 J'aimes</p><p>5 Commentaires</p></div>
           </div>
         </div>
         <div class="posts__post4">
@@ -120,7 +125,7 @@
             <img src="src/Discovery/Main/Posts/PP/images.png" class="post4__elements__pp">
             <div class="post4__elements__atsign"><p>@facs_loulou</p></div>
             <div class="post4__elements__text"><p>regardez comment on casse des oeufs !</p></div>
-            <iframe class="iframe"width="90%" height="63%" src="https://www.youtube.com/embed/_jDZhRDFQl8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            <div class="post4__elements__likes"><p>350 J'aimes</p><p>5 Commentaires</p></div>
+            <iframe class="iframe"width="90%" height="55%" src="https://www.youtube.com/embed/_jDZhRDFQl8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            <div class="post4__elements__likes"><p>350 J'aimes</p><p>5 Commentaires</p></div>
           </div>
         </div>
         <div class="posts__post5">
@@ -128,7 +133,7 @@
             <img src="src/Discovery/Main/Posts/PP/images.png" class="post5__elements__pp">
             <div class="post5__elements__atsign"><p>@facs_loulou</p></div>
             <div class="post5__elements__text"><p>chez le docteur</p></div>
-            <iframe class="iframe"width="90%" height="63%" src="https://www.youtube.com/embed/FTyCjXk_GG4?list=RDGFbKDdSr02w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            <div class="post5__elements__likes"><p>350 J'aimes</p><p>5 Commentaires</p></div>
+            <iframe class="iframe"width="90%" height="55%" src="https://www.youtube.com/embed/FTyCjXk_GG4?list=RDGFbKDdSr02w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            <div class="post5__elements__likes"><p>350 J'aimes</p><p>5 Commentaires</p></div>
           </div>
         </div>
         <div class="posts__post6">
@@ -136,7 +141,7 @@
             <img src="src/Discovery/Main/Posts/PP/images.png" class="post6__elements__pp">
             <div class="post6__elements__atsign"><p>@facs_loulou</p></div>
             <div class="post6__elements__text"><p>Entrainement avant ma compétition du week-end !</p></div>
-            <iframe class="iframe"width="90%" height="63%" src="https://www.youtube.com/embed/lMb6p6dTmao" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            <div class="post6__elements__likes"><p>350 J'aimes</p><p>5 Commentaires</p></div>
+            <iframe class="iframe"width="90%" height="55%" src="https://www.youtube.com/embed/lMb6p6dTmao" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            <div class="post6__elements__likes"><p>350 J'aimes</p><p>5 Commentaires</p></div>
           </div>
         </div>
         <div class="posts__post7">
@@ -144,7 +149,7 @@
             <img src="src/Discovery/Main/Posts/PP/images.png" class="post7__elements__pp">
             <div class="post7__elements__atsign"><p>@facs_loulou</p></div>
             <div class="post7__elements__text"><p>recette de pain perdu au nutella</p></div>
-            <iframe class="iframe"width="90%" height="63%" src="https://www.youtube.com/embed/whSRX-qwpyU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            <div class="post7__elements__likes"><p>350 J'aimes</p><p>5 Commentaires</p></div>
+            <iframe class="iframe"width="90%" height="55%" src="https://www.youtube.com/embed/whSRX-qwpyU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            <div class="post7__elements__likes"><p>350 J'aimes</p><p>5 Commentaires</p></div>
           </div>
         </div>
         <div class="posts__post8">
@@ -152,7 +157,7 @@
             <img src="src/Discovery/Main/Posts/PP/images.png" class="post8__elements__pp">
             <div class="post8__elements__atsign"><p>@facs_loulou</p></div>
             <div class="post8__elements__text"><p>mon concours d’entrée au conservatoire</p></div>
-            <iframe class="iframe"width="90%" height="63%" src="https://www.youtube.com/embed/WR2Dlg2eE0o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            <div class="post8__elements__likes"><p>350 J'aimes</p><p>5 Commentaires</p></div>
+            <iframe class="iframe"width="90%" height="55%" src="https://www.youtube.com/embed/WR2Dlg2eE0o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            <div class="post8__elements__likes"><p>350 J'aimes</p><p>5 Commentaires</p></div>
           </div>
         </div>
         <div class="posts__post9">
@@ -160,7 +165,7 @@
             <img src="src/Discovery/Main/Posts/PP/images.png" class="post9__elements__pp">
             <div class="post9__elements__atsign"><p>@facs_loulou</p></div>
             <div class="post9__elements__text"><p>hotel california à la guitare! </p></div>
-            <iframe class="iframe"width="90%" height="63%" src="https://www.youtube.com/embed/cMZk6LA5kQY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            <div class="post9__elements__likes"><p>350 J'aimes</p><p>5 Commentaires</p></div>
+            <iframe class="iframe"width="90%" height="55%" src="https://www.youtube.com/embed/cMZk6LA5kQY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            <div class="post9__elements__likes"><p>350 J'aimes</p><p>5 Commentaires</p></div>
           </div>
         </div>
         <div class="posts__post10">
@@ -168,7 +173,7 @@
             <img src="src/Discovery/Main/Posts/PP/images.png" class="post10__elements__pp">
             <div class="post10__elements__atsign"><p>@facs_loulou</p></div>
             <div class="post10__elements__text"><p>j’ai fait un milkshake</p></div>
-            <iframe class="iframe"width="90%" height="63%" src="https://www.youtube.com/embed/3_RADJJkNMg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            <div class="post10__elements__likes"><p>350 J'aimes</p><p>5 Commentaires</p></div>
+            <iframe class="iframe"width="90%" height="55%" src="https://www.youtube.com/embed/3_RADJJkNMg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            <div class="post10__elements__likes"><p>350 J'aimes</p><p>5 Commentaires</p></div>
           </div>
         </div>
         <div class="posts__post11">
@@ -176,7 +181,7 @@
             <img src="src/Discovery/Main/Posts/PP/images.png" class="post11__elements__pp">
             <div class="post11__elements__atsign"><p>@facs_loulou</p></div>
             <div class="post11__elements__text"><p>faire une pate a modeler! </p></div>
-            <iframe class="iframe"width="90%" height="63%" src="https://www.youtube.com/embed/2qTQcuvzXTA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            <div class="post11__elements__likes"><p>350 J'aimes</p><p>5 Commentaires</p></div>
+            <iframe class="iframe"width="90%" height="55%" src="https://www.youtube.com/embed/2qTQcuvzXTA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            <div class="post11__elements__likes"><p>350 J'aimes</p><p>5 Commentaires</p></div>
           </div>
         </div>
         <div class="posts__post12">
@@ -184,7 +189,7 @@
             <img src="src/Discovery/Main/Posts/PP/images.png" class="post12__elements__pp">
             <div class="post12__elements__atsign"><p>@facs_loulou</p></div>
             <div class="post12__elements__text"><p>technique pour faire une bunker sur minecraft</p></div>
-            <iframe class="iframe"width="90%" height="63%" src="https://www.youtube.com/embed/3lA6Pz__RTI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            <div class="post12__elements__likes"><p>350 J'aimes</p><p>5 Commentaires</p></div>
+            <iframe class="iframe"width="90%" height="55%" src="https://www.youtube.com/embed/3lA6Pz__RTI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            <div class="post12__elements__likes"><p>350 J'aimes</p><p>5 Commentaires</p></div>
           </div>
         </div>
         <div class="posts__post13">
@@ -192,7 +197,7 @@
             <img src="src/Discovery/Main/Posts/PP/images.png" class="post13__elements__pp">
             <div class="post13__elements__atsign"><p>@facs_loulou</p></div>
             <div class="post13__elements__text"><p>je vous montre comment faire des cupcakes</p></div>
-            <iframe class="iframe"width="90%" height="63%" src="https://www.youtube.com/embed/6mMRCyPVURk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="iframe"width="90%" height="55%" src="https://www.youtube.com/embed/6mMRCyPVURk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <div class="post13__elements__likes"><p>350 J'aimes</p><p>5 Commentaires</p></div>
           </div>
         </div>
@@ -201,7 +206,7 @@
             <img src="src/Discovery/Main/Posts/PP/images.png" class="post14__elements__pp">
             <div class="post14__elements__atsign"><p>@facs_loulou</p></div>
             <div class="post14__elements__text"><p>je vous explique les bases d’une partie de hearthstone!</p></div>
-            <iframe class="iframe"width="90%" height="63%" src="https://www.youtube.com/embed/iZKqqkPSNLA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="iframe"width="90%" height="55%" src="https://www.youtube.com/embed/iZKqqkPSNLA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <div class="post14__elements__likes"><p>350 J'aimes</p><p>5 Commentaires</p></div>
           </div>
         </div>
@@ -296,6 +301,10 @@
           </div>
         </div>
       </div>
+      <div class="background-full-screen">
+        <span class="close">&times;</span>
+        <img class="img-full-screen">
+      </div>
     </div>
   </div>
   <footer>
@@ -309,11 +318,9 @@
       <li class="footer__language"><a href="#">Langue</a></li>
     </ul>
   </footer>
-  <script src="scripts/discover.js"></script>
-</body>
-</html>
 
-<!-- test un peu de php -->
+  <script src="scripts/discover.js"></script>
+  <!-- test un peu de php -->
 
     <?php 
 
@@ -328,3 +335,6 @@ echo $result['comment_post'];
 
 ?>
 <!-- test un peu de php -->
+
+</body>
+</html>

@@ -21,18 +21,26 @@ body.body--index .container__navbar {
   position: fixed;
   display: flex;
   align-items: center;
-  width: 100vw;
+  justify-content: center;
+  width: 83vw;
+  right: 0;
   height: 12vh;
-  background: #F87D42;
+  background: #f87d42;
 }
-body.body--index .container__navbar .navbar__research {
-  margin-left: 28%;
+body.body--index .container__navbar .navbar__reasearch {
+  display: flex;
+  position: absolute;
+  width: 22vw;
+  justify-content: space-around;
+  left: 1%;
+}
+body.body--index .container__navbar .navbar__reasearch .reasearch__form {
   width: 17vw;
   height: 5vh;
   background: #fff;
-  border: 2px #000000 solid;
+  border: 2px #000 solid;
 }
-body.body--index .container__navbar .navbar__research input {
+body.body--index .container__navbar .navbar__reasearch .reasearch__form input {
   outline: 0;
   border: 0;
   margin: 0;
@@ -40,25 +48,18 @@ body.body--index .container__navbar .navbar__research input {
   float: left;
   display: block;
 }
-body.body--index .container__navbar .navbar__research input[type=text] {
+body.body--index .container__navbar .navbar__reasearch .reasearch__form input[type=text] {
   font: 300 0.7rem 'Josefin Sans', sans-serif;
   background: none;
   width: 180px;
   padding: 0 9px;
   color: #666;
 }
-body.body--index .container__navbar .navbar__magnifyingglass img {
+body.body--index .container__navbar .navbar__reasearch .navbar__magnifyingglass img {
   width: 2vw;
-  position: absolute;
-  top: 3.6vh;
-  left: 45.5vw;
 }
-body.body--index .container__navbar .navbar__logo {
-  width: 3vw;
-  height: 7vh;
-  border-radius: 50%;
-  margin-left: 12%;
-  border: 2px solid #fff;
+body.body--index .container__navbar .navbar__logo a img {
+  width: 60px;
 }
 body.body--index .container__navbar .navbar__profil img {
   width: 3vw;
@@ -1292,6 +1293,16 @@ body.body--index .main .main__posts .posts__post24 .post24__elements__likes {
 body.body--index .main .main__posts .posts__post24 .post24__elements__likes p {
   font-family: 'Josefin Sans',sans-serif;
 }
+body.body--index .main .background-full-screen {
+  display: none;
+  position: fixed;
+  padding-top: 5%;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
 body.body--index footer {
   position: absolute;
   bottom: -56vh;
@@ -1344,18 +1355,26 @@ body.body--index footer ul li a {
   position: fixed;
   display: flex;
   align-items: center;
-  width: 100vw;
+  justify-content: center;
+  width: 83vw;
+  right: 0;
   height: 12vh;
-  background: #F87D42;
+  background: #f87d42;
 }
-.body--myjournal .container__navbar .navbar__research {
-  margin-left: 28%;
+.body--myjournal .container__navbar .navbar__reasearch {
+  display: flex;
+  position: absolute;
+  width: 22vw;
+  justify-content: space-around;
+  left: 1%;
+}
+.body--myjournal .container__navbar .navbar__reasearch .reasearch__form {
   width: 17vw;
   height: 5vh;
   background: #fff;
-  border: 2px #000000 solid;
+  border: 2px #000 solid;
 }
-.body--myjournal .container__navbar .navbar__research input {
+.body--myjournal .container__navbar .navbar__reasearch .reasearch__form input {
   outline: 0;
   border: 0;
   margin: 0;
@@ -1363,26 +1382,18 @@ body.body--index footer ul li a {
   float: left;
   display: block;
 }
-.body--myjournal .container__navbar .navbar__research input[type=text] {
+.body--myjournal .container__navbar .navbar__reasearch .reasearch__form input[type=text] {
   font: 300 0.7rem 'Josefin Sans', sans-serif;
   background: none;
   width: 180px;
   padding: 0 9px;
   color: #666;
 }
-.body--myjournal .container__navbar .navbar__magnifyingglass img {
+.body--myjournal .container__navbar .navbar__reasearch .navbar__magnifyingglass img {
   width: 2vw;
-  position: absolute;
-  top: 3.6vh;
-  left: 45.5vw;
 }
-.body--myjournal .container__navbar .navbar__logo {
-  width: 3vw;
-  height: 7vh;
-  border-radius: 50%;
-  margin-left: 12%;
-  border: 2px solid #fff;
-  background-image: url(../src/all/logo.png);
+.body--myjournal .container__navbar .navbar__logo a img {
+  width: 60px;
 }
 .body--myjournal .container__navbar .navbar__profil img {
   width: 3vw;
@@ -1827,7 +1838,7 @@ body.body--index footer ul li a {
 
 /***
 *
-** My Journal page begining **
+** My Journal page end **
 *
 ***/
 /***
@@ -2587,22 +2598,30 @@ body.body--index footer ul li a {
   position: relative;
 }
 .body--clubcrea .container__navbar {
-  z-index: 2;
   position: fixed;
   display: flex;
   align-items: center;
-  width: 100%;
+  justify-content: center;
+  width: 83vw;
+  right: 0;
   height: 12vh;
-  background: #F87D42;
+  background: #f87d42;
+  z-index: 2;
 }
-.body--clubcrea .container__navbar .navbar__research {
-  margin-left: 28%;
+.body--clubcrea .container__navbar .navbar__reasearch {
+  display: flex;
+  position: absolute;
+  width: 22vw;
+  justify-content: space-around;
+  left: 1%;
+}
+.body--clubcrea .container__navbar .navbar__reasearch .reasearch__form {
   width: 17vw;
   height: 5vh;
   background: #fff;
-  border: 2px #000000 solid;
+  border: 2px #000 solid;
 }
-.body--clubcrea .container__navbar .navbar__research input {
+.body--clubcrea .container__navbar .navbar__reasearch .reasearch__form input {
   outline: 0;
   border: 0;
   margin: 0;
@@ -2610,27 +2629,18 @@ body.body--index footer ul li a {
   float: left;
   display: block;
 }
-.body--clubcrea .container__navbar .navbar__research input[type=text] {
+.body--clubcrea .container__navbar .navbar__reasearch .reasearch__form input[type=text] {
   font: 300 0.7rem 'Josefin Sans', sans-serif;
   background: none;
   width: 180px;
   padding: 0 9px;
   color: #666;
 }
-.body--clubcrea .container__navbar .navbar__magnifyingglass img {
+.body--clubcrea .container__navbar .navbar__reasearch .navbar__magnifyingglass img {
   width: 2vw;
-  position: absolute;
-  top: 3.6vh;
-  left: 45.5vw;
 }
-.body--clubcrea .container__navbar .a__logo {
-  display: block;
-  width: 50px;
-  margin: auto;
-}
-.body--clubcrea .container__navbar .a__logo .nav__logo {
-  width: 50px;
-  margin: auto;
+.body--clubcrea .container__navbar .navbar__logo a img {
+  width: 60px;
 }
 .body--clubcrea .container__navbar .navbar__profil img {
   width: 3vw;

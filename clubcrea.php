@@ -12,20 +12,24 @@
 <body class="body--clubcrea">
     <div class="container">
         <div class="container__navbar">
-            <form class="navbar__research" method="post">
-                <input name="saisie" type="text" placeholder="Recherche" required/>
-            </form>
-            <div class="navbar__magnifyingglass">
+            <div class="navbar__reasearch">
+                <form class="reasearch__form" method="post">
+                <input name="saisie" type="text" placeholder="Recherche" required />
+                </form>
+                <div class="navbar__magnifyingglass">
                 <a href="#">
                     <img src="src/Navbar/Glass.png">
                 </a>
+                </div>
             </div>
-            <a href="index.php" class="a__logo">
-                <img src="src/all/logo.png" class="nav__logo" alt="">
-            </a>
+            <div class="navbar__logo">
+                <a href="index.php">
+                <img src="src/all/logo.png" alt="">
+                </a>  
+            </div>
             <div class="navbar__profil">
                 <a href="myjournal.php">
-                    <img src="src/Navbar/User.png">
+                <img src="src/Navbar/User.png">
                 </a>
             </div>
         </div>

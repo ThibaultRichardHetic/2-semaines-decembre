@@ -11,4 +11,19 @@ $addClub.addEventListener('click', (e) =>
 })
 
 
+// let test = document.querySelector('.posts__post1')
+// let tete = document.querySelector('.container__sidebar')
+// let body = document.querySelector('.body')
+// let backgroundFullScreen = document.querySelector('.background-full-screen')
+
+// test.onclick = () =>
+// {
+//     test.style.transform = "scale(4, 2)"
+//     backgroundFullScreen.style.display = "block"
+
+// }
+// tete.onclick = () =>
+// {
+//     test.style.transform = "scale(1, 1)"
+// }
 
