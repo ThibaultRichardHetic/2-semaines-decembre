@@ -2709,6 +2709,9 @@ body.body--index footer ul li a {
 .body--clubcrea .container__sidebar .sidebar__topics ul .topics__myclubs {
   background: #F87D42;
 }
+.body--clubcrea .container__sidebar .sidebar__topics ul .topics__mynewclub {
+  background: #35D0BA;
+}
 .body--clubcrea main {
   width: 100%;
   position: relative;

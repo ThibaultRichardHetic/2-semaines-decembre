@@ -29,7 +29,7 @@
             </div>
       </div>
       <div class="sidebar__topics">
-          <ul>
+          <ul class="js-ul-side">
             <li class="topics__mytopics"><a href="#">Mes Thèmes</a></li>
             <li class="topics__videos"><a href="#">Musique</a><img src="src/Sidebar/Hexagon_White.png"><img src="src/Sidebar/Music.png" class="topics__iconmusic"></li>
             <li class="topics__sport"><a href="#">Sport</a><img src="src/Sidebar/Hexagon_White.png"><img src="src/Sidebar/Sport.png" class="topics__iconsport"></li>
