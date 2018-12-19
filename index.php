@@ -320,6 +320,7 @@
   </footer>
 
   <script src="scripts/discover.js"></script>
+  <script src="scripts/allpages.js"></script>
   <!-- test un peu de php -->
 
     <?php 
