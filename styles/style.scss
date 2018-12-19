@@ -2263,7 +2263,7 @@ body.body--commentary
       {	
         color: #F87D42;
         position: absolute;
-        left: 50%;
+        left: 5%;
         bottom: -250%;
         // width: 80px;
         // margin: auto;
@@ -2278,10 +2278,10 @@ body.body--commentary
       }
       
       @-webkit-keyframes bounce {
-         0% { top: 15%; }
-         50%   { top: 20%; }
-         100% { top: 15%; }
-      }
+        0% { bottom: -250%; }
+        50%   { bottom: -270%; }
+        100% { bottom: -250%; }
+     }
       
       @keyframes bounce {
          0% { bottom: -250%; }

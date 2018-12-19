@@ -1914,7 +1914,7 @@ body.body--commentary footer ul li a {
 .body--landing header .scroll-indicator {
   color: #F87D42;
   position: absolute;
-  left: 50%;
+  left: 5%;
   bottom: -250%;
   text-align: center;
   font-family: Josefin Sans;
@@ -1927,13 +1927,13 @@ body.body--commentary footer ul li a {
 }
 @-webkit-keyframes bounce {
   0% {
-    top: 15%;
+    bottom: -250%;
   }
   50% {
-    top: 20%;
+    bottom: -270%;
   }
   100% {
-    top: 15%;
+    bottom: -250%;
   }
 }
 @keyframes bounce {
