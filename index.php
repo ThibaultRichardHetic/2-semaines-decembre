@@ -13,11 +13,21 @@
   <div class="container">
     <div class="container__navbar">
       <form class="navbar__research" method="post">
-        <input name="saisie" type="text" placeholder="Recherche" required />
+        <input name="saisie" type="text" placeholder="Recherche" required/>
       </form>
-      <div class="navbar__magnifyingglass"><a href="#"><img src="src/Navbar/Glass.png"></a></div>
-      <div class="navbar__logo"></div>
-      <div class="navbar__profil"><a href="myjournal.php"><img src="src/Navbar/User.png"></a></div>
+      <div class="navbar__magnifyingglass">
+        <a href="#">
+          <img src="src/Navbar/Glass.png">
+        </a>
+      </div>
+      <a href="index.php" class="a__logo">
+        <img src="src/all/logo.png" class="nav__logo" alt="">
+      </a>
+      <div class="navbar__profil">
+        <a href="myjournal.php">
+          <img src="src/Navbar/User.png">
+        </a>
+      </div>
     </div>
     <div class="container__sidebar">
       <div class="sidebar__avatarpicture">

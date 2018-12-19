@@ -15,9 +15,17 @@
       <form class="navbar__research" method="post">
         <input name="saisie" type="text" placeholder="Recherche" required />
       </form>
-      <div class="navbar__magnifyingglass"><a href="#"><img src="src/Navbar/Glass.png"></a></div>
+      <div class="navbar__magnifyingglass">
+        <a href="#">
+          <img src="src/Navbar/Glass.png">
+        </a>
+      </div>
       <div class="navbar__logo"></div>
-      <div class="navbar__profil"><a href="#"><img src="src/Navbar/User.png"></a></div>
+      <div class="navbar__profil">
+        <a href="#">
+          <img src="src/Navbar/User.png">
+        </a>
+      </div>
     </div>
     <div class="container__sidebar">
       <div class="sidebar__avatarpicture">

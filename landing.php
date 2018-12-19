@@ -33,7 +33,6 @@
     </div>
   </header>
   <main id="fullpage">
-    
     <section class="section--step1 section--default section">
       <div class="step1__text text-container--default cursor-parallax lazy" data-cursor-depth="0.020">
         <img src="src/landing/bulle03.svg" alt="">

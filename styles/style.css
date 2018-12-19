@@ -1382,6 +1382,7 @@ body.body--index footer ul li a {
   border-radius: 50%;
   margin-left: 12%;
   border: 2px solid #fff;
+  background-image: url(../src/all/logo.png);
 }
 .body--myjournal .container__navbar .navbar__profil img {
   width: 3vw;
@@ -1841,6 +1842,7 @@ body.body--index footer ul li a {
 }
 .body--landing header {
   position: relative;
+  width: 100%;
 }
 .body--landing header .logo {
   width: 60px;
@@ -2589,7 +2591,7 @@ body.body--index footer ul li a {
   position: fixed;
   display: flex;
   align-items: center;
-  width: 100vw;
+  width: 100%;
   height: 12vh;
   background: #F87D42;
 }

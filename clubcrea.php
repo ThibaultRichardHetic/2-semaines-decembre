@@ -13,7 +13,7 @@
     <div class="container">
         <div class="container__navbar">
             <form class="navbar__research" method="post">
-                <input name="saisie" type="text" placeholder="Recherche" required />
+                <input name="saisie" type="text" placeholder="Recherche" required/>
             </form>
             <div class="navbar__magnifyingglass">
                 <a href="#">
