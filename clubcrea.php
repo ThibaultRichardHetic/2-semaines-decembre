@@ -51,27 +51,20 @@
                         <p>
                             Ce club s'appelle :
                         </p>
-                        <input type="text" placeholder="Nom du club">
+                        <input class="js-club-name" type="text" placeholder="Nom du club">
                     </div>
                     <div class="part--down">
                         <p>
                             Les membres de mon club :
                         </p>
-                        <!-- <img src="src/Navbar/Glass.png" alt="">
-                        <input type="text" placeholder="Surnom de mon ami(e)">
-                        <div class="add--user js-add--user">
-                            <p>
-                                ami +
-                            </p>
-                        </div> -->
                         <div>
-                            <ul id="listitem"><li>moi</li></ul>
+                            <ul id="listitem"></ul>
                             <input type="text" id="addlist" placeholder="surnom de ton ami" onfocus="clearValue(this)">
                             <button id="clone-btn">+ ajoute un ami</button>
                             <button id="remove-btn">retire un ami</button>
                         </div>
                     </div>
-                    <div class="button--creation">
+                    <div class="button--creation js-creation-button">
                         <p>Créer</p>
                     </div>
                 </form>

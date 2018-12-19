@@ -3352,20 +3352,23 @@ body.body--index
           .part--down
           {
             margin-top: 20px;
-            #listitem {
+            #listitem 
+            {
               list-style: none;
               padding: 0;
-                
-            }
-            #listitem li {
+              li 
+              {
                 border: 1px solid #eee;
                 margin: 5px 0;
                 padding: 8px 15px;
-            }
-            #listitem li.active{
+              }
+              li.active
+              {
                 color:red;
+              }
             }
-            input#addlist {
+            input#addlist 
+            {
                 width: 268px;
                 border: 1px solid #eee;
                 padding: 12px 15px;
@@ -3375,7 +3378,8 @@ body.body--index
                 color: #535b70;
             }
             #clone-btn,
-            #remove-btn {
+            #remove-btn 
+            {
                 padding: 12px 20px;
                 border: none;
                 color: #fff;
@@ -3386,16 +3390,20 @@ body.body--index
                 -webkit-transition: 400ms;
                 cursor: pointer;
             }
-            #clone-btn {
+            #clone-btn 
+            {
                 background: #F87D42;
             }
-            #remove-btn {
+            #remove-btn 
+            {
                 background: rgb(197, 18, 18);
             }
-            #clone-btn:hover {
+            #clone-btn:hover 
+            {
                 background: rgb(226, 84, 19);
             }
-            #remove-btn:hover {
+            #remove-btn:hover 
+            {
                 background: rgb(143, 15, 15);
             }
             img
