@@ -44,25 +44,7 @@
   $modifie = $response->text;
 ?>
 
-            <form action="#" method="post">
-              <input class="text--comm" name="commentaire" placeholder="Ton commentaire..." autocomplete="off"/>
-              <input class="submit" type="submit">
-            </form>
-
-    
-<?php
-echo 'texte modifié :  ';
-echo $modifie;
-echo '</br>';
-echo 'texte original :  ';
-echo $original;
-echo '</br>';
-echo '</br>';
-// if($modifie = $original){
-//   echo 'on peut l envoyer';
-// } ?>
-
-<?php
+            <?php
 class Diff {
   public static function diffArray($old, $new){
       $matrix = array();
@@ -97,12 +79,14 @@ class Diff {
       return $ret;
   }
 }
+$is_possible = 0;
 $ladif = Diff::htmlDiff($original, $modifie);
  if($response)
   {
     if($original == $modifie)
     {
-      echo $original;
+     // echo $original;
+      $is_possible += 1;
     }
     else if($original != $modifie)
     {
@@ -114,7 +98,66 @@ $ladif = Diff::htmlDiff($original, $modifie);
   }
 //echo Diff::htmlDiff($original, $modifie);
 //print_r($response);
+// if($is_possible > 0)
+// {
+//   echo "<script>alert('commentaire envoyé')</script>";
+//   echo "<script>alert('commentaire envoyé')</script>";
+
+// }
 ?>
+   
+
+            <p class="php-here">
+              <?php
+              if($is_possible > 0)
+              {
+                echo "<script>alert('commentaire envoyé')</script>";
+                echo "<script>alert('commentaire envoyé')</script>";
+                echo $original;
+                // echo "<script>
+                // let position = document.querySelector('.php-here')
+                // position.innerHtml = $original
+                // </script>";
+
+                // let newLi = document.createElement('li')
+                // // newLi.createElement('a')
+                // newLi.innerHtml = $clubName.value
+                // newLi.innerHTML = "<a>" + $clubName.value + "</a>"
+                // //newLi.style.color = "#fff"
+                // newLi.className = "topics__mynewclub"
+                // $sideBarre.appendChild(newLi)
+                // newLi = localStorage.getItem('newLi')
+                // localStorage.setItem('test', 'test2')
+                // console.log('c est sencé marcher')
+
+
+              }
+              ?>
+            </p>
+            <form action="#" method="post">
+              <input class="text--comm" name="commentaire" placeholder="Ton commentaire..." autocomplete="off"/>
+              <input class="submit" type="submit" name="submit_commentaire">
+            </form>
+
+
+
+
+
+
+    
+<?php
+// echo 'texte modifié :  ';
+// echo $modifie;
+// echo '</br>';
+// echo 'texte original :  ';
+// echo $original;
+// echo '</br>';
+// echo '</br>';
+// if($modifie = $original){
+//   echo 'on peut l envoyer';
+// } ?>
+
+
 
 
           </div>

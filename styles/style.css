@@ -1468,6 +1468,11 @@ body.body--commentary .main .main__posts .posts__post1 .post1__elements .post1__
   font-family: 'Josefin Sans',sans-serif;
   font-size: 1.2rem;
 }
+body.body--commentary .main .main__posts .posts__post1 .post1__form p {
+  height: 20px;
+  position: absolute;
+  top: 82%;
+}
 body.body--commentary .main .main__posts .posts__post1 .post1__form form {
   bottom: 6%;
   position: absolute;

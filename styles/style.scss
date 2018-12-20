@@ -1735,6 +1735,12 @@ body.body--commentary
         }
         .post1__form
         {
+          p
+          {
+            height: 20px;
+            position: absolute;
+            top: 82%;
+          }
           form 
           {
             bottom: 6%;
