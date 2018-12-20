@@ -91,6 +91,9 @@ body .container__sidebar .sidebar__topics {
   margin-top: 85%;
   font-size: 1.2rem;
 }
+body .container__sidebar .sidebar__topics ul a {
+  text-decoration: none;
+}
 body .container__sidebar .sidebar__topics ul li {
   font-family: 'Josefin Sans',sans-serif;
   color: #fff;
@@ -101,10 +104,14 @@ body .container__sidebar .sidebar__topics ul li {
   height: 22vh;
   display: flex;
   align-items: center;
+  text-decoration: none;
 }
 body .container__sidebar .sidebar__topics ul li a {
   margin-left: 12%;
   text-decoration: none;
+}
+body .container__sidebar .sidebar__topics ul li p {
+  margin-left: 12%;
 }
 body .container__sidebar .sidebar__topics ul li img {
   width: 8vmin;

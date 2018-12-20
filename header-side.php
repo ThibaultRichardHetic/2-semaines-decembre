@@ -32,9 +32,11 @@
             </div>
             <div class="sidebar__topics">
                 <ul class="js-ul-side">
-                    <li class="topics__mytopics">
-                        <a href="#">Mes Thèmes</a>
-                    </li>
+                    <a href="discover.php">
+                        <li class="topics__mytopics">
+                           <p>Mes Thèmes</p> 
+                        </li>
+                    </a>
                     <li class="topics__videos">
                         <a href="#">Musique</a>
                         <img src="src/Sidebar/Hexagon_White.png">

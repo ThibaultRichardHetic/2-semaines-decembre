@@ -118,6 +118,10 @@ body
       font-size: 1.2rem;
       ul
       {
+        a
+        {
+          text-decoration: none;
+        }
         li 
         {
           font-family: 'Josefin Sans',sans-serif;
@@ -129,10 +133,15 @@ body
           height: 22vh;
           display: flex;
           align-items: center;
+          text-decoration: none;
           a 
           {
             margin-left: 12%;
             text-decoration: none;
+          }
+          p
+          {
+            margin-left: 12%;
           }
           img
           {
